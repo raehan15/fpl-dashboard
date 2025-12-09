@@ -2,8 +2,8 @@ name: Update FPL Data
 
 on:
   schedule:
-    # Run every 30 minutes to check for deadlines
-    - cron: '*/30 * * * *'
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
