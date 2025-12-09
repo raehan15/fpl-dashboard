@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "gameweek": 15,
+    "league_name": "Lads",
+    "last_updated": "2025-12-09 13:27:22"
+  },
+  "standings": [
+    {
+      "rank": 1,
+      "manager": "hussain tahir",
+      "team_name": "bleed blue",
+      "total_points": 908
+    },
+    {
+      "rank": 2,
+      "manager": "Mahad Farooq",
+      "team_name": "mf10's-15",
+      "total_points": 896
+    },
+    {
+      "rank": 3,
+      "manager": "Hamzah Tariq",
+      "team_name": "Gunners FC",
+      "total_points": 886
+    },
+    {
+      "rank": 4,
+      "manager": "Raehan Nasir",
+      "team_name": "Rae",
+      "total_points": 866
+    },
+    {
+      "rank": 5,
+      "manager": "wali noor",
+      "team_name": "levi",
+      "total_points": 862
+    },
+    {
+      "rank": 6,
+      "manager": "Danish Yasin",
+      "team_name": "Sunny's Nightmare",
+      "total_points": 849
+    },
+    {
+      "rank": 7,
+      "manager": "Arslan Tariq",
+      "team_name": "UnitedFC",
+      "total_points": 807
+    },
+    {
+      "rank": 8,
+      "manager": "Osama Zahid",
+      "team_name": "oz",
+      "total_points": 763
+    }
+  ],
+  "chips": {
+    "hussain tahir": null,
+    "Mahad Farooq": null,
+    "Hamzah Tariq": null,
+    "Raehan Nasir": null,
+    "wali noor": null,
+    "Danish Yasin": null,
+    "Arslan Tariq": null,
+    "Osama Zahid": null
+  },
+  "captains": {
+    "hussain tahir": "Erling Haaland",
+    "Mahad Farooq": "Erling Haaland",
+    "Hamzah Tariq": "Erling Haaland",
+    "Raehan Nasir": "Erling Haaland",
+    "wali noor": "Erling Haaland",
+    "Danish Yasin": "Erling Haaland",
+    "Arslan Tariq": "Erling Haaland",
+    "Osama Zahid": "Erling Haaland"
+  },
+  "transfers": {
+    "hussain tahir": [
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
+        "out": "Danny Welbeck"
+      }
+    ],
+    "Mahad Farooq": [
+      {
+        "in": "Jordan Pickford",
+        "out": "Nick Pope"
+      },
+      {
+        "in": "Mikel Merino Zaz\u00f3n",
+        "out": "Eberechi Eze"
+      }
+    ],
+    "Hamzah Tariq": [
+      {
+        "in": "Nick Woltemade",
+        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+      },
+      {
+        "in": "Phil Foden",
+        "out": "Enzo Fern\u00e1ndez"
+      }
+    ],
+    "Raehan Nasir": [
+      {
+        "in": "Maxence Lacroix",
+        "out": "Joe Rodon"
+      }
+    ],
+    "wali noor": [],
+    "Danish Yasin": [
+      {
+        "in": "Elliot Anderson",
+        "out": "Enzo Fern\u00e1ndez"
+      },
+      {
+        "in": "Nick Woltemade",
+        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+      },
+      {
+        "in": "Phil Foden",
+        "out": "Iliman Ndiaye"
+      }
+    ],
+    "Arslan Tariq": [
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Bryan Mbeumo"
+      }
+    ],
+    "Osama Zahid": []
+  },
+  "differentials": {
+    "unique": {
+      "hussain tahir": [
+        "Robin Roefs"
+      ],
+      "Mahad Farooq": [
+        "Jordan Pickford",
+        "Trevoh Chalobah",
+        "Mikel Merino Zaz\u00f3n"
+      ],
+      "Hamzah Tariq": [
+        "Ibrahima Konat\u00e9"
+      ],
+      "Raehan Nasir": [
+        "\u0110or\u0111e Petrovi\u0107"
+      ],
+      "wali noor": [
+        "Enzo Fern\u00e1ndez"
+      ],
+      "Danish Yasin": [
+        "Robert Lynch S\u00e1nchez",
+        "Aaron Wan-Bissaka",
+        "Eberechi Eze",
+        "Elliot Anderson"
+      ],
+      "Arslan Tariq": [
+        "Bruno Borges Fernandes"
+      ],
+      "Osama Zahid": [
+        "Martin D\u00fabravka",
+        "Nathaniel Clyne",
+        "Cole Palmer",
+        "Tijjani Reijnders",
+        "John McGinn",
+        "Viktor Gy\u00f6keres"
+      ]
+    },
+    "duo": {
+      "hussain tahir": [
+        "Bryan Mbeumo",
+        "Igor Thiago Nascimento Rodrigues"
+      ],
+      "Mahad Farooq": [
+        "Bryan Mbeumo",
+        "Bruno Guimar\u00e3es Rodriguez Moura",
+        "Jo\u00e3o Pedro Junqueira de Jesus"
+      ],
+      "wali noor": [
+        "Igor Thiago Nascimento Rodrigues",
+        "J\u00e9r\u00e9my Doku",
+        "Maxime Est\u00e8ve"
+      ],
+      "Raehan Nasir": [
+        "Bruno Guimar\u00e3es Rodriguez Moura",
+        "Jo\u00e3o Pedro Junqueira de Jesus",
+        "Marcos Senesi Bar\u00f3n"
+      ],
+      "Hamzah Tariq": [
+        "Dan Burn",
+        "Marcos Senesi Bar\u00f3n",
+        "J\u00e9r\u00e9my Doku"
+      ],
+      "Arslan Tariq": [
+        "Dan Burn",
+        "Micky van de Ven"
+      ],
+      "Osama Zahid": [
+        "Maxime Est\u00e8ve",
+        "Micky van de Ven"
+      ]
+    }
+  }
+}
