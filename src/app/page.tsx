@@ -1,5 +1,4 @@
 import data from '../data/fpl_data.json';
-import RefreshButton from '../components/RefreshButton';
 
 export default function Home() {
   const { meta, standings, chips, captains, transfers, differentials } = data;
@@ -14,10 +13,7 @@ export default function Home() {
             {meta.league_name}
           </h1>
           <p className="text-xl font-medium">Gameweek {meta.gameweek} Report</p>
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-sm text-gray-500">Last updated: {meta.last_updated}</p>
-            <RefreshButton />
-          </div>
+          <p className="text-sm text-gray-500">Last updated: {meta.last_updated}</p>
         </header>
 
         {/* League Table */}

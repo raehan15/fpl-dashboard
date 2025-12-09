@@ -1,8 +1,9 @@
 import requests
 import json
 import os
+import sys
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # ==============================
 LEAGUE_ID = 885316  # your league ID
@@ -19,6 +20,62 @@ def fetch_data():
     except Exception as e:
         print(f"Error fetching bootstrap data: {e}")
         return
+
+    # ---------------------------------------------------------
+    # SMART SCHEDULE CHECK
+    # ---------------------------------------------------------
+    # We run the GitHub Action every 30 minutes.
+    # But we only want to SAVE/UPDATE data if:
+    # 1. It is a 6-hour mark (00:00, 06:00, 12:00, 18:00 UTC)
+    # 2. OR, it is approx 1 hour after a Gameweek deadline.
+    # 3. OR, it was manually triggered.
+    
+    is_manual_run = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
+    
+    if not is_manual_run:
+        now = datetime.utcnow()
+        should_update = False
+        reason = ""
+
+        # Check 1: 6-hour schedule
+        # We allow a small window (0-35 mins) to catch the :00 or :30 run
+        if now.hour % 6 == 0 and now.minute < 35:
+            should_update = True
+            reason = "Standard 6-hour update"
+
+        # Check 2: 1 hour after deadline
+        if not should_update:
+            # Find the current or next deadline
+            # We look at all deadlines
+            for event in events:
+                deadline_str = event.get('deadline_time')
+                if not deadline_str: continue
+                
+                # Parse FPL date: "2023-12-09T11:00:00Z"
+                try:
+                    deadline = datetime.strptime(deadline_str, "%Y-%m-%dT%H:%M:%SZ")
+                    
+                    # Calculate time difference
+                    diff = now - deadline
+                    minutes_since = diff.total_seconds() / 60
+                    
+                    # If we are between 60 and 95 minutes after a deadline
+                    if 60 <= minutes_since <= 95:
+                        should_update = True
+                        reason = f"1 hour after GW{event['id']} deadline"
+                        break
+                except ValueError:
+                    continue
+
+        if should_update:
+            print(f"✅ Update proceeding: {reason}")
+        else:
+            print("⏳ Skipping update: Not a 6-hour mark and no recent deadline.")
+            return # EXIT SCRIPT HERE
+    else:
+        print("✅ Manual trigger detected. Proceeding...")
+
+    # ---------------------------------------------------------
 
     # Detect current GW
     current_gw_obj = next((event for event in events if event["is_current"]), None)
