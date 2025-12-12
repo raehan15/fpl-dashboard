@@ -3,25 +3,195 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 15, 23, 42;
+  --background-start: 240, 249, 255;
+  --background-end: 224, 242, 254;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start: 10, 15, 26;
+  --background-end: 15, 23, 42;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    135deg,
+    rgb(var(--background-start)),
+    rgb(var(--background-end))
+  );
+  min-height: 100vh;
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* 3D Card Effect */
+.card-3d {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card-3d-inner {
+  transition: transform 0.4s ease-out;
+}
+
+.card-3d:hover .card-3d-inner {
+  transform: rotateX(5deg) rotateY(-5deg) translateZ(10px);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #0967d2 0%, #319795 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glowing Border */
+.glow-border {
+  position: relative;
+}
+
+.glow-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #0967d2, #319795, #0967d2);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glow-border:hover::before {
+  opacity: 1;
+  animation: borderGlow 2s linear infinite;
+}
+
+@keyframes borderGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Floating Animation */
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Shimmer Effect */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.shimmer:hover::after {
+  left: 100%;
+}
+
+/* Mesh Gradient Background */
+.mesh-gradient {
+  background-color: #f0f9ff;
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(9, 103, 210, 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(49, 151, 149, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(9, 103, 210, 0.1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(49, 151, 149, 0.15) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(9, 103, 210, 0.1) 0px, transparent 50%);
+}
+
+.dark .mesh-gradient {
+  background-color: #0a0f1a;
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(9, 103, 210, 0.25) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(49, 151, 149, 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(9, 103, 210, 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(49, 151, 149, 0.25) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(9, 103, 210, 0.15) 0px, transparent 50%);
+}
+
+/* Badge Styles */
+.badge-gradient {
+  background: linear-gradient(135deg, #0967d2 0%, #319795 100%);
+  color: white;
+}
+
+/* Table Row Hover */
+.table-row-hover {
+  transition: all 0.3s ease;
+}
+
+.table-row-hover:hover {
+  background: rgba(9, 103, 210, 0.05);
+  transform: scale(1.01);
+}
+
+.dark .table-row-hover:hover {
+  background: rgba(9, 103, 210, 0.15);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #0967d2, #319795);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #0552b5, #2c7a7b);
 }
