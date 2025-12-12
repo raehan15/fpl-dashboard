@@ -2,8 +2,8 @@ name: Update FPL Data
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run every 15 minutes for reliable deadline detection (free for public repos)
+    - cron: '*/15 * * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -29,6 +29,8 @@ jobs:
 
     - name: Run fetch script
       run: python scripts/fetch_data.py
+      env:
+        GITHUB_EVENT_NAME: ${{ github.event_name }}
 
     - name: Commit and push changes
       run: |

@@ -3,11 +3,54 @@ import json
 import os
 import sys
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # ==============================
 LEAGUE_ID = 885316  # your league ID
 # ==============================
+
+# Pakistan Standard Time is UTC+5
+PKT = timezone(timedelta(hours=5))
+
+def should_update(events):
+    """
+    Check if we should update based on deadline timing.
+    Returns (should_update: bool, reason: str)
+    
+    Rules:
+    - If manually triggered: Always update
+    - If within 50-65 minutes after ANY deadline: Update
+    - Otherwise: Skip
+    """
+    is_manual = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
+    
+    if is_manual:
+        return True, "Manual trigger"
+    
+    now = datetime.now(timezone.utc)
+    
+    for event in events:
+        deadline_str = event.get('deadline_time')
+        if not deadline_str:
+            continue
+        
+        try:
+            # Parse FPL deadline (format: "2024-12-14T11:00:00Z")
+            deadline = datetime.strptime(deadline_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            
+            # Calculate minutes since deadline
+            diff = now - deadline
+            minutes_since = diff.total_seconds() / 60
+            
+            # Check if we're in the 50-65 minute window after deadline
+            if 50 <= minutes_since <= 65:
+                return True, f"~50 mins after GW{event['id']} deadline"
+                
+        except ValueError:
+            continue
+    
+    return False, "Not within post-deadline window"
+
 
 def fetch_data():
     print("Fetching FPL data...")
@@ -20,6 +63,14 @@ def fetch_data():
     except Exception as e:
         print(f"Error fetching bootstrap data: {e}")
         return
+
+    # Check if we should update
+    update, reason = should_update(events)
+    if not update:
+        print(f"⏳ Skipping update: {reason}")
+        return
+    
+    print(f"✅ Proceeding with update: {reason}")
 
     # Detect current GW
     current_gw_obj = next((event for event in events if event["is_current"]), None)
@@ -116,11 +167,14 @@ def fetch_data():
                 differentials_two[owner].append(player)
 
     # Construct final data object
+    # Convert current time to Pakistan Standard Time (UTC+5)
+    now_pkt = datetime.now(PKT)
+    
     output_data = {
         "meta": {
             "gameweek": current_gw,
             "league_name": league["league"]["name"],
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "last_updated": now_pkt.strftime("%Y-%m-%d %H:%M:%S") + " PKT"
         },
         "standings": [
             {
