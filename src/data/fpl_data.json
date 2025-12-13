@@ -1,8 +1,8 @@
 {
   "meta": {
-    "gameweek": 15,
+    "gameweek": 16,
     "league_name": "Lads",
-    "last_updated": "2025-12-12 10:37:02 PKT"
+    "last_updated": "2025-12-13 19:32:28 PKT"
   },
   "standings": [
     {
@@ -55,77 +55,266 @@
     }
   ],
   "chips": {
-    "hussain tahir": null,
+    "hussain tahir": "freehit",
     "Mahad Farooq": null,
     "Hamzah Tariq": null,
-    "Raehan Nasir": null,
+    "Raehan Nasir": "freehit",
     "wali noor": null,
     "Danish Yasin": null,
-    "Arslan Tariq": null,
+    "Arslan Tariq": "bboost",
     "Osama Zahid": null
   },
   "captains": {
     "hussain tahir": "Erling Haaland",
     "Mahad Farooq": "Erling Haaland",
-    "Hamzah Tariq": "Erling Haaland",
+    "Hamzah Tariq": "Igor Thiago Nascimento Rodrigues",
     "Raehan Nasir": "Erling Haaland",
     "wali noor": "Erling Haaland",
     "Danish Yasin": "Erling Haaland",
-    "Arslan Tariq": "Erling Haaland",
+    "Arslan Tariq": "Bukayo Saka",
     "Osama Zahid": "Erling Haaland"
   },
   "transfers": {
     "hussain tahir": [
       {
-        "in": "Igor Thiago Nascimento Rodrigues",
-        "out": "Danny Welbeck"
+        "in": "Enso Gonz\u00e1lez Medina",
+        "out": "Rio Ngumoha"
+      },
+      {
+        "in": "Nordi Mukiele",
+        "out": "James Tarkowski"
+      },
+      {
+        "in": "Jarrod Bowen",
+        "out": "Hugo Ekitik\u00e9"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Bruno Guimar\u00e3es Rodriguez Moura"
+      },
+      {
+        "in": "Dominik Szoboszlai",
+        "out": "Declan Rice"
+      },
+      {
+        "in": "Bukayo Saka",
+        "out": "Bruno Borges Fernandes"
+      },
+      {
+        "in": "Piero Hincapi\u00e9",
+        "out": "Jurri\u00ebn Timber"
+      },
+      {
+        "in": "James Tarkowski",
+        "out": "Miodrag Piva\u0161"
+      },
+      {
+        "in": "Trevoh Chalobah",
+        "out": "Marc Cucurella Saseta"
+      },
+      {
+        "in": "Bruno Guimar\u00e3es Rodriguez Moura",
+        "out": "Anthony Gordon"
+      },
+      {
+        "in": "Anthony Gordon",
+        "out": "Cody Gakpo"
+      },
+      {
+        "in": "Miodrag Piva\u0161",
+        "out": "Virgil van Dijk"
+      },
+      {
+        "in": "Hugo Ekitik\u00e9",
+        "out": "Richarlison de Andrade"
+      },
+      {
+        "in": "Benjamin Arthur",
+        "out": "Omar Alderete"
+      },
+      {
+        "in": "Rio Ngumoha",
+        "out": "Abdoullah Ba"
+      },
+      {
+        "in": "Jo\u0161ko Gvardiol",
+        "out": "Marcos Senesi Bar\u00f3n"
+      },
+      {
+        "in": "David Raya Mart\u00edn",
+        "out": "Nick Pope"
+      },
+      {
+        "in": "Richarlison de Andrade",
+        "out": "Nick Woltemade"
+      },
+      {
+        "in": "Cody Gakpo",
+        "out": "Bukayo Saka"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Bryan Mbeumo"
+      },
+      {
+        "in": "Marc Cucurella Saseta",
+        "out": "Marc Gu\u00e9hi"
+      },
+      {
+        "in": "Sam Proctor",
+        "out": "Robin Roefs"
       }
     ],
     "Mahad Farooq": [
       {
-        "in": "Jordan Pickford",
-        "out": "Nick Pope"
+        "in": "Matty Cash",
+        "out": "Daniel Mu\u00f1oz Mej\u00eda"
       },
       {
-        "in": "Mikel Merino Zaz\u00f3n",
-        "out": "Eberechi Eze"
+        "in": "Ryan Gravenberch",
+        "out": "Mois\u00e9s Caicedo Corozo"
+      },
+      {
+        "in": "Declan Rice",
+        "out": "Mikel Merino Zaz\u00f3n"
+      },
+      {
+        "in": "Joe Rodon",
+        "out": "Marcos Senesi Bar\u00f3n"
       }
     ],
     "Hamzah Tariq": [
       {
-        "in": "Nick Woltemade",
-        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+        "in": "Marc Gu\u00e9hi",
+        "out": "Daniel Mu\u00f1oz Mej\u00eda"
       },
       {
-        "in": "Phil Foden",
-        "out": "Enzo Fern\u00e1ndez"
+        "in": "Bruno Borges Fernandes",
+        "out": "Cody Gakpo"
+      },
+      {
+        "in": "Piero Hincapi\u00e9",
+        "out": "Marcos Senesi Bar\u00f3n"
+      },
+      {
+        "in": "Declan Rice",
+        "out": "Antoine Semenyo"
+      },
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
+        "out": "Jean-Philippe Mateta"
       }
     ],
     "Raehan Nasir": [
       {
-        "in": "Maxence Lacroix",
-        "out": "Joe Rodon"
-      }
-    ],
-    "wali noor": [],
-    "Danish Yasin": [
-      {
-        "in": "Elliot Anderson",
-        "out": "Enzo Fern\u00e1ndez"
+        "in": "Hugo Ekitik\u00e9",
+        "out": "Nick Woltemade"
       },
       {
-        "in": "Nick Woltemade",
+        "in": "Eberechi Eze",
+        "out": "Kiernan Dewsbury-Hall"
+      },
+      {
+        "in": "Enso Gonz\u00e1lez Medina",
+        "out": "Declan Rice"
+      },
+      {
+        "in": "Diogo Dalot Teixeira",
+        "out": "Marc Gu\u00e9hi"
+      },
+      {
+        "in": "Nathaniel Clyne",
+        "out": "Maxence Lacroix"
+      },
+      {
+        "in": "Reece James",
+        "out": "Marcos Senesi Bar\u00f3n"
+      },
+      {
+        "in": "Trevoh Chalobah",
+        "out": "Jurri\u00ebn Timber"
+      },
+      {
+        "in": "David Raya Mart\u00edn",
+        "out": "\u0110or\u0111e Petrovi\u0107"
+      },
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
         "out": "Jo\u00e3o Pedro Junqueira de Jesus"
       },
       {
+        "in": "Anthony Gordon",
+        "out": "Bruno Guimar\u00e3es Rodriguez Moura"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Harvey Barnes"
+      },
+      {
+        "in": "Kiernan Dewsbury-Hall",
+        "out": "Antoine Semenyo"
+      },
+      {
+        "in": "Matty Cash",
+        "out": "Daniel Mu\u00f1oz Mej\u00eda"
+      }
+    ],
+    "wali noor": [
+      {
+        "in": "Abdoullah Ba",
+        "out": "J\u00e9r\u00e9my Doku"
+      },
+      {
         "in": "Phil Foden",
+        "out": "Cody Gakpo"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
         "out": "Iliman Ndiaye"
+      },
+      {
+        "in": "Nico O'Reilly",
+        "out": "Daniel Mu\u00f1oz Mej\u00eda"
+      },
+      {
+        "in": "Joachim Andersen",
+        "out": "Marcos Senesi Bar\u00f3n"
+      }
+    ],
+    "Danish Yasin": [
+      {
+        "in": "Matty Cash",
+        "out": "Aaron Wan-Bissaka"
+      },
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
+        "out": "Jean-Philippe Mateta"
+      },
+      {
+        "in": "R\u00faben dos Santos Gato Alves Dias",
+        "out": "Daniel Mu\u00f1oz Mej\u00eda"
       }
     ],
     "Arslan Tariq": [
       {
-        "in": "Bruno Borges Fernandes",
-        "out": "Bryan Mbeumo"
+        "in": "Martin D\u00fabravka",
+        "out": "Karl Darlow"
+      },
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
+        "out": "Jean-Philippe Mateta"
+      },
+      {
+        "in": "Piero Hincapi\u00e9",
+        "out": "Virgil van Dijk"
+      },
+      {
+        "in": "Bukayo Saka",
+        "out": "Cody Gakpo"
+      },
+      {
+        "in": "Harry Wilson",
+        "out": "Declan Rice"
       }
     ],
     "Osama Zahid": []
@@ -133,72 +322,79 @@
   "differentials": {
     "unique": {
       "hussain tahir": [
-        "Robin Roefs"
+        "Jo\u0161ko Gvardiol",
+        "Dominik Szoboszlai",
+        "Jarrod Bowen"
       ],
       "Mahad Farooq": [
         "Jordan Pickford",
-        "Trevoh Chalobah",
-        "Mikel Merino Zaz\u00f3n"
+        "Marc Gu\u00e9hi",
+        "Bruno Guimar\u00e3es Rodriguez Moura",
+        "Bryan Mbeumo",
+        "Ryan Gravenberch"
       ],
       "Hamzah Tariq": [
-        "Ibrahima Konat\u00e9"
+        "Ibrahima Konat\u00e9",
+        "J\u00e9r\u00e9my Doku"
       ],
       "Raehan Nasir": [
-        "\u0110or\u0111e Petrovi\u0107"
+        "Reece James",
+        "Anthony Gordon",
+        "Hugo Ekitik\u00e9"
       ],
       "wali noor": [
+        "Nico O'Reilly",
+        "Joachim Andersen",
+        "Virgil van Dijk",
         "Enzo Fern\u00e1ndez"
       ],
       "Danish Yasin": [
         "Robert Lynch S\u00e1nchez",
-        "Aaron Wan-Bissaka",
-        "Eberechi Eze",
+        "R\u00faben dos Santos Gato Alves Dias",
         "Elliot Anderson"
       ],
       "Arslan Tariq": [
-        "Bruno Borges Fernandes"
+        "Harry Wilson",
+        "Martin D\u00fabravka",
+        "Ezri Konsa Ngoyo",
+        "Calvin Bassey"
       ],
       "Osama Zahid": [
-        "Martin D\u00fabravka",
-        "Nathaniel Clyne",
+        "James Trafford",
+        "Gabriel dos Santos Magalh\u00e3es",
+        "Jeremie Frimpong",
         "Cole Palmer",
-        "Tijjani Reijnders",
+        "Cody Gakpo",
         "John McGinn",
         "Viktor Gy\u00f6keres"
       ]
     },
     "duo": {
-      "hussain tahir": [
-        "Bryan Mbeumo",
-        "Igor Thiago Nascimento Rodrigues"
-      ],
       "Mahad Farooq": [
-        "Bryan Mbeumo",
-        "Bruno Guimar\u00e3es Rodriguez Moura",
-        "Jo\u00e3o Pedro Junqueira de Jesus"
+        "Jurri\u00ebn Timber",
+        "Declan Rice"
       ],
-      "wali noor": [
-        "Igor Thiago Nascimento Rodrigues",
-        "J\u00e9r\u00e9my Doku",
-        "Maxime Est\u00e8ve"
-      ],
-      "Raehan Nasir": [
-        "Bruno Guimar\u00e3es Rodriguez Moura",
-        "Jo\u00e3o Pedro Junqueira de Jesus",
-        "Marcos Senesi Bar\u00f3n"
+      "Danish Yasin": [
+        "Jurri\u00ebn Timber",
+        "Matty Cash",
+        "Eberechi Eze"
       ],
       "Hamzah Tariq": [
-        "Dan Burn",
-        "Marcos Senesi Bar\u00f3n",
-        "J\u00e9r\u00e9my Doku"
+        "Declan Rice",
+        "Dan Burn"
       ],
       "Arslan Tariq": [
         "Dan Burn",
-        "Micky van de Ven"
+        "Micky van de Ven",
+        "Tijjani Reijnders"
+      ],
+      "Raehan Nasir": [
+        "Matty Cash",
+        "Eberechi Eze"
       ],
       "Osama Zahid": [
-        "Maxime Est\u00e8ve",
-        "Micky van de Ven"
+        "Micky van de Ven",
+        "Tijjani Reijnders"
       ]
     }
   }
