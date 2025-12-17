@@ -3,17 +3,18 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import data from '../data/fpl_data.json';
-import { 
-  AnimatedCard, 
-  AnimatedListItem, 
-  AnimatedBadge, 
+import {
+  AnimatedCard,
+  AnimatedListItem,
+  AnimatedBadge,
   AnimatedHeader,
   ThemeToggle,
-  SectionTitle 
+  SectionTitle
 } from '../components/AnimatedComponents';
+import { TeamDisplay } from '../components/TeamDisplay';
 
 export default function Home() {
-  const { meta, standings, chips, captains, transfers, differentials } = data;
+  const { meta, standings, chips, captains, transfers, differentials, squads, teams_meta } = data as any;
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
@@ -41,11 +42,11 @@ export default function Home() {
   return (
     <main className="min-h-screen mesh-gradient text-gray-900 dark:text-gray-100 transition-colors duration-500">
       <ThemeToggle isDark={isDark} onToggle={() => setIsDark(!isDark)} />
-      
+
       {/* Decorative Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          animate={{ 
+          animate={{
             x: [0, 100, 0],
             y: [0, -50, 0],
           }}
@@ -53,7 +54,7 @@ export default function Home() {
           className="absolute top-20 left-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl"
         />
         <motion.div
-          animate={{ 
+          animate={{
             x: [0, -80, 0],
             y: [0, 80, 0],
           }}
@@ -63,9 +64,9 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 py-12 space-y-8">
-        
+
         {/* Header */}
-        <AnimatedHeader 
+        <AnimatedHeader
           title={meta.league_name}
           subtitle={`Gameweek ${meta.gameweek} Report`}
           lastUpdated={meta.last_updated}
@@ -85,8 +86,8 @@ export default function Home() {
                 </tr>
               </thead>
               <tbody>
-                {standings.map((manager, index) => (
-                  <motion.tr 
+                {standings.map((manager: any, index: number) => (
+                  <motion.tr
                     key={manager.manager}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -109,6 +110,18 @@ export default function Home() {
             </table>
           </div>
         </AnimatedCard>
+
+        {/* Teams Display */}
+        {squads && teams_meta && (
+          <AnimatedCard delay={1.5}>
+            <SectionTitle icon="⚽" title="Teams" />
+            <TeamDisplay
+              squads={squads}
+              teamsMeta={teams_meta}
+              managers={standings.map((s: any) => s.manager)}
+            />
+          </AnimatedCard>
+        )}
 
         {/* Two Column Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -148,7 +161,7 @@ export default function Home() {
           <SectionTitle icon="🔁" title="Transfers" />
           <div className="space-y-4">
             {Object.entries(transfers).map(([manager, transferList], index) => (
-              <motion.div 
+              <motion.div
                 key={manager}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -186,7 +199,7 @@ export default function Home() {
         {/* Differentials */}
         <AnimatedCard delay={5}>
           <SectionTitle icon="⚡" title="Differentials" />
-          
+
           <div className="space-y-6">
             {/* Unique Differentials */}
             <div>
@@ -196,7 +209,7 @@ export default function Home() {
               </h3>
               <div className="grid gap-3">
                 {Object.entries(differentials.unique).map(([manager, players], index) => (
-                  <motion.div 
+                  <motion.div
                     key={manager}
                     initial={{ opacity: 0, x: -10 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -225,7 +238,7 @@ export default function Home() {
                 </h3>
                 <div className="grid gap-3">
                   {Object.entries(differentials.duo).map(([manager, players], index) => (
-                    <motion.div 
+                    <motion.div
                       key={manager}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
