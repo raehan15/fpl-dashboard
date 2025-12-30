@@ -36,45 +36,6 @@ TEAM_COLORS = {
     20: {"name": "Wolves", "short": "WOL", "primary": "#FDB913", "secondary": "#231F20"},
 }
 
-def should_update(events):
-    """
-    Check if we should update based on deadline timing.
-    Returns (should_update: bool, reason: str)
-    
-    Rules:
-    - If manually triggered: Always update
-    - If within 50-65 minutes after ANY deadline: Update
-    - Otherwise: Skip
-    """
-    is_manual = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
-    
-    if is_manual:
-        return True, "Manual trigger"
-    
-    now = datetime.now(timezone.utc)
-    
-    for event in events:
-        deadline_str = event.get('deadline_time')
-        if not deadline_str:
-            continue
-        
-        try:
-            # Parse FPL deadline (format: "2024-12-14T11:00:00Z")
-            deadline = datetime.strptime(deadline_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-            
-            # Calculate minutes since deadline
-            diff = now - deadline
-            minutes_since = diff.total_seconds() / 60
-            
-            # Check if we're in the 50-65 minute window after deadline
-            if 50 <= minutes_since <= 65:
-                return True, f"~50 mins after GW{event['id']} deadline"
-                
-        except ValueError:
-            continue
-    
-    return False, "Not within post-deadline window"
-
 
 def get_upcoming_fixtures(fixtures, current_gw, teams_map):
     """
@@ -103,36 +64,45 @@ def get_upcoming_fixtures(fixtures, current_gw, teams_map):
 
 
 def fetch_data():
-    print("Fetching FPL data...")
+    """
+    Fetch all FPL data with all-or-nothing write logic.
+    Only writes to file if ALL critical data is successfully fetched.
+    """
+    print("=" * 50)
+    print("FPL Data Fetch - Starting...")
+    print("=" * 50)
     
-    # Get all players + current gameweek info
+    errors = []  # Track any errors
+    
+    # ========================================
+    # STEP 1: Fetch bootstrap data (CRITICAL)
+    # ========================================
+    print("\n[1/4] Fetching bootstrap data...")
     try:
-        bootstrap = requests.get("https://fantasy.premierleague.com/api/bootstrap-static/").json()
+        bootstrap_response = requests.get(
+            "https://fantasy.premierleague.com/api/bootstrap-static/",
+            timeout=30
+        )
+        bootstrap_response.raise_for_status()
+        bootstrap = bootstrap_response.json()
         players = bootstrap["elements"]
         events = bootstrap["events"]
         teams_api = bootstrap["teams"]
+        print(f"  ✅ Got {len(players)} players, {len(teams_api)} teams")
     except Exception as e:
-        print(f"Error fetching bootstrap data: {e}")
-        return
-
-    # Check if we should update
-    update, reason = should_update(events)
-    if not update:
-        print(f"⏳ Skipping update: {reason}")
-        return
-    
-    print(f"✅ Proceeding with update: {reason}")
+        print(f"  ❌ CRITICAL ERROR: {e}")
+        print("\n⛔ Aborting: Cannot proceed without bootstrap data")
+        sys.exit(1)
 
     # Detect current GW
     current_gw_obj = next((event for event in events if event["is_current"]), None)
     if not current_gw_obj:
-        # If no current GW (e.g. season over or pre-season), try next
         current_gw_obj = next((event for event in events if event["is_next"]), None)
     
     current_gw = current_gw_obj["id"] if current_gw_obj else 38
-    print(f"Current Gameweek: {current_gw}")
+    print(f"  📅 Current Gameweek: {current_gw}")
 
-    # Build teams metadata (merge API data with our color definitions)
+    # Build teams metadata
     teams_meta = {}
     for team in teams_api:
         team_id = team["id"]
@@ -144,64 +114,120 @@ def fetch_data():
             "secondary": color_data["secondary"]
         }
 
-    # Map player ID -> full player data
+    # Map player ID -> player data
     player_map = {}
     for p in players:
         player_map[p["id"]] = {
-            "name": p["web_name"],  # Short display name
+            "name": p["web_name"],
             "full_name": f"{p['first_name']} {p['second_name']}",
-            "position": p["element_type"],  # 1=GK, 2=DEF, 3=MID, 4=FWD
+            "position": p["element_type"],
             "team_id": p["team"]
         }
 
-    # Fetch fixtures for upcoming matches
+    # ========================================
+    # STEP 2: Fetch fixtures (NON-CRITICAL)
+    # ========================================
+    print("\n[2/4] Fetching fixtures...")
     try:
-        fixtures = requests.get("https://fantasy.premierleague.com/api/fixtures/").json()
+        fixtures_response = requests.get(
+            "https://fantasy.premierleague.com/api/fixtures/",
+            timeout=30
+        )
+        fixtures_response.raise_for_status()
+        fixtures = fixtures_response.json()
+        print(f"  ✅ Got {len(fixtures)} fixtures")
     except Exception as e:
-        print(f"Error fetching fixtures: {e}")
+        print(f"  ⚠️ Warning: {e}")
+        print("  ℹ️ Continuing with empty fixtures...")
         fixtures = []
+        errors.append(f"Fixtures: {e}")
 
-    # Get upcoming fixtures for current GW
     upcoming_fixtures = get_upcoming_fixtures(fixtures, current_gw, teams_meta)
 
-    # Get league standings
+    # ========================================
+    # STEP 2.5: Fetch live GW points (NON-CRITICAL)
+    # ========================================
+    print("\n[2.5/5] Fetching live gameweek points...")
+    live_points = {}  # player_id -> points
+    try:
+        live_response = requests.get(
+            f"https://fantasy.premierleague.com/api/event/{current_gw}/live/",
+            timeout=30
+        )
+        live_response.raise_for_status()
+        live_data = live_response.json()
+        for element in live_data.get("elements", []):
+            player_id = element.get("id")
+            stats = element.get("stats", {})
+            points = stats.get("total_points", 0)
+            live_points[player_id] = points
+        print(f"  ✅ Got live points for {len(live_points)} players")
+    except Exception as e:
+        print(f"  ⚠️ Warning: {e}")
+        print("  ℹ️ Continuing without live points...")
+        errors.append(f"Live points: {e}")
+
+    # ========================================
+    # STEP 3: Fetch league standings (CRITICAL)
+    # ========================================
+    print("\n[3/4] Fetching league standings...")
     league_url = f"https://fantasy.premierleague.com/api/leagues-classic/{LEAGUE_ID}/standings/"
     try:
-        league = requests.get(league_url).json()
+        league_response = requests.get(league_url, timeout=30)
+        league_response.raise_for_status()
+        league = league_response.json()
         managers = league["standings"]["results"]
+        print(f"  ✅ Got {len(managers)} managers")
     except Exception as e:
-        print(f"Error fetching league data: {e}")
-        return
+        print(f"  ❌ CRITICAL ERROR: {e}")
+        print("\n⛔ Aborting: Cannot proceed without league data")
+        sys.exit(1)
 
+    # ========================================
+    # STEP 4: Fetch manager data (ALL OR NOTHING)
+    # ========================================
+    print("\n[4/4] Fetching manager squads and transfers...")
+    
     teams = {}
     player_owners = defaultdict(list)
     chips_played = {}
     squads = {}
+    managers_processed = 0
+    managers_failed = 0
 
-    # Fetch squads + transfers + chips
     for manager in managers:
         entry_id = manager["entry"]
         manager_name = manager["player_name"]
-        print(f"Processing manager: {manager_name}")
 
-        # Picks (squad + captain)
+        # Fetch picks
         picks_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/event/{current_gw}/picks/"
         try:
-            picks_data = requests.get(picks_url).json()
-        except:
-            print(f"Could not fetch picks for {manager_name}")
+            picks_response = requests.get(picks_url, timeout=30)
+            picks_response.raise_for_status()
+            picks_data = picks_response.json()
+        except Exception as e:
+            print(f"  ⚠️ {manager_name}: Failed to fetch picks - {e}")
+            managers_failed += 1
+            errors.append(f"{manager_name} picks: {e}")
             continue
 
         if "picks" not in picks_data:
+            print(f"  ⚠️ {manager_name}: No picks data available")
+            managers_failed += 1
             continue
 
         picks = picks_data["picks"]
         
-        # Build full squad data
+        # Get GW points from entry_history
+        entry_history = picks_data.get("entry_history", {})
+        gw_points = entry_history.get("points", 0)
+        
+        # Build squad data
         starting_squad = []
         bench_squad = []
-        starting_names = []  # For differentials tracking
-        
+        starting_names = []
+        calculated_gw_points = 0
+
         for pick in picks:
             player_id = pick["element"]
             player_info = player_map.get(player_id, {})
@@ -209,6 +235,11 @@ def fetch_data():
             team_data = teams_meta.get(team_id, {})
             fixture_data = upcoming_fixtures.get(team_id, {"opponent": "???", "is_home": True})
             
+            # Get player's raw points and apply multiplier
+            raw_points = live_points.get(player_id, 0)
+            multiplier = pick["multiplier"]
+            player_points = raw_points * multiplier if multiplier > 0 else raw_points
+
             player_data = {
                 "name": player_info.get("name", "Unknown"),
                 "full_name": player_info.get("full_name", "Unknown"),
@@ -218,21 +249,25 @@ def fetch_data():
                 "is_captain": pick["is_captain"],
                 "is_vice": pick["is_vice_captain"],
                 "multiplier": pick["multiplier"],
-                "fixture": fixture_data
+                "fixture": fixture_data,
+                "points": player_points,
+                "raw_points": raw_points
             }
-            
+
             if pick["multiplier"] > 0:
                 starting_squad.append(player_data)
                 starting_names.append(player_info.get("full_name", "Unknown"))
+                calculated_gw_points += player_points
             else:
                 bench_squad.append(player_data)
-        
-        # Sort by position for proper pitch display
+
+        # Sort by position
         starting_squad.sort(key=lambda x: (x["position"], -x["is_captain"], -x["is_vice"]))
-        
+
         squads[manager_name] = {
             "starting": starting_squad,
-            "bench": bench_squad
+            "bench": bench_squad,
+            "gw_points": gw_points if gw_points > 0 else calculated_gw_points
         }
 
         captain_entry = next((p for p in picks if p["is_captain"]), None)
@@ -242,21 +277,23 @@ def fetch_data():
         active_chip = picks_data.get("active_chip")
         chips_played[manager_name] = active_chip if active_chip else None
 
-        # Transfers this GW
+        # Fetch transfers
         transfers_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/transfers/"
         try:
-            transfers_data = requests.get(transfers_url).json()
-        except:
+            transfers_response = requests.get(transfers_url, timeout=30)
+            transfers_response.raise_for_status()
+            transfers_data = transfers_response.json()
+        except Exception as e:
             transfers_data = []
+            errors.append(f"{manager_name} transfers: {e}")
 
         gw_transfers = [t for t in transfers_data if t["event"] == current_gw]
         
         transfer_list = []
-        if gw_transfers:
-            for t in gw_transfers:
-                player_in = player_map.get(t["element_in"], {}).get("full_name", "Unknown")
-                player_out = player_map.get(t["element_out"], {}).get("full_name", "Unknown")
-                transfer_list.append({"in": player_in, "out": player_out})
+        for t in gw_transfers:
+            player_in = player_map.get(t["element_in"], {}).get("full_name", "Unknown")
+            player_out = player_map.get(t["element_out"], {}).get("full_name", "Unknown")
+            transfer_list.append({"in": player_in, "out": player_out})
 
         teams[manager_name] = {
             "rank": manager["rank"],
@@ -266,17 +303,35 @@ def fetch_data():
             "transfers": transfer_list
         }
 
-        # Track ownership (only starting 11)
+        # Track ownership
         for player in starting_names:
             player_owners[player].append(manager_name)
+        
+        managers_processed += 1
 
-    # Differentials (owned by only 1 manager)
+    print(f"  ✅ Processed: {managers_processed}/{len(managers)} managers")
+    if managers_failed > 0:
+        print(f"  ⚠️ Failed: {managers_failed} managers")
+
+    # ========================================
+    # ALL-OR-NOTHING CHECK
+    # ========================================
+    print("\n" + "=" * 50)
+    
+    # Require at least 50% of managers to be processed
+    min_managers_required = len(managers) // 2
+    if managers_processed < min_managers_required:
+        print(f"❌ ABORTING: Only {managers_processed}/{len(managers)} managers processed")
+        print(f"   Minimum required: {min_managers_required}")
+        print("\n⛔ Data NOT written to prevent corruption")
+        sys.exit(1)
+
+    # Calculate differentials
     differentials_one = defaultdict(list)
     for player, owners in player_owners.items():
         if len(owners) == 1:
             differentials_one[owners[0]].append(player)
 
-    # Differentials (owned by exactly 2 managers)
     differentials_two = defaultdict(list)
     for player, owners in player_owners.items():
         if len(owners) == 2:
@@ -284,7 +339,6 @@ def fetch_data():
                 differentials_two[owner].append(player)
 
     # Construct final data object
-    # Convert current time to Pakistan Standard Time (UTC+5)
     now_pkt = datetime.now(PKT)
     
     output_data = {
@@ -312,15 +366,24 @@ def fetch_data():
         }
     }
 
-    # Ensure directory exists
+    # ========================================
+    # WRITE DATA
+    # ========================================
     os.makedirs("src/data", exist_ok=True)
     
-    # Write to file
     with open("src/data/fpl_data.json", "w") as f:
         json.dump(output_data, f, indent=2)
     
-    print("Data successfully saved to src/data/fpl_data.json")
+    print("✅ SUCCESS: Data written to src/data/fpl_data.json")
+    print(f"   Last updated: {output_data['meta']['last_updated']}")
+    
+    if errors:
+        print(f"\n⚠️ Non-critical errors encountered: {len(errors)}")
+        for err in errors[:5]:  # Show first 5 errors
+            print(f"   - {err}")
+    
+    print("=" * 50)
+
 
 if __name__ == "__main__":
     fetch_data()
-

@@ -2,8 +2,8 @@ name: Update FPL Data
 
 on:
   schedule:
-    # Run every 15 minutes for reliable deadline detection (free for public repos)
-    - cron: '*/15 * * * *'
+    # Run every hour
+    - cron: '0 * * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:

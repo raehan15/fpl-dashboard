@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import data from '../data/fpl_data.json';
+import initialData from '../data/fpl_data.json';
 import {
   AnimatedCard,
   AnimatedListItem,
@@ -14,8 +14,33 @@ import {
 import { TeamDisplay } from '../components/TeamDisplay';
 
 export default function Home() {
-  const { meta, standings, chips, captains, transfers, differentials, squads, teams_meta } = data as any;
+  // State for FPL data (initialized from static import for fast first load)
+  const [fplData, setFplData] = useState<any>(initialData);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [refreshError, setRefreshError] = useState<string | null>(null);
+
+  const { meta, standings, chips, captains, transfers, differentials, squads, teams_meta } = fplData;
   const [isDark, setIsDark] = useState(true);
+
+  // Fetch fresh data from API
+  const refreshData = useCallback(async () => {
+    setIsRefreshing(true);
+    setRefreshError(null);
+
+    try {
+      const response = await fetch('/api/refresh-data');
+      if (!response.ok) {
+        throw new Error(`Failed to refresh: ${response.status}`);
+      }
+      const newData = await response.json();
+      setFplData(newData);
+    } catch (error) {
+      console.error('Error refreshing data:', error);
+      setRefreshError(error instanceof Error ? error.message : 'Failed to refresh data');
+    } finally {
+      setIsRefreshing(false);
+    }
+  }, []);
 
   useEffect(() => {
     // Check system preference on mount
@@ -71,6 +96,55 @@ export default function Home() {
           subtitle={`Gameweek ${meta.gameweek} Report`}
           lastUpdated={meta.last_updated}
         />
+
+        {/* Refresh Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="flex flex-col items-center gap-2"
+        >
+          <motion.button
+            onClick={refreshData}
+            disabled={isRefreshing}
+            whileHover={{ scale: isRefreshing ? 1 : 1.05 }}
+            whileTap={{ scale: isRefreshing ? 1 : 0.95 }}
+            className={`
+              inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white
+              bg-gradient-to-r from-primary-500 to-accent-500
+              shadow-lg shadow-primary-500/25 dark:shadow-primary-500/10
+              transition-all duration-300
+              ${isRefreshing ? 'opacity-70 cursor-not-allowed' : 'hover:shadow-xl hover:shadow-primary-500/30'}
+            `}
+          >
+            <motion.svg
+              animate={{ rotate: isRefreshing ? 360 : 0 }}
+              transition={{ duration: 1, repeat: isRefreshing ? Infinity : 0, ease: 'linear' }}
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+              />
+            </motion.svg>
+            {isRefreshing ? 'Refreshing...' : 'Refresh Data'}
+          </motion.button>
+
+          {refreshError && (
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-sm text-red-500 dark:text-red-400"
+            >
+              {refreshError}
+            </motion.p>
+          )}
+        </motion.div>
 
         {/* League Table */}
         <AnimatedCard delay={1}>
