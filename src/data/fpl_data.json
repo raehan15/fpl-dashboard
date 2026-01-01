@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 19,
     "league_name": "Lads",
-    "last_updated": "2026-01-01 23:22:20 PKT"
+    "last_updated": "2026-01-02 00:13:09 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "James",
@@ -261,8 +261,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Rice",
@@ -346,8 +346,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -455,8 +455,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Virgil",
@@ -472,8 +472,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gu\u00e9hi",
@@ -489,8 +489,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "J.Timber",
@@ -625,8 +625,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
@@ -751,8 +751,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Chalobah",
@@ -870,8 +870,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -923,8 +923,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Senesi",
@@ -1030,8 +1030,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Virgil",
@@ -1047,8 +1047,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Andersen",
@@ -1359,8 +1359,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -1536,8 +1536,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gu\u00e9hi",
@@ -1553,8 +1553,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Dalot",
@@ -1621,8 +1621,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -1742,8 +1742,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "gw_points": 11
@@ -1832,8 +1832,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Cunha",
@@ -1900,8 +1900,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -2060,8 +2060,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Van de Ven",
@@ -2128,8 +2128,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -2249,8 +2249,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Marc Guiu",
