@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 20,
     "league_name": "Lads",
-    "last_updated": "2026-01-03 21:17:34 PKT"
+    "last_updated": "2026-01-03 22:12:50 PKT"
   },
   "teams_meta": {
     "1": {
@@ -382,8 +382,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -906,8 +906,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Enzo",
@@ -1430,8 +1430,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Konsa",
@@ -1692,8 +1692,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -1765,8 +1765,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -2009,7 +2009,7 @@
           "raw_points": 5
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Osama Zahid": {
       "starting": [
@@ -2216,8 +2216,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Est\u00e8ve",
