@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 20,
     "league_name": "Lads",
-    "last_updated": "2026-01-04 02:13:35 PKT"
+    "last_updated": "2026-01-04 03:14:16 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 21
+      "gw_points": 24
     },
     "Mahad Farooq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 21
+      "gw_points": 24
     },
     "Arslan Tariq": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 27
+      "gw_points": 30
     }
   },
   "chips": {
