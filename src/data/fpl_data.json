@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 20,
     "league_name": "Lads",
-    "last_updated": "2026-01-04 00:11:26 PKT"
+    "last_updated": "2026-01-04 01:16:33 PKT"
   },
   "teams_meta": {
     "1": {
@@ -399,8 +399,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Keane",
@@ -557,8 +557,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Rogers",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 19
+      "gw_points": 21
     },
     "wali noor": {
       "starting": [
@@ -1219,8 +1219,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 14,
+          "raw_points": 14
         }
       ],
       "gw_points": 15
@@ -1639,8 +1639,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Haaland",
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 19
+      "gw_points": 21
     },
     "Danish Yasin": {
       "starting": [
