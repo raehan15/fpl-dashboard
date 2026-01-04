@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 20,
     "league_name": "Lads",
-    "last_updated": "2026-01-05 01:16:58 PKT"
+    "last_updated": "2026-01-05 02:13:40 PKT"
   },
   "teams_meta": {
     "1": {
@@ -540,8 +540,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Semenyo",
@@ -819,8 +819,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Cherki",
