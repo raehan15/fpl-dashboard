@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 20,
     "league_name": "Lads",
-    "last_updated": "2026-01-04 04:14:17 PKT"
+    "last_updated": "2026-01-04 06:21:05 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1176
+      "total_points": 1179
     },
     {
       "rank": 2,
@@ -155,7 +155,7 @@
       "rank": 5,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1111
+      "total_points": 1114
     },
     {
       "rank": 6,
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1013
+      "total_points": 1016
     }
   ],
   "squads": {
