@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 21,
     "league_name": "Lads",
-    "last_updated": "2026-01-09 16:15:01 PKT"
+    "last_updated": "2026-01-09 17:32:30 PKT"
   },
   "teams_meta": {
     "1": {
@@ -302,14 +302,14 @@
           "name": "Semenyo",
           "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 4,
-          "team_short": "BOU",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 18,
+            "opponent": "BHA",
+            "opponent_id": 6,
             "is_home": true
           },
           "points": 6,
@@ -547,14 +547,14 @@
           "name": "Semenyo",
           "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 4,
-          "team_short": "BOU",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 18,
+            "opponent": "BHA",
+            "opponent_id": 6,
             "is_home": true
           },
           "points": 6,
@@ -843,14 +843,14 @@
           "name": "Semenyo",
           "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 4,
-          "team_short": "BOU",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 18,
+            "opponent": "BHA",
+            "opponent_id": 6,
             "is_home": true
           },
           "points": 6,
@@ -1333,14 +1333,14 @@
           "name": "Semenyo",
           "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 4,
-          "team_short": "BOU",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 18,
+            "opponent": "BHA",
+            "opponent_id": 6,
             "is_home": true
           },
           "points": 6,
