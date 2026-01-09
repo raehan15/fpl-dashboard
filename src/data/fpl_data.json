@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 21,
     "league_name": "Lads",
-    "last_updated": "2026-01-09 06:14:46 PKT"
+    "last_updated": "2026-01-09 08:25:47 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,37 +131,37 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1250
+      "total_points": 1266
     },
     {
       "rank": 2,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1244
+      "total_points": 1257
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1243
+      "total_points": 1256
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1228
+      "total_points": 1238
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1200
+      "total_points": 1213
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1188
+      "total_points": 1196
     },
     {
       "rank": 7,
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1070
+      "total_points": 1091
     }
   ],
   "squads": {
@@ -248,6 +248,23 @@
           "raw_points": 3
         },
         {
+          "name": "Gu\u00e9hi",
+          "full_name": "Marc Gu\u00e9hi",
+          "position": 2,
+          "team_id": 8,
+          "team_short": "CRY",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "AVL",
+            "opponent_id": 2,
+            "is_home": true
+          },
+          "points": 6,
+          "raw_points": 6
+        },
+        {
           "name": "Rice",
           "full_name": "Declan Rice",
           "position": 3,
@@ -263,23 +280,6 @@
           },
           "points": 3,
           "raw_points": 3
-        },
-        {
-          "name": "Xhaka",
-          "full_name": "Granit Xhaka",
-          "position": 3,
-          "team_id": 17,
-          "team_short": "SUN",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "BRE",
-            "opponent_id": 5,
-            "is_home": false
-          },
-          "points": 2,
-          "raw_points": 2
         },
         {
           "name": "Bruno G.",
@@ -333,6 +333,23 @@
           "raw_points": 3
         },
         {
+          "name": "Xhaka",
+          "full_name": "Granit Xhaka",
+          "position": 3,
+          "team_id": 17,
+          "team_short": "SUN",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "BRE",
+            "opponent_id": 5,
+            "is_home": false
+          },
+          "points": 2,
+          "raw_points": 2
+        },
+        {
           "name": "Haaland",
           "full_name": "Erling Haaland",
           "position": 4,
@@ -348,23 +365,6 @@
           },
           "points": 12,
           "raw_points": 6
-        },
-        {
-          "name": "Ekitik\u00e9",
-          "full_name": "Hugo Ekitik\u00e9",
-          "position": 4,
-          "team_id": 12,
-          "team_short": "LIV",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "ARS",
-            "opponent_id": 1,
-            "is_home": false
-          },
-          "points": 0,
-          "raw_points": 0
         }
       ],
       "bench": [
@@ -386,21 +386,21 @@
           "raw_points": 3
         },
         {
-          "name": "Gu\u00e9hi",
-          "full_name": "Marc Gu\u00e9hi",
-          "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "name": "Ekitik\u00e9",
+          "full_name": "Hugo Ekitik\u00e9",
+          "position": 4,
+          "team_id": 12,
+          "team_short": "LIV",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
-            "is_home": true
+            "opponent": "ARS",
+            "opponent_id": 1,
+            "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Calvert-Lewin",
@@ -437,7 +437,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 44
+      "gw_points": 60
     },
     "hussain tahir": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 51
+      "gw_points": 64
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 52
+      "gw_points": 65
     },
     "wali noor": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 42
+      "gw_points": 52
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 51
+      "gw_points": 64
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 49
+      "gw_points": 57
     },
     "Danish Yasin": {
       "starting": [
@@ -2014,21 +2014,21 @@
     "Osama Zahid": {
       "starting": [
         {
-          "name": "Trafford",
-          "full_name": "James Trafford",
+          "name": "D\u00fabravka",
+          "full_name": "Martin D\u00fabravka",
           "position": 1,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 3,
+          "team_short": "BUR",
           "is_captain": false,
-          "is_vice": true,
+          "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BHA",
-            "opponent_id": 6,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -2203,21 +2203,21 @@
       ],
       "bench": [
         {
-          "name": "D\u00fabravka",
-          "full_name": "Martin D\u00fabravka",
+          "name": "Trafford",
+          "full_name": "James Trafford",
           "position": 1,
-          "team_id": 3,
-          "team_short": "BUR",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
-          "is_vice": false,
+          "is_vice": true,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 14,
+            "opponent": "BHA",
+            "opponent_id": 6,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Est\u00e8ve",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 20
+      "gw_points": 41
     }
   },
   "chips": {
@@ -2341,9 +2341,8 @@
       "Mahad Farooq": [
         "Jordan Pickford",
         "Michael Keane",
-        "Granit Xhaka",
         "Ryan Gravenberch",
-        "Hugo Ekitik\u00e9"
+        "Granit Xhaka"
       ],
       "hussain tahir": [
         "Marcos Senesi Bar\u00f3n"
@@ -2371,7 +2370,7 @@
         "Dominic Calvert-Lewin"
       ],
       "Osama Zahid": [
-        "James Trafford",
+        "Martin D\u00fabravka",
         "Jeremie Frimpong",
         "Cole Palmer",
         "Cody Gakpo",
@@ -2391,14 +2390,10 @@
       ],
       "hussain tahir": [
         "Robin Roefs",
-        "Virgil van Dijk",
-        "Marc Gu\u00e9hi"
+        "Virgil van Dijk"
       ],
       "wali noor": [
         "Virgil van Dijk"
-      ],
-      "Hamzah Tariq": [
-        "Marc Gu\u00e9hi"
       ],
       "Arslan Tariq": [
         "Micky van de Ven",
