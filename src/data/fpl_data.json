@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 22,
     "league_name": "Lads",
-    "last_updated": "2026-01-17 20:14:43 PKT"
+    "last_updated": "2026-01-17 21:16:43 PKT"
   },
   "teams_meta": {
     "1": {
@@ -382,8 +382,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Calvert-Lewin",
@@ -1098,8 +1098,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Haaland",
@@ -1168,8 +1168,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cunha",
@@ -1223,7 +1223,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 9
+      "gw_points": 12
     },
     "Arslan Tariq": {
       "starting": [
@@ -1430,8 +1430,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Reijnders",
@@ -1692,8 +1692,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Woltemade",
@@ -1765,8 +1765,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cash",
@@ -1799,8 +1799,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Gabriel",
@@ -1954,8 +1954,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cunha",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 10
+      "gw_points": 14
     },
     "Osama Zahid": {
       "starting": [
@@ -2216,8 +2216,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Est\u00e8ve",
