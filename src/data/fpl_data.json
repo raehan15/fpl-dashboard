@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 22,
     "league_name": "Lads",
-    "last_updated": "2026-01-19 00:12:00 PKT"
+    "last_updated": "2026-01-19 01:16:58 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1295
+      "total_points": 1305
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1284
+      "total_points": 1289
     },
     {
       "rank": 3,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1283
+      "total_points": 1285
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1261
+      "total_points": 1265
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1245
+      "total_points": 1247
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1220
+      "total_points": 1222
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1212
+      "total_points": 1214
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1120
+      "total_points": 1121
     }
   ],
   "squads": {
@@ -193,8 +193,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "J.Timber",
@@ -244,8 +244,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Rice",
@@ -489,8 +489,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Lacroix",
@@ -678,8 +678,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Gu\u00e9hi",
@@ -768,8 +768,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Wilson",
@@ -1258,8 +1258,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Van de Ven",
@@ -1275,8 +1275,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Konsa",
@@ -1816,8 +1816,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Wilson",
@@ -1988,8 +1988,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Gu\u00e9hi",
@@ -2044,8 +2044,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Frimpong",
@@ -2078,8 +2078,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Saka",
