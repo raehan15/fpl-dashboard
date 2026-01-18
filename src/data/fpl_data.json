@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 22,
     "league_name": "Lads",
-    "last_updated": "2026-01-18 20:14:34 PKT"
+    "last_updated": "2026-01-18 21:18:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,8 +295,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Semenyo",
@@ -574,8 +574,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Haaland",
@@ -1132,8 +1132,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Thiago",
@@ -1709,8 +1709,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Dalot",
