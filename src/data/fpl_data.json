@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 22,
     "league_name": "Lads",
-    "last_updated": "2026-01-18 21:18:15 PKT"
+    "last_updated": "2026-01-18 22:12:38 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "J.Timber",
@@ -523,8 +523,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -836,8 +836,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1064,8 +1064,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Minteh",
@@ -1292,8 +1292,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Saka",
@@ -1622,8 +1622,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -1782,8 +1782,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mukiele",
@@ -2163,8 +2163,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
