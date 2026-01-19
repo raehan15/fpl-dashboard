@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 22,
     "league_name": "Lads",
-    "last_updated": "2026-01-19 21:21:38 PKT"
+    "last_updated": "2026-01-19 22:19:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -217,14 +217,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
@@ -685,14 +685,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
@@ -930,14 +930,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
@@ -986,14 +986,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
@@ -1510,14 +1510,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
@@ -1995,14 +1995,14 @@
           "name": "Gu\u00e9hi",
           "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 8,
-          "team_short": "CRY",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
           "points": 0,
