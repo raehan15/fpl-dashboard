@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-24 18:27:13 PKT"
+    "last_updated": "2026-01-24 19:14:36 PKT"
   },
   "teams_meta": {
     "1": {
@@ -261,8 +261,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Rice",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Raehan Nasir": {
       "starting": [
@@ -455,8 +455,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "J.Timber",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "hussain tahir": {
       "starting": [
@@ -906,8 +906,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Bruno G.",
@@ -957,8 +957,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 0
@@ -1799,8 +1799,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Gabriel",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Osama Zahid": {
       "starting": [
