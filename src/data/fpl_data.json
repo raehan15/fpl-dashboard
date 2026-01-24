@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-24 23:21:59 PKT"
+    "last_updated": "2026-01-25 00:12:49 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -363,8 +363,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 21
+      "gw_points": 23
     },
     "Raehan Nasir": {
       "starting": [
@@ -717,8 +717,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -734,8 +734,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Gu\u00e9hi",
@@ -887,8 +887,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -940,8 +940,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Alderete",
@@ -961,7 +961,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 29
+      "gw_points": 32
     },
     "wali noor": {
       "starting": [
@@ -1030,8 +1030,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Foden",
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 23
+      "gw_points": 24
     },
     "Arslan Tariq": {
       "starting": [
@@ -1309,8 +1309,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 25
+      "gw_points": 26
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1673,8 +1673,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 16
+      "gw_points": 17
     },
     "Danish Yasin": {
       "starting": [
@@ -2129,8 +2129,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Reijnders",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 13
+      "gw_points": 14
     }
   },
   "chips": {
