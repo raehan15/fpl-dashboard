@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-25 03:14:51 PKT"
+    "last_updated": "2026-01-25 04:14:38 PKT"
   },
   "teams_meta": {
     "1": {
@@ -699,7 +699,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 32
+      "gw_points": 35
     },
     "Raehan Nasir": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 24
+      "gw_points": 25
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 26
+      "gw_points": 29
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 17
+      "gw_points": 20
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 13
+      "gw_points": 16
     },
     "Osama Zahid": {
       "starting": [
