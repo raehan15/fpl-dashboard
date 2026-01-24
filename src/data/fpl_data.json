@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-25 00:12:49 PKT"
+    "last_updated": "2026-01-25 01:16:12 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 23
+      "gw_points": 22
     },
     "Raehan Nasir": {
       "starting": [
