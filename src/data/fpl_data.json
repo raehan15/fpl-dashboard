@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-26 02:14:13 PKT"
+    "last_updated": "2026-01-26 03:15:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -699,7 +699,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 47
+      "gw_points": 49
     },
     "Raehan Nasir": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 44
+      "gw_points": 47
     },
     "Arslan Tariq": {
       "starting": [
