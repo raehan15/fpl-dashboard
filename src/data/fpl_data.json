@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-25 23:22:13 PKT"
+    "last_updated": "2026-01-26 00:13:19 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 28
     },
     "hussain tahir": {
       "starting": [
@@ -472,8 +472,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Gu\u00e9hi",
@@ -699,7 +699,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 35
+      "gw_points": 47
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 8
         }
       ],
-      "gw_points": 14
+      "gw_points": 31
     },
     "wali noor": {
       "starting": [
@@ -1030,8 +1030,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Foden",
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 25
+      "gw_points": 44
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 29
+      "gw_points": 39
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 20
+      "gw_points": 37
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 16
+      "gw_points": 31
     },
     "Osama Zahid": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 14
+      "gw_points": 18
     }
   },
   "chips": {
