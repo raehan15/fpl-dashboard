@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 23,
     "league_name": "Lads",
-    "last_updated": "2026-01-25 18:28:36 PKT"
+    "last_updated": "2026-01-25 19:14:14 PKT"
   },
   "teams_meta": {
     "1": {
@@ -244,8 +244,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mukiele",
@@ -574,8 +574,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -608,8 +608,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ekitik\u00e9",
@@ -768,8 +768,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -785,8 +785,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -887,8 +887,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -940,8 +940,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Dorgu",
@@ -1064,8 +1064,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Minteh",
@@ -1098,8 +1098,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1149,8 +1149,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1292,8 +1292,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Wirtz",
@@ -1394,8 +1394,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calvert-Lewin",
@@ -1464,8 +1464,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Burn",
@@ -1554,8 +1554,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Foden",
@@ -1605,8 +1605,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -1656,8 +1656,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Kroupi.Jr",
@@ -1765,8 +1765,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Chalobah",
@@ -1782,8 +1782,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mukiele",
@@ -1901,8 +1901,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -2005,8 +2005,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 16
