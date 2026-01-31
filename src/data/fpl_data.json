@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-01-31 22:19:40 PKT"
+    "last_updated": "2026-01-31 23:23:29 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1081,8 +1081,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 15
+      "gw_points": 16
     },
     "Arslan Tariq": {
       "starting": [
@@ -2111,8 +2111,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gakpo",
@@ -2270,7 +2270,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 14
+      "gw_points": 15
     }
   },
   "chips": {
