@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-02-01 03:16:44 PKT"
+    "last_updated": "2026-02-01 04:16:18 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1349
+      "total_points": 1376
     },
     {
       "rank": 2,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1338
+      "total_points": 1368
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1323
+      "total_points": 1350
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1312
+      "total_points": 1347
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1287
+      "total_points": 1313
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1270
+      "total_points": 1296
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1248
+      "total_points": 1268
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1151
+      "total_points": 1171
     }
   ],
   "squads": {
@@ -363,8 +363,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         }
       ],
       "bench": [
@@ -608,8 +608,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Thiago",
@@ -717,8 +717,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "J.Timber",
@@ -1081,8 +1081,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -1132,8 +1132,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Thiago",
@@ -1326,8 +1326,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Semenyo",
@@ -1673,8 +1673,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -2196,8 +2196,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         }
       ],
       "bench": [
