@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-02-01 01:18:43 PKT"
+    "last_updated": "2026-02-01 02:16:04 PKT"
   },
   "teams_meta": {
     "1": {
@@ -363,8 +363,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 9,
+          "raw_points": 9
         }
       ],
       "bench": [
@@ -437,7 +437,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 15
+      "gw_points": 23
     },
     "hussain tahir": {
       "starting": [
@@ -472,8 +472,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gu\u00e9hi",
@@ -608,8 +608,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Thiago",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 17
+      "gw_points": 27
     },
     "Raehan Nasir": {
       "starting": [
@@ -1030,8 +1030,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Rogers",
@@ -1132,8 +1132,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Thiago",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 23
+      "gw_points": 33
     },
     "Arslan Tariq": {
       "starting": [
@@ -1326,8 +1326,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Semenyo",
@@ -1464,8 +1464,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Van de Ven",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 17
+      "gw_points": 20
     },
     "Hamzah Tariq": {
       "starting": [
