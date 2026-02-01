@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-02-01 06:49:18 PKT"
+    "last_updated": "2026-02-01 09:25:16 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,37 +131,37 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1376
+      "total_points": 1379
     },
     {
       "rank": 2,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1368
+      "total_points": 1371
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1350
+      "total_points": 1352
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1347
+      "total_points": 1352
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1313
+      "total_points": 1315
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1296
+      "total_points": 1297
     },
     {
       "rank": 7,
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1171
+      "total_points": 1173
     }
   ],
   "squads": {
