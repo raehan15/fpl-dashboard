@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-02-02 03:17:56 PKT"
+    "last_updated": "2026-02-02 04:18:49 PKT"
   },
   "teams_meta": {
     "1": {
@@ -155,25 +155,25 @@
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1348
+      "total_points": 1350
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1324
+      "total_points": 1325
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1296
+      "total_points": 1300
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1184
+      "total_points": 1183
     }
   ],
   "squads": {
