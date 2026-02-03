@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 24,
     "league_name": "Lads",
-    "last_updated": "2026-02-03 06:29:59 PKT"
+    "last_updated": "2026-02-03 09:10:01 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1399
+      "total_points": 1412
     },
     {
       "rank": 2,
@@ -167,13 +167,13 @@
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1300
+      "total_points": 1310
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1183
+      "total_points": 1187
     }
   ],
   "squads": {
