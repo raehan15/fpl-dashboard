@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-07 03:16:53 PKT"
+    "last_updated": "2026-02-07 04:20:01 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Ekitik\u00e9",
@@ -870,8 +870,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Thiago",
@@ -1411,8 +1411,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -1935,8 +1935,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
