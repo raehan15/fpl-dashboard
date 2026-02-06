@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-07 01:26:57 PKT"
+    "last_updated": "2026-02-07 02:24:58 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Ekitik\u00e9",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 6
     },
     "hussain tahir": {
       "starting": [
@@ -870,8 +870,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Thiago",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 6
     },
     "wali noor": {
       "starting": [
@@ -1064,8 +1064,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Enzo",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 4
     },
     "Arslan Tariq": {
       "starting": [
@@ -1411,8 +1411,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 6
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1743,8 +1743,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "gw_points": 0
@@ -1935,8 +1935,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 6
     },
     "Osama Zahid": {
       "starting": [
