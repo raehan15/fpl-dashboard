@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-07 23:26:55 PKT"
+    "last_updated": "2026-02-08 00:19:06 PKT"
   },
   "teams_meta": {
     "1": {
@@ -416,8 +416,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Mukiele",
@@ -661,8 +661,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Virgil",
@@ -923,8 +923,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Lacroix",
