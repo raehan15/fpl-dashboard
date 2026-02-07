@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-07 04:20:01 PKT"
+    "last_updated": "2026-02-07 06:25:08 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1412
+      "total_points": 1418
     },
     {
       "rank": 2,
@@ -143,19 +143,19 @@
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1377
+      "total_points": 1383
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1376
+      "total_points": 1380
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1350
+      "total_points": 1356
     },
     {
       "rank": 6,
@@ -167,7 +167,7 @@
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1310
+      "total_points": 1316
     },
     {
       "rank": 8,
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 7
     },
     "hussain tahir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 7
     },
     "wali noor": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 7
     },
     "Hamzah Tariq": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 7
     },
     "Osama Zahid": {
       "starting": [
