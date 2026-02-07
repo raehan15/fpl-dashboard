@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-08 00:19:06 PKT"
+    "last_updated": "2026-02-08 01:19:35 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 7
+      "gw_points": 44
     },
     "hussain tahir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 7
+      "gw_points": 51
     },
     "wali noor": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 4
+      "gw_points": 31
     },
     "Arslan Tariq": {
       "starting": [
@@ -1464,8 +1464,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -1485,7 +1485,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 7
+      "gw_points": 50
     },
     "Hamzah Tariq": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 7
+      "gw_points": 46
     },
     "Osama Zahid": {
       "starting": [
