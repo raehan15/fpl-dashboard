@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-07 18:39:05 PKT"
+    "last_updated": "2026-02-07 19:20:46 PKT"
   },
   "teams_meta": {
     "1": {
@@ -261,8 +261,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 16,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -574,8 +574,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Haaland",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 8
     },
     "Raehan Nasir": {
       "starting": [
@@ -819,8 +819,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Rogers",
@@ -1275,8 +1275,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Konsa",
@@ -1309,8 +1309,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 16,
+          "raw_points": 8
         },
         {
           "name": "Wirtz",
@@ -1520,8 +1520,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Gabriel",
@@ -1571,8 +1571,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Wilson",
@@ -1747,7 +1747,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 2
+      "gw_points": 12
     },
     "Danish Yasin": {
       "starting": [
@@ -1833,8 +1833,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 16,
+          "raw_points": 8
         },
         {
           "name": "Enzo",
@@ -1867,8 +1867,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Wilson",
