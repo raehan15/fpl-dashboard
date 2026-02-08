@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-09 00:20:38 PKT"
+    "last_updated": "2026-02-09 01:19:42 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Calvert-Lewin",
@@ -591,8 +591,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Calvert-Lewin",
@@ -678,8 +678,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Dorgu",
@@ -853,8 +853,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Ekitik\u00e9",
@@ -1115,8 +1115,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Ekitik\u00e9",
@@ -1377,8 +1377,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Thiago",
@@ -1673,8 +1673,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 11,
+          "raw_points": 11
         }
       ],
       "bench": [
@@ -1918,8 +1918,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Calvert-Lewin",
@@ -2180,8 +2180,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Gy\u00f6keres",
