@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 25,
     "league_name": "Lads",
-    "last_updated": "2026-02-08 20:20:47 PKT"
+    "last_updated": "2026-02-08 21:22:44 PKT"
   },
   "teams_meta": {
     "1": {
@@ -678,8 +678,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Dorgu",
@@ -1202,8 +1202,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Est\u00e8ve",
