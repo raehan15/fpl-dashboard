@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 26,
     "league_name": "Lads",
-    "last_updated": "2026-02-11 02:37:06 PKT"
+    "last_updated": "2026-02-11 03:34:22 PKT"
   },
   "teams_meta": {
     "1": {
@@ -574,8 +574,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Rogers",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 9
+      "gw_points": 12
     },
     "hussain tahir": {
       "starting": [
@@ -836,8 +836,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Ekitik\u00e9",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 5
+      "gw_points": 8
     },
     "wali noor": {
       "starting": [
