@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 26,
     "league_name": "Lads",
-    "last_updated": "2026-02-11 03:34:22 PKT"
+    "last_updated": "2026-02-11 04:33:33 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1480
+      "total_points": 1488
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1455
+      "total_points": 1467
     },
     {
       "rank": 3,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1450
+      "total_points": 1458
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1437
+      "total_points": 1439
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1420
+      "total_points": 1424
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1403
+      "total_points": 1418
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1371
+      "total_points": 1379
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1252
+      "total_points": 1264
     }
   ],
   "squads": {
@@ -574,8 +574,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Rogers",
@@ -836,8 +836,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Ekitik\u00e9",
@@ -1656,8 +1656,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Kroupi.Jr",
@@ -2112,8 +2112,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Gakpo",
