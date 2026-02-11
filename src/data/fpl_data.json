@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 26,
     "league_name": "Lads",
-    "last_updated": "2026-02-11 04:33:33 PKT"
+    "last_updated": "2026-02-11 06:51:12 PKT"
   },
   "teams_meta": {
     "1": {
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 12
+      "gw_points": 13
     },
     "hussain tahir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 9
     },
     "wali noor": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 15
+      "gw_points": 16
     },
     "Danish Yasin": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 12
+      "gw_points": 15
     }
   },
   "chips": {
