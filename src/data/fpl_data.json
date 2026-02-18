@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 26,
     "league_name": "Lads",
-    "last_updated": "2026-02-19 03:26:27 PKT"
+    "last_updated": "2026-02-19 04:23:59 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Bruno G.",
@@ -557,8 +557,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Mbeumo",
@@ -802,8 +802,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Semenyo",
@@ -1571,8 +1571,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Cunha",
@@ -2095,8 +2095,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Palmer",
