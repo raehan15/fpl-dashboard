@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 26,
     "league_name": "Lads",
-    "last_updated": "2026-02-19 02:30:14 PKT"
+    "last_updated": "2026-02-19 03:26:27 PKT"
   },
   "teams_meta": {
     "1": {
@@ -210,8 +210,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Keane",
@@ -472,8 +472,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 8
+          "points": 21,
+          "raw_points": 7
         },
         {
           "name": "J.Timber",
@@ -489,8 +489,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gu\u00e9hi",
@@ -734,8 +734,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "J.Timber",
@@ -751,8 +751,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Chalobah",
@@ -979,8 +979,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -996,8 +996,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Gu\u00e9hi",
@@ -1241,8 +1241,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -1258,8 +1258,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 8
+          "points": 21,
+          "raw_points": 7
         },
         {
           "name": "Maguire",
@@ -1503,8 +1503,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -1520,8 +1520,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 8
+          "points": 21,
+          "raw_points": 7
         },
         {
           "name": "Gu\u00e9hi",
@@ -1782,8 +1782,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Chalobah",
@@ -2044,8 +2044,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Frimpong",
