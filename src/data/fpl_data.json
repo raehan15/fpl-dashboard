@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 27,
     "league_name": "Lads",
-    "last_updated": "2026-02-22 01:17:45 PKT"
+    "last_updated": "2026-02-22 02:17:18 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 4
         },
         {
           "name": "Ekitik\u00e9",
@@ -437,7 +437,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 6
+      "gw_points": 12
     },
     "hussain tahir": {
       "starting": [
@@ -608,8 +608,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Calvert-Lewin",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 5
+      "gw_points": 8
     },
     "Raehan Nasir": {
       "starting": [
@@ -785,8 +785,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Rice",
@@ -887,8 +887,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 31
     },
     "wali noor": {
       "starting": [
@@ -1132,8 +1132,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Thiago",
@@ -1223,7 +1223,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 9
+      "gw_points": 12
     },
     "Arslan Tariq": {
       "starting": [
@@ -1377,8 +1377,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 4
         },
         {
           "name": "Ekitik\u00e9",
@@ -1464,8 +1464,8 @@
             "opponent_id": 13,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": -1,
+          "raw_points": -1
         },
         {
           "name": "Van de Ven",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 14
+      "gw_points": 20
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1673,8 +1673,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -1747,7 +1747,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 20
+      "gw_points": 23
     },
     "Danish Yasin": {
       "starting": [
@@ -1901,8 +1901,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 1
+          "points": 12,
+          "raw_points": 4
         },
         {
           "name": "Gy\u00f6keres",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 13
+      "gw_points": 22
     },
     "Osama Zahid": {
       "starting": [
@@ -2180,8 +2180,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 4
         },
         {
           "name": "Gy\u00f6keres",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 5
+      "gw_points": 11
     }
   },
   "chips": {
