@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 27,
     "league_name": "Lads",
-    "last_updated": "2026-02-21 23:26:20 PKT"
+    "last_updated": "2026-02-22 00:19:32 PKT"
   },
   "teams_meta": {
     "1": {
@@ -661,8 +661,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Wilson",
@@ -717,8 +717,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Gabriel",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 7
+      "gw_points": 13
     },
     "wali noor": {
       "starting": [
@@ -1709,8 +1709,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Dalot",
