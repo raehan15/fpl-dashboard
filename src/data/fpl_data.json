@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 27,
     "league_name": "Lads",
-    "last_updated": "2026-02-22 19:20:43 PKT"
+    "last_updated": "2026-02-22 20:18:51 PKT"
   },
   "teams_meta": {
     "1": {
@@ -940,8 +940,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Alderete",
@@ -1064,8 +1064,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Enzo",
@@ -1360,8 +1360,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Haaland",
@@ -1639,8 +1639,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1850,8 +1850,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "B.Fernandes",
