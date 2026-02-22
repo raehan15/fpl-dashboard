@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 27,
     "league_name": "Lads",
-    "last_updated": "2026-02-22 06:41:43 PKT"
+    "last_updated": "2026-02-22 09:11:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,10 +131,10 @@
       "rank": 1,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1561
+      "total_points": 1566
     },
     {
-      "rank": 1,
+      "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
       "total_points": 1561
@@ -161,7 +161,7 @@
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1498
+      "total_points": 1500
     },
     {
       "rank": 7,
