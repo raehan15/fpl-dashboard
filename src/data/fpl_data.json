@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 27,
     "league_name": "Lads",
-    "last_updated": "2026-02-24 03:35:03 PKT"
+    "last_updated": "2026-02-24 04:29:42 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1726,8 +1726,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Gudmundsson",
