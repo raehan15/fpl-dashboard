@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-02-28 00:29:05 PKT"
+    "last_updated": "2026-02-28 01:21:45 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Mahad Farooq": {
       "starting": [
@@ -1047,8 +1047,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Anderson",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Arslan Tariq": {
       "starting": [
@@ -1292,8 +1292,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Burn",
@@ -1343,8 +1343,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 2
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1588,8 +1588,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Danish Yasin": {
       "starting": [
@@ -1988,8 +1988,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ayari",
