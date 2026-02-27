@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-02-28 02:23:18 PKT"
+    "last_updated": "2026-02-28 03:17:25 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1292,8 +1292,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Burn",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 4
+      "gw_points": 3
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1988,8 +1988,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Ayari",
