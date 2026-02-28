@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-01 01:19:00 PKT"
+    "last_updated": "2026-03-01 02:15:40 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1586
+      "total_points": 1612
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1579
+      "total_points": 1610
     },
     {
       "rank": 3,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1571
+      "total_points": 1607
     },
     {
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1555
+      "total_points": 1593
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1536
+      "total_points": 1556
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1523
+      "total_points": 1546
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1469
+      "total_points": 1488
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1350
+      "total_points": 1361
     }
   ],
   "squads": {
@@ -363,8 +363,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -695,8 +695,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "gw_points": 31
@@ -887,8 +887,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 15,
+          "raw_points": 15
         }
       ],
       "bench": [
@@ -1115,8 +1115,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 15,
+          "raw_points": 15
         },
         {
           "name": "Haaland",
@@ -1149,8 +1149,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -1411,8 +1411,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 15,
+          "raw_points": 15
         }
       ],
       "bench": [
@@ -1673,8 +1673,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -1935,8 +1935,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
