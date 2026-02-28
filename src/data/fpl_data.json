@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-02-28 18:32:40 PKT"
+    "last_updated": "2026-02-28 19:16:41 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Hill",
@@ -210,8 +210,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gabriel",
@@ -523,8 +523,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -608,8 +608,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 3
     },
     "hussain tahir": {
       "starting": [
@@ -785,8 +785,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Szoboszlai",
@@ -957,11 +957,11 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     },
     "wali noor": {
       "starting": [
