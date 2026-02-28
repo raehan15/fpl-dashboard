@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-01 00:16:41 PKT"
+    "last_updated": "2026-03-01 01:19:00 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 28
     },
     "Mahad Farooq": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 40
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 3
+      "gw_points": 23
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 2
+      "gw_points": 25
     },
     "Danish Yasin": {
       "starting": [
