@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-02 00:18:53 PKT"
+    "last_updated": "2026-03-02 01:19:28 PKT"
   },
   "teams_meta": {
     "1": {
@@ -227,8 +227,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "O'Reilly",
@@ -506,8 +506,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Senesi",
@@ -678,8 +678,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Alderete",
@@ -802,8 +802,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Semenyo",
@@ -996,8 +996,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 18,
+          "raw_points": 9
         },
         {
           "name": "Gu\u00e9hi",
@@ -1258,8 +1258,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Maguire",
@@ -1326,8 +1326,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Rogers",
@@ -1377,8 +1377,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Haaland",
@@ -1537,8 +1537,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Virgil",
@@ -1639,8 +1639,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Haaland",
@@ -1816,8 +1816,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "B.Fernandes",
@@ -1833,8 +1833,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Semenyo",
@@ -1867,8 +1867,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Enzo",
@@ -2044,8 +2044,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Frimpong",
