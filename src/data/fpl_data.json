@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-01 18:35:15 PKT"
+    "last_updated": "2026-03-01 19:18:54 PKT"
   },
   "teams_meta": {
     "1": {
@@ -312,8 +312,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -591,8 +591,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -678,8 +678,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Alderete",
@@ -802,8 +802,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1064,8 +1064,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Enzo",
@@ -1275,8 +1275,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Konsa",
@@ -1326,8 +1326,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1377,8 +1377,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Haaland",
@@ -1464,8 +1464,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -1571,8 +1571,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1639,8 +1639,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Haaland",
@@ -1726,8 +1726,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gudmundsson",
@@ -1833,8 +1833,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1867,8 +1867,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Enzo",
@@ -2078,8 +2078,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Saka",
