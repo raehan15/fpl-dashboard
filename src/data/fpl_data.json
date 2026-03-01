@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-01 23:24:55 PKT"
+    "last_updated": "2026-03-02 00:18:53 PKT"
   },
   "teams_meta": {
     "1": {
@@ -227,8 +227,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "O'Reilly",
@@ -506,8 +506,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Senesi",
@@ -996,8 +996,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 4
+          "points": 12,
+          "raw_points": 6
         },
         {
           "name": "Gu\u00e9hi",
@@ -1258,8 +1258,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Maguire",
@@ -1537,8 +1537,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Virgil",
@@ -1816,8 +1816,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "B.Fernandes",
@@ -2044,8 +2044,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Frimpong",
