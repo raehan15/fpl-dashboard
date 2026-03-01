@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 28,
     "league_name": "Lads",
-    "last_updated": "2026-03-01 22:17:25 PKT"
+    "last_updated": "2026-03-01 23:24:55 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,8 +295,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Mbeumo",
@@ -399,8 +399,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Calvert-Lewin",
@@ -472,8 +472,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Gu\u00e9hi",
@@ -574,8 +574,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Mbeumo",
@@ -734,8 +734,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Virgil",
@@ -853,8 +853,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Adli",
@@ -979,8 +979,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -1241,8 +1241,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -1503,8 +1503,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gu\u00e9hi",
@@ -1605,8 +1605,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "O.Dango",
@@ -1709,8 +1709,8 @@
             "opponent_id": 1,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Dalot",
@@ -1765,8 +1765,8 @@
             "opponent_id": 1,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Chalobah",
@@ -1918,8 +1918,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Thiago",
@@ -2095,8 +2095,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Palmer",
@@ -2197,8 +2197,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
