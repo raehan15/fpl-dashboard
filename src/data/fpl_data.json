@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 29,
     "league_name": "Lads",
-    "last_updated": "2026-03-04 02:28:26 PKT"
+    "last_updated": "2026-03-04 03:22:36 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,8 +295,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Semenyo",
@@ -346,8 +346,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -437,7 +437,7 @@
           "raw_points": 7
         }
       ],
-      "gw_points": 12
+      "gw_points": 17
     },
     "Mahad Farooq": {
       "starting": [
@@ -1115,8 +1115,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -1223,7 +1223,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 5
+      "gw_points": 7
     },
     "Arslan Tariq": {
       "starting": [
@@ -1292,8 +1292,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -1377,8 +1377,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 5
+      "gw_points": 8
     },
     "Hamzah Tariq": {
       "starting": [
@@ -2061,8 +2061,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Van de Ven",
@@ -2129,8 +2129,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Reijnders",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 9
     }
   },
   "chips": {
