@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 29,
     "league_name": "Lads",
-    "last_updated": "2026-03-04 00:35:38 PKT"
+    "last_updated": "2026-03-04 01:26:29 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -295,8 +295,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -346,8 +346,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -437,7 +437,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 1
+      "gw_points": 5
     },
     "Mahad Farooq": {
       "starting": [
@@ -489,8 +489,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -574,8 +574,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 4
     },
     "Raehan Nasir": {
       "starting": [
@@ -1030,8 +1030,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1115,8 +1115,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1223,7 +1223,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 1
+      "gw_points": 4
     },
     "Arslan Tariq": {
       "starting": [
@@ -1292,8 +1292,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -1377,8 +1377,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 4
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1554,8 +1554,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cunha",
@@ -1747,7 +1747,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 2
+      "gw_points": 3
     },
     "Danish Yasin": {
       "starting": [
@@ -2061,8 +2061,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -2129,8 +2129,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 2
     }
   },
   "chips": {
