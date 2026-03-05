@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 29,
     "league_name": "Lads",
-    "last_updated": "2026-03-06 01:31:40 PKT"
+    "last_updated": "2026-03-06 02:28:29 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1275,8 +1275,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": -3,
+          "raw_points": -3
         },
         {
           "name": "Konat\u00e9",
@@ -2078,8 +2078,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": -3,
+          "raw_points": -3
         },
         {
           "name": "Saka",
