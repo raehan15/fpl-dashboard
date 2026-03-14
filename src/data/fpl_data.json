@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-14 21:23:34 PKT"
+    "last_updated": "2026-03-14 22:21:51 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1202,8 +1202,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Est\u00e8ve",
@@ -2005,8 +2005,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 0
