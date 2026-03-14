@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-14 22:21:51 PKT"
+    "last_updated": "2026-03-14 23:28:55 PKT"
   },
   "teams_meta": {
     "1": {
@@ -227,8 +227,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Senesi",
@@ -261,8 +261,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -329,8 +329,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ekitik\u00e9",
@@ -437,7 +437,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 8
+      "gw_points": 11
     },
     "Raehan Nasir": {
       "starting": [
@@ -472,8 +472,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "O'Reilly",
@@ -506,8 +506,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -540,8 +540,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Rice",
@@ -557,8 +557,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mbeumo",
@@ -608,8 +608,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 16
     },
     "Mahad Farooq": {
       "starting": [
@@ -717,8 +717,8 @@
             "opponent_id": 1,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "J.Timber",
@@ -734,8 +734,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -785,8 +785,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -853,8 +853,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -887,8 +887,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -961,7 +961,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 0
+      "gw_points": 5
     },
     "wali noor": {
       "starting": [
@@ -979,8 +979,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -1013,8 +1013,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -1081,8 +1081,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1223,7 +1223,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     },
     "Arslan Tariq": {
       "starting": [
@@ -1241,8 +1241,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -1258,8 +1258,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Maguire",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 4
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1503,8 +1503,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -1537,8 +1537,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -1588,8 +1588,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "O.Dango",
@@ -1673,8 +1673,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Danish Yasin": {
       "starting": [
@@ -1765,8 +1765,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Chalobah",
@@ -1782,8 +1782,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -1816,8 +1816,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -1884,8 +1884,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -2009,7 +2009,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Osama Zahid": {
       "starting": [
@@ -2044,8 +2044,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Frimpong",
@@ -2095,8 +2095,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Palmer",
@@ -2112,8 +2112,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gakpo",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     }
   },
   "chips": {
