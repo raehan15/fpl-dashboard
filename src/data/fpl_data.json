@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-15 20:23:02 PKT"
+    "last_updated": "2026-03-15 21:24:50 PKT"
   },
   "teams_meta": {
     "1": {
@@ -312,8 +312,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -540,8 +540,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Szoboszlai",
@@ -802,8 +802,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -1185,8 +1185,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Minteh",
@@ -1275,8 +1275,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Konat\u00e9",
@@ -1309,8 +1309,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "O.Dango",
@@ -1447,8 +1447,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -1571,8 +1571,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Rice",
@@ -1726,8 +1726,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gudmundsson",
@@ -1833,8 +1833,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
