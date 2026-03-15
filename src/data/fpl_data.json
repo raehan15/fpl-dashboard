@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-15 23:30:24 PKT"
+    "last_updated": "2026-03-16 00:23:02 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 40
+      "gw_points": 42
     },
     "hussain tahir": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 29
+      "gw_points": 48
     },
     "Mahad Farooq": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 25
+      "gw_points": 37
     },
     "wali noor": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 24
+      "gw_points": 32
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 24
+      "gw_points": 37
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": -2
         }
       ],
-      "gw_points": 27
+      "gw_points": 39
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 31
+      "gw_points": 42
     },
     "Osama Zahid": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 26
+      "gw_points": 37
     }
   },
   "chips": {
