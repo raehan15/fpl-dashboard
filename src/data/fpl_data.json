@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-17 03:26:39 PKT"
+    "last_updated": "2026-03-17 04:25:46 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1326,8 +1326,8 @@
             "opponent_id": 20,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -1605,8 +1605,8 @@
             "opponent_id": 20,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Wilson",
