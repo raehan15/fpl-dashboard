@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 30,
     "league_name": "Lads",
-    "last_updated": "2026-03-17 06:29:27 PKT"
+    "last_updated": "2026-03-17 09:12:28 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,7 +137,7 @@
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1750
+      "total_points": 1756
     },
     {
       "rank": 3,
@@ -149,31 +149,31 @@
       "rank": 4,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1704
+      "total_points": 1710
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1693
+      "total_points": 1702
     },
     {
       "rank": 6,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1683
+      "total_points": 1697
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1627
+      "total_points": 1633
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1457
+      "total_points": 1469
     }
   ],
   "squads": {
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 42
+      "gw_points": 48
     },
     "Mahad Farooq": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 32
+      "gw_points": 38
     },
     "Arslan Tariq": {
       "starting": [
@@ -1262,6 +1262,23 @@
           "raw_points": 9
         },
         {
+          "name": "Konsa",
+          "full_name": "Ezri Konsa Ngoyo",
+          "position": 2,
+          "team_id": 2,
+          "team_short": "AVL",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "MUN",
+            "opponent_id": 14,
+            "is_home": false
+          },
+          "points": 1,
+          "raw_points": 1
+        },
+        {
           "name": "Maguire",
           "full_name": "Harry Maguire",
           "position": 2,
@@ -1277,23 +1294,6 @@
           },
           "points": 1,
           "raw_points": 1
-        },
-        {
-          "name": "Konat\u00e9",
-          "full_name": "Ibrahima Konat\u00e9",
-          "position": 2,
-          "team_id": 12,
-          "team_short": "LIV",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 18,
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
         },
         {
           "name": "B.Fernandes",
@@ -1434,21 +1434,21 @@
           "raw_points": 6
         },
         {
-          "name": "Konsa",
-          "full_name": "Ezri Konsa Ngoyo",
+          "name": "Konat\u00e9",
+          "full_name": "Ibrahima Konat\u00e9",
           "position": 2,
-          "team_id": 2,
-          "team_short": "AVL",
+          "team_id": 12,
+          "team_short": "LIV",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 14,
-            "is_home": false
+            "opponent": "TOT",
+            "opponent_id": 18,
+            "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Reijnders",
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 39
+      "gw_points": 48
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": -2
         }
       ],
-      "gw_points": 40
+      "gw_points": 54
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,26 +2009,26 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 44
+      "gw_points": 50
     },
     "Osama Zahid": {
       "starting": [
         {
-          "name": "Trafford",
-          "full_name": "James Trafford",
+          "name": "D\u00fabravka",
+          "full_name": "Martin D\u00fabravka",
           "position": 1,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 3,
+          "team_short": "BUR",
           "is_captain": false,
-          "is_vice": true,
+          "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "WHU",
-            "opponent_id": 19,
-            "is_home": false
+            "opponent": "BOU",
+            "opponent_id": 4,
+            "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gabriel",
@@ -2065,21 +2065,21 @@
           "raw_points": 6
         },
         {
-          "name": "Van de Ven",
-          "full_name": "Micky van de Ven",
+          "name": "Est\u00e8ve",
+          "full_name": "Maxime Est\u00e8ve",
           "position": 2,
-          "team_id": 18,
-          "team_short": "TOT",
+          "team_id": 3,
+          "team_short": "BUR",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "LIV",
-            "opponent_id": 12,
-            "is_home": false
+            "opponent": "BOU",
+            "opponent_id": 4,
+            "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Saka",
@@ -2203,38 +2203,38 @@
       ],
       "bench": [
         {
-          "name": "D\u00fabravka",
-          "full_name": "Martin D\u00fabravka",
+          "name": "Trafford",
+          "full_name": "James Trafford",
           "position": 1,
-          "team_id": 3,
-          "team_short": "BUR",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
-          "is_vice": false,
+          "is_vice": true,
           "multiplier": 0,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 4,
-            "is_home": true
+            "opponent": "WHU",
+            "opponent_id": 19,
+            "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
-          "name": "Est\u00e8ve",
-          "full_name": "Maxime Est\u00e8ve",
+          "name": "Van de Ven",
+          "full_name": "Micky van de Ven",
           "position": 2,
-          "team_id": 3,
-          "team_short": "BUR",
+          "team_id": 18,
+          "team_short": "TOT",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 4,
-            "is_home": true
+            "opponent": "LIV",
+            "opponent_id": 12,
+            "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Clyne",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 37
+      "gw_points": 49
     }
   },
   "chips": {
@@ -2358,8 +2358,8 @@
         "Elliot Anderson"
       ],
       "Arslan Tariq": [
+        "Ezri Konsa Ngoyo",
         "Harry Maguire",
-        "Ibrahima Konat\u00e9",
         "Danny Welbeck"
       ],
       "Hamzah Tariq": [
@@ -2370,9 +2370,9 @@
         "Trevoh Chalobah"
       ],
       "Osama Zahid": [
-        "James Trafford",
+        "Martin D\u00fabravka",
         "Jeremie Frimpong",
-        "Micky van de Ven",
+        "Maxime Est\u00e8ve",
         "Bukayo Saka",
         "Cole Palmer",
         "Cody Gakpo",
