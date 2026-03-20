@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-21 03:21:50 PKT"
+    "last_updated": "2026-03-21 04:23:12 PKT"
   },
   "teams_meta": {
     "1": {
@@ -277,8 +277,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 20,
-          "raw_points": 10
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Szoboszlai",
@@ -517,8 +517,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Gordon",
@@ -793,8 +793,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Semenyo",
@@ -1292,8 +1292,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 20,
-          "raw_points": 10
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Mbeumo",
@@ -1554,8 +1554,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 20,
-          "raw_points": 10
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Wilson",
@@ -1588,8 +1588,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Rogers",
@@ -1812,8 +1812,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Semenyo",
