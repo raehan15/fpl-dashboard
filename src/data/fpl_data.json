@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-21 00:33:32 PKT"
+    "last_updated": "2026-03-21 01:25:23 PKT"
   },
   "teams_meta": {
     "1": {
@@ -243,8 +243,8 @@
             "opponent_id": 14,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Alderete",
@@ -277,8 +277,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Szoboszlai",
@@ -431,7 +431,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     },
     "Raehan Nasir": {
       "starting": [
@@ -517,8 +517,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gordon",
@@ -655,8 +655,8 @@
             "opponent_id": 14,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Anderson",
@@ -693,7 +693,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Mahad Farooq": {
       "starting": [
@@ -793,8 +793,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -911,8 +911,8 @@
             "opponent_id": 14,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Taty",
@@ -945,11 +945,11 @@
             "opponent_id": 14,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "wali noor": {
       "starting": [
@@ -1258,8 +1258,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cucurella",
@@ -1292,8 +1292,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Mbeumo",
@@ -1309,8 +1309,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gordon",
@@ -1468,7 +1468,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1520,8 +1520,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -1554,8 +1554,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Wilson",
@@ -1588,8 +1588,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1728,7 +1728,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 4
     },
     "Danish Yasin": {
       "starting": [
@@ -1812,8 +1812,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1985,7 +1985,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Osama Zahid": {
       "starting": [
@@ -2264,12 +2264,108 @@
     "Osama Zahid": "Erling Haaland"
   },
   "transfers": {
-    "hussain tahir": [],
-    "Raehan Nasir": [],
+    "hussain tahir": [
+      {
+        "in": "Malick Thiaw",
+        "out": "Jurri\u00ebn Timber"
+      }
+    ],
+    "Raehan Nasir": [
+      {
+        "in": "Hugo Ekitik\u00e9",
+        "out": "Erling Haaland"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Bryan Mbeumo"
+      },
+      {
+        "in": "Alex Iwobi",
+        "out": "Antoine Semenyo"
+      },
+      {
+        "in": "Harry Wilson",
+        "out": "Declan Rice"
+      },
+      {
+        "in": "Joachim Andersen",
+        "out": "Nico O'Reilly"
+      },
+      {
+        "in": "Malick Thiaw",
+        "out": "Jurri\u00ebn Timber"
+      },
+      {
+        "in": "Virgil van Dijk",
+        "out": "Gabriel dos Santos Magalh\u00e3es"
+      },
+      {
+        "in": "Alisson Becker",
+        "out": "Martin D\u00fabravka"
+      },
+      {
+        "in": "Aaron Ramsdale",
+        "out": "\u0110or\u0111e Petrovi\u0107"
+      }
+    ],
     "Mahad Farooq": [],
     "wali noor": [],
-    "Arslan Tariq": [],
-    "Hamzah Tariq": [],
+    "Arslan Tariq": [
+      {
+        "in": "Bryan Mbeumo",
+        "out": "Dango Ouattara"
+      },
+      {
+        "in": "Cristian Romero",
+        "out": "Micky van de Ven"
+      },
+      {
+        "in": "Diogo Dalot Teixeira",
+        "out": "Harry Maguire"
+      },
+      {
+        "in": "Marc Cucurella Saseta",
+        "out": "Ibrahima Konat\u00e9"
+      },
+      {
+        "in": "Igor Thiago Nascimento Rodrigues",
+        "out": "Danny Welbeck"
+      },
+      {
+        "in": "Jo\u00e3o Pedro Junqueira de Jesus",
+        "out": "Erling Haaland"
+      },
+      {
+        "in": "Morgan Rogers",
+        "out": "Tijjani Reijnders"
+      },
+      {
+        "in": "Anthony Gordon",
+        "out": "Antoine Semenyo"
+      },
+      {
+        "in": "Virgil van Dijk",
+        "out": "Gabriel dos Santos Magalh\u00e3es"
+      },
+      {
+        "in": "Bernd Leno",
+        "out": "David Raya Mart\u00edn"
+      }
+    ],
+    "Hamzah Tariq": [
+      {
+        "in": "Hugo Ekitik\u00e9",
+        "out": "Erling Haaland"
+      },
+      {
+        "in": "Malick Thiaw",
+        "out": "Marc Gu\u00e9hi"
+      },
+      {
+        "in": "Bruno Borges Fernandes",
+        "out": "Declan Rice"
+      }
+    ],
     "Danish Yasin": [],
     "Osama Zahid": []
   },
