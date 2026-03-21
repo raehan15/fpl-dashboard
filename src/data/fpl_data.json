@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-21 17:35:06 PKT"
+    "last_updated": "2026-03-21 18:38:01 PKT"
   },
   "teams_meta": {
     "1": {
@@ -294,8 +294,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -344,8 +344,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Kroupi.Jr",
@@ -466,8 +466,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Andersen",
@@ -585,8 +585,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -744,8 +744,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -826,8 +826,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -984,8 +984,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Dalot",
@@ -1120,8 +1120,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -1280,8 +1280,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -1382,8 +1382,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1537,8 +1537,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1621,8 +1621,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1728,7 +1728,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     },
     "Danish Yasin": {
       "starting": [
@@ -2035,8 +2035,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -2102,8 +2102,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -2240,7 +2240,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 2
     }
   },
   "chips": {
