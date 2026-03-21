@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 02:18:56 PKT"
+    "last_updated": "2026-03-22 03:17:54 PKT"
   },
   "teams_meta": {
     "1": {
@@ -619,8 +619,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -1137,8 +1137,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -1365,8 +1365,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Ekitik\u00e9",
@@ -1434,8 +1434,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -1654,8 +1654,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -1724,11 +1724,11 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         }
       ],
-      "gw_points": 8
+      "gw_points": 11
     },
     "Danish Yasin": {
       "starting": [
@@ -1911,8 +1911,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
       "bench": [
@@ -2203,8 +2203,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Clyne",
