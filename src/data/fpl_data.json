@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 00:19:04 PKT"
+    "last_updated": "2026-03-22 01:19:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -619,8 +619,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1137,8 +1137,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1365,8 +1365,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ekitik\u00e9",
@@ -1654,8 +1654,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1728,7 +1728,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 7
+      "gw_points": 8
     },
     "Danish Yasin": {
       "starting": [
@@ -1911,8 +1911,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
