@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 03:17:54 PKT"
+    "last_updated": "2026-03-22 04:18:42 PKT"
   },
   "teams_meta": {
     "1": {
@@ -327,8 +327,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Ekitik\u00e9",
@@ -431,7 +431,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 32
+      "gw_points": 43
     },
     "Raehan Nasir": {
       "starting": [
@@ -568,8 +568,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Ekitik\u00e9",
@@ -693,7 +693,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 13
+      "gw_points": 36
     },
     "Mahad Farooq": {
       "starting": [
@@ -826,8 +826,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Rice",
@@ -949,7 +949,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 13
+      "gw_points": 27
     },
     "Arslan Tariq": {
       "starting": [
@@ -1086,8 +1086,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1211,7 +1211,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 29
+      "gw_points": 50
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1314,8 +1314,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Cunha",
@@ -1471,7 +1471,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 33
+      "gw_points": 52
     },
     "wali noor": {
       "starting": [
@@ -1845,8 +1845,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Enzo",
@@ -1985,7 +1985,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 13
+      "gw_points": 28
     },
     "Osama Zahid": {
       "starting": [
