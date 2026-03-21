@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-21 20:20:14 PKT"
+    "last_updated": "2026-03-21 21:21:58 PKT"
   },
   "teams_meta": {
     "1": {
@@ -327,8 +327,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Ekitik\u00e9",
@@ -483,8 +483,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Thiaw",
@@ -551,8 +551,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Wilson",
@@ -568,8 +568,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Ekitik\u00e9",
@@ -894,8 +894,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Hill",
@@ -967,8 +967,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Virgil",
@@ -1086,8 +1086,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1156,8 +1156,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Rogers",
@@ -1229,8 +1229,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Thiaw",
@@ -1314,8 +1314,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cunha",
@@ -1673,8 +1673,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Andersen",
@@ -1690,8 +1690,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Minteh",
@@ -1724,8 +1724,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "gw_points": 5
@@ -1845,8 +1845,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Enzo",
@@ -1930,8 +1930,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Mukiele",
@@ -2186,8 +2186,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Est\u00e8ve",
@@ -2203,8 +2203,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Clyne",
