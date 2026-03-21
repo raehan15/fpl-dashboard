@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-21 18:38:01 PKT"
+    "last_updated": "2026-03-21 19:21:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -294,8 +294,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Semenyo",
@@ -826,8 +826,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Rice",
@@ -1707,8 +1707,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Est\u00e8ve",
@@ -2035,8 +2035,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Van de Ven",
@@ -2102,8 +2102,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Reijnders",
