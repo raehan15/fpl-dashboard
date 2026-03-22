@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 04:18:42 PKT"
+    "last_updated": "2026-03-22 06:45:19 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1801
+      "total_points": 1812
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1769
+      "total_points": 1792
     },
     {
       "rank": 3,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1756
+      "total_points": 1770
     },
     {
       "rank": 4,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1731
+      "total_points": 1752
     },
     {
       "rank": 5,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1730
+      "total_points": 1749
     },
     {
       "rank": 6,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1710
+      "total_points": 1721
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1646
+      "total_points": 1661
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1469
+      "total_points": 1473
     }
   ],
   "squads": {
@@ -431,7 +431,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 43
+      "gw_points": 45
     },
     "Raehan Nasir": {
       "starting": [
@@ -693,7 +693,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 36
+      "gw_points": 38
     },
     "Mahad Farooq": {
       "starting": [
@@ -949,7 +949,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 27
+      "gw_points": 28
     },
     "Arslan Tariq": {
       "starting": [
@@ -1211,7 +1211,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 50
+      "gw_points": 52
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1471,7 +1471,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 52
+      "gw_points": 54
     },
     "wali noor": {
       "starting": [
@@ -1985,7 +1985,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 28
+      "gw_points": 30
     },
     "Osama Zahid": {
       "starting": [
