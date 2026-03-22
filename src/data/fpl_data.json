@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 18:39:23 PKT"
+    "last_updated": "2026-03-22 19:22:21 PKT"
   },
   "teams_meta": {
     "1": {
@@ -226,8 +226,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Senesi",
@@ -260,8 +260,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -449,8 +449,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Virgil",
@@ -500,8 +500,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "B.Fernandes",
@@ -928,8 +928,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Adli",
@@ -1173,8 +1173,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Konsa",
@@ -1190,8 +1190,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Romero",
@@ -1246,8 +1246,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Dalot",
@@ -1348,8 +1348,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -1554,8 +1554,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Anderson",
@@ -1964,8 +1964,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ayari",
@@ -2135,8 +2135,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
