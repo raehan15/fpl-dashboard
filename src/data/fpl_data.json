@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 31,
     "league_name": "Lads",
-    "last_updated": "2026-03-22 22:20:19 PKT"
+    "last_updated": "2026-03-22 23:28:31 PKT"
   },
   "teams_meta": {
     "1": {
@@ -534,8 +534,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Iwobi",
@@ -1069,8 +1069,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Wilson",
@@ -2135,8 +2135,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Haaland",
