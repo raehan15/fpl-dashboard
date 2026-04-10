@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 32,
     "league_name": "Lads",
-    "last_updated": "2026-04-10 23:42:33 PKT"
+    "last_updated": "2026-04-11 00:38:45 PKT"
   },
   "teams_meta": {
     "1": {
@@ -887,8 +887,8 @@
             "opponent_id": 20,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Arslan Tariq": {
       "starting": [
