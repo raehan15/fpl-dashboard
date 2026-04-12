@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 32,
     "league_name": "Lads",
-    "last_updated": "2026-04-13 01:28:32 PKT"
+    "last_updated": "2026-04-13 02:28:20 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 4
         }
       ],
-      "gw_points": 42
+      "gw_points": 44
     },
     "Raehan Nasir": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 32
+      "gw_points": 35
     },
     "Mahad Farooq": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 46
+      "gw_points": 49
     },
     "wali noor": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 52
+      "gw_points": 55
     },
     "Hamzah Tariq": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 8
         }
       ],
-      "gw_points": 44
+      "gw_points": 47
     },
     "Osama Zahid": {
       "starting": [
