@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 32,
     "league_name": "Lads",
-    "last_updated": "2026-04-12 19:37:44 PKT"
+    "last_updated": "2026-04-12 20:30:52 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1030,8 +1030,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
