@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-19 01:29:36 PKT"
+    "last_updated": "2026-04-19 02:28:14 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1781,8 +1781,8 @@
             "opponent_id": 6,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -2008,7 +2008,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 15
+      "gw_points": 16
     },
     "Osama Zahid": {
       "starting": [
