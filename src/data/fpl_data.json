@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-19 02:28:14 PKT"
+    "last_updated": "2026-04-19 03:27:42 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,8 +295,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "B.Fernandes",
@@ -556,8 +556,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Palmer",
@@ -1342,8 +1342,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Enzo",
@@ -1446,8 +1446,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Hill",
