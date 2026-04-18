@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-18 16:29:36 PKT"
+    "last_updated": "2026-04-18 17:49:54 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1148,8 +1148,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1184,8 +1184,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Minteh",
@@ -1222,7 +1222,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1587,8 +1587,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -1708,8 +1708,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -1746,7 +1746,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Danish Yasin": {
       "starting": [
@@ -1866,8 +1866,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Enzo",
@@ -1934,8 +1934,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -2008,7 +2008,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 2
     },
     "Osama Zahid": {
       "starting": [
