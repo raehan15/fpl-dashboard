@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-19 04:28:34 PKT"
+    "last_updated": "2026-04-19 07:04:07 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1905
+      "total_points": 1907
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1869
+      "total_points": 1870
     },
     {
       "rank": 3,
@@ -149,7 +149,7 @@
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1824
+      "total_points": 1825
     },
     {
       "rank": 5,
@@ -436,7 +436,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 36
+      "gw_points": 38
     },
     "Raehan Nasir": {
       "starting": [
@@ -698,7 +698,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 17
+      "gw_points": 18
     },
     "Mahad Farooq": {
       "starting": [
@@ -1222,7 +1222,7 @@
           "raw_points": 5
         }
       ],
-      "gw_points": 26
+      "gw_points": 27
     },
     "wali noor": {
       "starting": [
