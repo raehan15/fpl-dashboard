@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-19 19:37:42 PKT"
+    "last_updated": "2026-04-19 20:32:31 PKT"
   },
   "teams_meta": {
     "1": {
@@ -643,8 +643,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Gordon",
@@ -905,8 +905,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Rice",
@@ -939,8 +939,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Hill",
@@ -1291,8 +1291,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Rogers",
@@ -1429,8 +1429,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Andersen",
@@ -1480,8 +1480,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "gw_points": 4
@@ -1502,8 +1502,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Konat\u00e9",
@@ -1553,8 +1553,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cherki",
@@ -1953,8 +1953,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Mukiele",
@@ -1970,8 +1970,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": -1,
+          "raw_points": -1
         },
         {
           "name": "Cash",
@@ -1987,8 +1987,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ayari",
@@ -2060,8 +2060,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -2215,8 +2215,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Est\u00e8ve",
@@ -2232,8 +2232,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Clyne",
