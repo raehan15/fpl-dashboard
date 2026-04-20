@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-21 02:40:38 PKT"
+    "last_updated": "2026-04-21 03:37:24 PKT"
   },
   "teams_meta": {
     "1": {
@@ -835,8 +835,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Haaland",
@@ -1570,8 +1570,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Anderson",
