@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-22 01:42:55 PKT"
+    "last_updated": "2026-04-22 02:39:53 PKT"
   },
   "teams_meta": {
     "1": {
@@ -436,7 +436,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 61
+      "gw_points": 73
     },
     "Raehan Nasir": {
       "starting": [
@@ -624,8 +624,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -698,7 +698,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 45
+      "gw_points": 52
     },
     "Mahad Farooq": {
       "starting": [
@@ -886,8 +886,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -960,7 +960,7 @@
           "raw_points": 4
         }
       ],
-      "gw_points": 50
+      "gw_points": 61
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1148,8 +1148,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -1222,7 +1222,7 @@
           "raw_points": 5
         }
       ],
-      "gw_points": 48
+      "gw_points": 61
     },
     "wali noor": {
       "starting": [
@@ -1484,7 +1484,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 33
+      "gw_points": 35
     },
     "Arslan Tariq": {
       "starting": [
@@ -1672,8 +1672,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -1746,7 +1746,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 40
+      "gw_points": 45
     },
     "Danish Yasin": {
       "starting": [
@@ -2004,11 +2004,11 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 3,
+          "raw_points": 3
         }
       ],
-      "gw_points": 32
+      "gw_points": 37
     },
     "Osama Zahid": {
       "starting": [
