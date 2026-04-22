@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-23 02:44:30 PKT"
+    "last_updated": "2026-04-23 03:41:21 PKT"
   },
   "teams_meta": {
     "1": {
@@ -244,8 +244,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 13,
-          "raw_points": 13
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Gabriel",
@@ -380,8 +380,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Haaland",
@@ -397,8 +397,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Calvert-Lewin",
@@ -590,8 +590,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 36,
-          "raw_points": 12
+          "points": 39,
+          "raw_points": 13
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -733,8 +733,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 13,
-          "raw_points": 13
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Fofana",
@@ -852,8 +852,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1029,8 +1029,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 13,
-          "raw_points": 13
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Palmer",
@@ -1114,8 +1114,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1376,8 +1376,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1519,8 +1519,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Gabriel",
@@ -1655,8 +1655,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Thiago",
@@ -1798,8 +1798,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Gabriel",
@@ -1900,8 +1900,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Gy\u00f6keres",
@@ -2179,8 +2179,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 24,
-          "raw_points": 12
+          "points": 26,
+          "raw_points": 13
         },
         {
           "name": "Gy\u00f6keres",
