@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-23 01:46:40 PKT"
+    "last_updated": "2026-04-23 02:44:30 PKT"
   },
   "teams_meta": {
     "1": {
@@ -210,8 +210,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "O'Reilly",
@@ -278,8 +278,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Truffert",
@@ -295,8 +295,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "B.Fernandes",
@@ -380,8 +380,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Haaland",
@@ -454,8 +454,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gabriel",
@@ -505,8 +505,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Semenyo",
@@ -956,8 +956,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "gw_points": 63
@@ -1012,8 +1012,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Van Hecke",
@@ -1201,8 +1201,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Aaronson",
@@ -1742,8 +1742,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "gw_points": 35
@@ -2232,8 +2232,8 @@
             "opponent_id": 13,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Clyne",
