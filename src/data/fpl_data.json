@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 33,
     "league_name": "Lads",
-    "last_updated": "2026-04-22 04:30:18 PKT"
+    "last_updated": "2026-04-22 06:59:11 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,31 +131,31 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1942
+      "total_points": 1943
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1904
+      "total_points": 1905
     },
     {
       "rank": 3,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1902
+      "total_points": 1904
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1859
+      "total_points": 1861
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1841
+      "total_points": 1842
     },
     {
       "rank": 6,
@@ -436,7 +436,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 73
+      "gw_points": 74
     },
     "Raehan Nasir": {
       "starting": [
@@ -698,7 +698,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 52
+      "gw_points": 53
     },
     "Mahad Farooq": {
       "starting": [
@@ -960,7 +960,7 @@
           "raw_points": 4
         }
       ],
-      "gw_points": 61
+      "gw_points": 63
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1222,7 +1222,7 @@
           "raw_points": 5
         }
       ],
-      "gw_points": 61
+      "gw_points": 63
     },
     "Arslan Tariq": {
       "starting": [
@@ -1484,7 +1484,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 45
+      "gw_points": 46
     },
     "wali noor": {
       "starting": [
