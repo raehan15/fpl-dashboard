@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 02:41:35 PKT"
+    "last_updated": "2026-04-25 03:34:20 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1986
+      "total_points": 1997
     },
     {
       "rank": 2,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1939
+      "total_points": 1944
     },
     {
       "rank": 3,
@@ -155,7 +155,7 @@
       "rank": 5,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1874
+      "total_points": 1883
     },
     {
       "rank": 6,
@@ -295,8 +295,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Rice",
