@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 01:39:31 PKT"
+    "last_updated": "2026-04-25 02:41:35 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1317,8 +1317,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Enzo",
@@ -1470,7 +1470,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 9
     },
     "Arslan Tariq": {
       "starting": [
