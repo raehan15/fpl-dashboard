@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 00:46:44 PKT"
+    "last_updated": "2026-04-25 01:39:31 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,8 +295,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Rice",
@@ -382,8 +382,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": -1,
-          "raw_points": -1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Armstrong",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 9
+      "gw_points": 11
     },
     "Raehan Nasir": {
       "starting": [
@@ -455,8 +455,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": -1,
-          "raw_points": -1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Gabriel",
@@ -489,8 +489,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Mukiele",
@@ -506,8 +506,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": -1,
-          "raw_points": -1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Tarkowski",
@@ -695,7 +695,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": -1
+      "gw_points": 5
     },
     "Mahad Farooq": {
       "starting": [
@@ -935,8 +935,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Hill",
@@ -1317,8 +1317,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Enzo",
@@ -1470,7 +1470,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     },
     "Arslan Tariq": {
       "starting": [
@@ -1943,8 +1943,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": -1,
-          "raw_points": -1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Cash",
