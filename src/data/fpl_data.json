@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 16:34:07 PKT"
+    "last_updated": "2026-04-25 17:51:13 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Bowen",
@@ -574,8 +574,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Szoboszlai",
@@ -608,8 +608,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Thiago",
@@ -849,8 +849,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Bowen",
@@ -883,8 +883,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
@@ -955,7 +955,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 4
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1075,8 +1075,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Wilson",
@@ -1092,8 +1092,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Solanke",
@@ -1215,7 +1215,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 5
     },
     "wali noor": {
       "starting": [
@@ -1300,8 +1300,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Anderson",
@@ -1434,8 +1434,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Minteh",
@@ -1538,8 +1538,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cherki",
@@ -1688,8 +1688,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Van de Ven",
@@ -1726,7 +1726,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     },
     "Danish Yasin": {
       "starting": [
@@ -1842,8 +1842,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Enzo",
@@ -1960,8 +1960,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Ayari",
@@ -1980,7 +1980,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 3
     },
     "Osama Zahid": {
       "starting": [
@@ -2131,8 +2131,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -2235,7 +2235,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     }
   },
   "chips": {
