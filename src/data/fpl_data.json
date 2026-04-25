@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 04:35:02 PKT"
+    "last_updated": "2026-04-25 06:53:06 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 1997
+      "total_points": 1999
     },
     {
       "rank": 2,
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 11
+      "gw_points": 13
     },
     "Raehan Nasir": {
       "starting": [
