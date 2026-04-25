@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-25 17:51:13 PKT"
+    "last_updated": "2026-04-25 19:00:16 PKT"
   },
   "teams_meta": {
     "1": {
@@ -574,8 +574,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Szoboszlai",
@@ -1092,8 +1092,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Solanke",
@@ -1215,7 +1215,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 5
+      "gw_points": 4
     },
     "wali noor": {
       "starting": [
@@ -1688,8 +1688,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Van de Ven",
@@ -1842,8 +1842,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Enzo",
@@ -1980,7 +1980,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 3
+      "gw_points": 2
     },
     "Osama Zahid": {
       "starting": [
