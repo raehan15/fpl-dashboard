@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-28 02:50:42 PKT"
+    "last_updated": "2026-04-28 03:43:37 PKT"
   },
   "teams_meta": {
     "1": {
@@ -210,8 +210,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Virgil",
@@ -472,8 +472,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Van de Ven",
@@ -489,8 +489,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gabriel",
@@ -660,8 +660,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Isidor",
@@ -1705,8 +1705,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Maguire",
@@ -2048,8 +2048,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Saka",
