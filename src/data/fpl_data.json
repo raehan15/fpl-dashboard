@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-27 22:16:37 PKT"
+    "last_updated": "2026-04-28 00:08:30 PKT"
   },
   "teams_meta": {
     "1": {
@@ -261,8 +261,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "M.Salah",
@@ -416,8 +416,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Malacia",
@@ -455,8 +455,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Saliba",
@@ -540,8 +540,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -660,8 +660,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Isidor",
@@ -800,8 +800,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Dewsbury-Hall",
@@ -885,8 +885,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -990,8 +990,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -1041,8 +1041,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Cunha",
@@ -1126,8 +1126,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Bowen",
@@ -1178,8 +1178,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiaw",
@@ -1399,8 +1399,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1571,8 +1571,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -1588,8 +1588,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1722,8 +1722,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 14
@@ -1809,8 +1809,8 @@
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1908,8 +1908,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
