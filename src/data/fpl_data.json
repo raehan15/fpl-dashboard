@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 34,
     "league_name": "Lads",
-    "last_updated": "2026-04-28 04:46:04 PKT"
+    "last_updated": "2026-04-28 07:24:45 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2047
+      "total_points": 2051
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 1986
+      "total_points": 1994
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 1968
+      "total_points": 1979
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1938
+      "total_points": 1954
     },
     {
       "rank": 5,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1907
+      "total_points": 1919
     },
     {
       "rank": 6,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1883
+      "total_points": 1914
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1821
+      "total_points": 1834
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1598
+      "total_points": 1597
     }
   ],
   "squads": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 61
+      "gw_points": 65
     },
     "Mahad Farooq": {
       "starting": [
@@ -697,7 +697,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 54
+      "gw_points": 62
     },
     "Raehan Nasir": {
       "starting": [
@@ -955,7 +955,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 29
+      "gw_points": 40
     },
     "Hamzah Tariq": {
       "starting": [
@@ -977,23 +977,6 @@
           "raw_points": 10
         },
         {
-          "name": "Dalot",
-          "full_name": "Diogo Dalot Teixeira",
-          "position": 2,
-          "team_id": 14,
-          "team_short": "MUN",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "BRE",
-            "opponent_id": 5,
-            "is_home": true
-          },
-          "points": 4,
-          "raw_points": 4
-        },
-        {
           "name": "Gabriel",
           "full_name": "Gabriel dos Santos Magalh\u00e3es",
           "position": 2,
@@ -1009,6 +992,23 @@
           },
           "points": 8,
           "raw_points": 8
+        },
+        {
+          "name": "Dalot",
+          "full_name": "Diogo Dalot Teixeira",
+          "position": 2,
+          "team_id": 14,
+          "team_short": "MUN",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "BRE",
+            "opponent_id": 5,
+            "is_home": true
+          },
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Virgil",
@@ -1045,21 +1045,21 @@
           "raw_points": 5
         },
         {
-          "name": "Cunha",
-          "full_name": "Matheus Santos Carneiro da Cunha",
+          "name": "O.Dango",
+          "full_name": "Dango Ouattara",
           "position": 3,
-          "team_id": 14,
-          "team_short": "MUN",
+          "team_id": 5,
+          "team_short": "BRE",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BRE",
-            "opponent_id": 5,
-            "is_home": true
+            "opponent": "MUN",
+            "opponent_id": 14,
+            "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1165,21 +1165,21 @@
           "raw_points": 0
         },
         {
-          "name": "O.Dango",
-          "full_name": "Dango Ouattara",
+          "name": "Cunha",
+          "full_name": "Matheus Santos Carneiro da Cunha",
           "position": 3,
-          "team_id": 5,
-          "team_short": "BRE",
+          "team_id": 14,
+          "team_short": "MUN",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 14,
-            "is_home": false
+            "opponent": "BRE",
+            "opponent_id": 5,
+            "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Thiaw",
@@ -1215,7 +1215,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 37
+      "gw_points": 53
     },
     "wali noor": {
       "starting": [
@@ -1237,20 +1237,21 @@
           "raw_points": 10
         },
         {
-          "name": "Gu\u00e9hi",
-          "full_name": "Marc Gu\u00e9hi",
+          "name": "Andersen",
+          "full_name": "Joachim Andersen",
           "position": 2,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 10,
+          "team_short": "FUL",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "???",
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Gabriel",
@@ -1304,21 +1305,20 @@
           "raw_points": 2
         },
         {
-          "name": "Anderson",
-          "full_name": "Elliot Anderson",
+          "name": "Semenyo",
+          "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 16,
-          "team_short": "NFO",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 17,
-            "is_home": false
+            "opponent": "???",
+            "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Enzo",
@@ -1337,20 +1337,21 @@
           "raw_points": 0
         },
         {
-          "name": "Semenyo",
-          "full_name": "Antoine Semenyo",
+          "name": "Anderson",
+          "full_name": "Elliot Anderson",
           "position": 3,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 16,
+          "team_short": "NFO",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "???",
-            "is_home": true
+            "opponent": "SUN",
+            "opponent_id": 17,
+            "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Ekitik\u00e9",
@@ -1421,21 +1422,20 @@
           "raw_points": 0
         },
         {
-          "name": "Andersen",
-          "full_name": "Joachim Andersen",
+          "name": "Gu\u00e9hi",
+          "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 10,
-          "team_short": "FUL",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
+            "opponent": "???",
             "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Minteh",
@@ -1470,47 +1470,14 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 33
+      "gw_points": 45
     },
     "Arslan Tariq": {
       "starting": [
         {
-          "name": "D\u00fabravka",
-          "full_name": "Martin D\u00fabravka",
+          "name": "Raya",
+          "full_name": "David Raya Mart\u00edn",
           "position": 1,
-          "team_id": 3,
-          "team_short": "BUR",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "???",
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
-        },
-        {
-          "name": "Konat\u00e9",
-          "full_name": "Ibrahima Konat\u00e9",
-          "position": 2,
-          "team_id": 12,
-          "team_short": "LIV",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "CRY",
-            "opponent_id": 8,
-            "is_home": true
-          },
-          "points": 4,
-          "raw_points": 4
-        },
-        {
-          "name": "Gabriel",
-          "full_name": "Gabriel dos Santos Magalh\u00e3es",
-          "position": 2,
           "team_id": 1,
           "team_short": "ARS",
           "is_captain": false,
@@ -1521,8 +1488,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Konsa",
@@ -1542,20 +1509,89 @@
           "raw_points": 2
         },
         {
-          "name": "Cherki",
-          "full_name": "Rayan Cherki",
-          "position": 3,
-          "team_id": 13,
-          "team_short": "MCI",
+          "name": "Gabriel",
+          "full_name": "Gabriel dos Santos Magalh\u00e3es",
+          "position": 2,
+          "team_id": 1,
+          "team_short": "ARS",
           "is_captain": false,
-          "is_vice": true,
+          "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "???",
+            "opponent": "NEW",
+            "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 8,
+          "raw_points": 8
+        },
+        {
+          "name": "Konat\u00e9",
+          "full_name": "Ibrahima Konat\u00e9",
+          "position": 2,
+          "team_id": 12,
+          "team_short": "LIV",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "CRY",
+            "opponent_id": 8,
+            "is_home": true
+          },
+          "points": 4,
+          "raw_points": 4
+        },
+        {
+          "name": "Van de Ven",
+          "full_name": "Micky van de Ven",
+          "position": 2,
+          "team_id": 18,
+          "team_short": "TOT",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "WOL",
+            "opponent_id": 20,
+            "is_home": false
+          },
+          "points": 6,
+          "raw_points": 6
+        },
+        {
+          "name": "Maguire",
+          "full_name": "Harry Maguire",
+          "position": 2,
+          "team_id": 14,
+          "team_short": "MUN",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "BRE",
+            "opponent_id": 5,
+            "is_home": true
+          },
+          "points": 7,
+          "raw_points": 7
+        },
+        {
+          "name": "Wilson",
+          "full_name": "Harry Wilson",
+          "position": 3,
+          "team_id": 10,
+          "team_short": "FUL",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "AVL",
+            "opponent_id": 2,
+            "is_home": true
+          },
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "O.Dango",
@@ -1592,22 +1628,6 @@
           "raw_points": 5
         },
         {
-          "name": "Semenyo",
-          "full_name": "Antoine Semenyo",
-          "position": 3,
-          "team_id": 13,
-          "team_short": "MCI",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "???",
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
-        },
-        {
           "name": "Haaland",
           "full_name": "Erling Haaland",
           "position": 4,
@@ -1616,22 +1636,6 @@
           "is_captain": true,
           "is_vice": false,
           "multiplier": 2,
-          "fixture": {
-            "opponent": "???",
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
-        },
-        {
-          "name": "Jo\u00e3o Pedro",
-          "full_name": "Jo\u00e3o Pedro Junqueira de Jesus",
-          "position": 4,
-          "team_id": 7,
-          "team_short": "CHE",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
           "fixture": {
             "opponent": "???",
             "is_home": true
@@ -1658,75 +1662,71 @@
       ],
       "bench": [
         {
-          "name": "Raya",
-          "full_name": "David Raya Mart\u00edn",
+          "name": "D\u00fabravka",
+          "full_name": "Martin D\u00fabravka",
           "position": 1,
-          "team_id": 1,
-          "team_short": "ARS",
+          "team_id": 3,
+          "team_short": "BUR",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "NEW",
-            "opponent_id": 15,
+            "opponent": "???",
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 0,
+          "raw_points": 0
         },
         {
-          "name": "Wilson",
-          "full_name": "Harry Wilson",
+          "name": "Cherki",
+          "full_name": "Rayan Cherki",
           "position": 3,
-          "team_id": 10,
-          "team_short": "FUL",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
-          "is_vice": false,
+          "is_vice": true,
           "multiplier": 0,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
+            "opponent": "???",
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
-          "name": "Van de Ven",
-          "full_name": "Micky van de Ven",
-          "position": 2,
-          "team_id": 18,
-          "team_short": "TOT",
+          "name": "Semenyo",
+          "full_name": "Antoine Semenyo",
+          "position": 3,
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "WOL",
-            "opponent_id": 20,
-            "is_home": false
-          },
-          "points": 6,
-          "raw_points": 6
-        },
-        {
-          "name": "Maguire",
-          "full_name": "Harry Maguire",
-          "position": 2,
-          "team_id": 14,
-          "team_short": "MUN",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 0,
-          "fixture": {
-            "opponent": "BRE",
-            "opponent_id": 5,
+            "opponent": "???",
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 0,
+          "raw_points": 0
+        },
+        {
+          "name": "Jo\u00e3o Pedro",
+          "full_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+          "position": 4,
+          "team_id": 7,
+          "team_short": "CHE",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 0,
+          "fixture": {
+            "opponent": "???",
+            "is_home": true
+          },
+          "points": 0,
+          "raw_points": 0
         }
       ],
-      "gw_points": 14
+      "gw_points": 45
     },
     "Danish Yasin": {
       "starting": [
@@ -1747,36 +1747,38 @@
           "raw_points": 0
         },
         {
-          "name": "Chalobah",
-          "full_name": "Trevoh Chalobah",
+          "name": "Mukiele",
+          "full_name": "Nordi Mukiele",
           "position": 2,
-          "team_id": 7,
-          "team_short": "CHE",
+          "team_id": 17,
+          "team_short": "SUN",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "???",
+            "opponent": "NFO",
+            "opponent_id": 16,
             "is_home": true
           },
           "points": 0,
           "raw_points": 0
         },
         {
-          "name": "Gu\u00e9hi",
-          "full_name": "Marc Gu\u00e9hi",
+          "name": "Cash",
+          "full_name": "Matty Cash",
           "position": 2,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 2,
+          "team_short": "AVL",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "???",
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gabriel",
@@ -1803,14 +1805,30 @@
           "team_short": "MUN",
           "is_captain": false,
           "is_vice": true,
-          "multiplier": 1,
+          "multiplier": 2,
           "fixture": {
             "opponent": "BRE",
             "opponent_id": 5,
             "is_home": true
           },
-          "points": 5,
+          "points": 10,
           "raw_points": 5
+        },
+        {
+          "name": "Enzo",
+          "full_name": "Enzo Fern\u00e1ndez",
+          "position": 3,
+          "team_id": 7,
+          "team_short": "CHE",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "???",
+            "is_home": true
+          },
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Semenyo",
@@ -1846,22 +1864,6 @@
           "raw_points": 2
         },
         {
-          "name": "Enzo",
-          "full_name": "Enzo Fern\u00e1ndez",
-          "position": 3,
-          "team_id": 7,
-          "team_short": "CHE",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "???",
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
-        },
-        {
           "name": "Haaland",
           "full_name": "Erling Haaland",
           "position": 4,
@@ -1869,7 +1871,7 @@
           "team_short": "MCI",
           "is_captain": true,
           "is_vice": false,
-          "multiplier": 2,
+          "multiplier": 1,
           "fixture": {
             "opponent": "???",
             "is_home": true
@@ -1930,38 +1932,36 @@
           "raw_points": 0
         },
         {
-          "name": "Mukiele",
-          "full_name": "Nordi Mukiele",
+          "name": "Chalobah",
+          "full_name": "Trevoh Chalobah",
           "position": 2,
-          "team_id": 17,
-          "team_short": "SUN",
+          "team_id": 7,
+          "team_short": "CHE",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "NFO",
-            "opponent_id": 16,
+            "opponent": "???",
             "is_home": true
           },
           "points": 0,
           "raw_points": 0
         },
         {
-          "name": "Cash",
-          "full_name": "Matty Cash",
+          "name": "Gu\u00e9hi",
+          "full_name": "Marc Gu\u00e9hi",
           "position": 2,
-          "team_id": 2,
-          "team_short": "AVL",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "FUL",
-            "opponent_id": 10,
-            "is_home": false
+            "opponent": "???",
+            "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Ayari",
@@ -1980,7 +1980,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 11
+      "gw_points": 24
     },
     "Osama Zahid": {
       "starting": [
@@ -2235,7 +2235,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 21
     }
   },
   "chips": {
@@ -2459,31 +2459,27 @@
       "Raehan Nasir": [
         "Robin Roefs",
         "Neco Williams",
-        "Nordi Mukiele",
         "James Tarkowski",
         "Kiernan Dewsbury-Hall",
         "Dominik Szoboszlai"
       ],
       "Hamzah Tariq": [
-        "Diogo Dalot Teixeira",
-        "Matheus Santos Carneiro da Cunha"
+        "Diogo Dalot Teixeira"
       ],
       "wali noor": [
+        "Joachim Andersen",
         "Elliot Anderson",
         "Hugo Ekitik\u00e9"
       ],
       "Arslan Tariq": [
-        "Martin D\u00fabravka",
-        "Ibrahima Konat\u00e9",
         "Ezri Konsa Ngoyo",
-        "Dango Ouattara",
-        "Rayan Cherki",
-        "Jo\u00e3o Pedro Junqueira de Jesus",
+        "Ibrahima Konat\u00e9",
+        "Harry Maguire",
         "Danny Welbeck"
       ],
       "Danish Yasin": [
         "Robert Lynch S\u00e1nchez",
-        "Trevoh Chalobah"
+        "Matty Cash"
       ],
       "Osama Zahid": [
         "James Trafford",
@@ -2501,23 +2497,29 @@
         "Dominic Solanke-Mitchell"
       ],
       "Mahad Farooq": [
-        "Declan Rice",
-        "Micky van de Ven"
+        "Declan Rice"
       ],
       "Hamzah Tariq": [
-        "Dominic Solanke-Mitchell"
+        "Dominic Solanke-Mitchell",
+        "Dango Ouattara"
       ],
-      "Osama Zahid": [
-        "Micky van de Ven",
-        "Viktor Gy\u00f6keres"
-      ],
-      "wali noor": [
-        "Marc Gu\u00e9hi",
-        "Enzo Fern\u00e1ndez"
+      "Raehan Nasir": [
+        "Nordi Mukiele"
       ],
       "Danish Yasin": [
-        "Marc Gu\u00e9hi",
+        "Nordi Mukiele",
+        "Antoine Semenyo",
         "Enzo Fern\u00e1ndez",
+        "Viktor Gy\u00f6keres"
+      ],
+      "Arslan Tariq": [
+        "Dango Ouattara"
+      ],
+      "wali noor": [
+        "Antoine Semenyo",
+        "Enzo Fern\u00e1ndez"
+      ],
+      "Osama Zahid": [
         "Viktor Gy\u00f6keres"
       ]
     }
