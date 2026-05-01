@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-02 00:02:30 PKT"
+    "last_updated": "2026-05-02 01:43:18 PKT"
   },
   "teams_meta": {
     "1": {
@@ -363,8 +363,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -399,8 +399,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 5
     },
     "Mahad Farooq": {
       "starting": [
@@ -644,8 +644,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Virgil",
@@ -906,8 +906,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Wilson",
@@ -1030,8 +1030,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -1149,8 +1149,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 7
     },
     "wali noor": {
       "starting": [
@@ -1430,8 +1430,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Andersen",
@@ -1481,8 +1481,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         }
       ],
       "gw_points": 0
@@ -1673,8 +1673,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -1692,8 +1692,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Wilson",
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 5
     },
     "Danish Yasin": {
       "starting": [
@@ -1954,8 +1954,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Mukiele",
@@ -2216,8 +2216,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Est\u00e8ve",
@@ -2233,8 +2233,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Clyne",
