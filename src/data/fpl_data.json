@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-03 02:34:21 PKT"
+    "last_updated": "2026-05-03 03:33:33 PKT"
   },
   "teams_meta": {
     "1": {
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 25
+      "gw_points": 26
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 30
+      "gw_points": 31
     },
     "Arslan Tariq": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 27
+      "gw_points": 30
     },
     "Osama Zahid": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 28
+      "gw_points": 33
     }
   },
   "chips": {
