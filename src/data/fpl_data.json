@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-02 23:49:18 PKT"
+    "last_updated": "2026-05-03 00:50:23 PKT"
   },
   "teams_meta": {
     "1": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 19
     },
     "Mahad Farooq": {
       "starting": [
@@ -768,8 +768,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "O'Reilly",
@@ -1098,8 +1098,8 @@
             "opponent_id": 6,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Haaland",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 30
     },
     "Arslan Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 6
+      "gw_points": 24
     },
     "wali noor": {
       "starting": [
@@ -1918,8 +1918,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 13,
-          "raw_points": 13
+          "points": 16,
+          "raw_points": 16
         },
         {
           "name": "Thiago",
@@ -1971,8 +1971,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Cash",
@@ -2095,8 +2095,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Palmer",
@@ -2197,8 +2197,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 13,
-          "raw_points": 13
+          "points": 16,
+          "raw_points": 16
         }
       ],
       "bench": [
