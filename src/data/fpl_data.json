@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-02 17:56:00 PKT"
+    "last_updated": "2026-05-02 19:08:47 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "O'Reilly",
@@ -227,8 +227,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -678,8 +678,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van Hecke",
@@ -695,8 +695,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 0
@@ -717,8 +717,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -768,8 +768,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "O'Reilly",
@@ -870,8 +870,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Watkins",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1098,8 +1098,8 @@
             "opponent_id": 6,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1132,8 +1132,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calvert-Lewin",
@@ -1168,8 +1168,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mu\u00f1oz",
@@ -1202,8 +1202,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Canvot",
@@ -1326,8 +1326,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1673,8 +1673,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1726,8 +1726,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Est\u00e8ve",
@@ -1747,7 +1747,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Danish Yasin": {
       "starting": [
@@ -1935,8 +1935,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -1971,8 +1971,8 @@
             "opponent_id": 20,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cash",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Osama Zahid": {
       "starting": [
