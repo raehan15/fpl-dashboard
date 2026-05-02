@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-03 03:33:33 PKT"
+    "last_updated": "2026-05-03 04:36:43 PKT"
   },
   "teams_meta": {
     "1": {
@@ -143,13 +143,13 @@
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2004
+      "total_points": 2005
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1984
+      "total_points": 1985
     },
     {
       "rank": 5,
@@ -167,13 +167,13 @@
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1861
+      "total_points": 1864
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1625
+      "total_points": 1630
     }
   ],
   "squads": {
