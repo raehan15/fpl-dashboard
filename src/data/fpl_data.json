@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-03 20:40:23 PKT"
+    "last_updated": "2026-05-03 21:40:43 PKT"
   },
   "teams_meta": {
     "1": {
@@ -661,8 +661,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Welbeck",
@@ -836,8 +836,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Haaland",
@@ -1481,8 +1481,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 24
@@ -1554,8 +1554,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -2061,8 +2061,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -2129,8 +2129,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Reijnders",
