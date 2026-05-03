@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-04 01:35:59 PKT"
+    "last_updated": "2026-05-04 02:35:50 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2070
+      "total_points": 2085
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2005
+      "total_points": 2021
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2005
+      "total_points": 2020
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 1985
+      "total_points": 1990
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1938
+      "total_points": 1943
     },
     {
       "rank": 6,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1937
+      "total_points": 1939
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1864
+      "total_points": 1868
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1630
+      "total_points": 1639
     }
   ],
   "squads": {
@@ -261,8 +261,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "B.Fernandes",
@@ -278,8 +278,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Palmer",
@@ -433,11 +433,11 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
-      "gw_points": 19
+      "gw_points": 34
     },
     "Mahad Farooq": {
       "starting": [
@@ -472,8 +472,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Fofana",
@@ -523,8 +523,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Scott",
@@ -699,7 +699,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 11
+      "gw_points": 27
     },
     "Raehan Nasir": {
       "starting": [
@@ -819,8 +819,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Szoboszlai",
@@ -836,8 +836,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Haaland",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 26
+      "gw_points": 41
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1047,8 +1047,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Cherki",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 31
+      "gw_points": 36
     },
     "Arslan Tariq": {
       "starting": [
@@ -1309,8 +1309,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "O.Dango",
@@ -1485,7 +1485,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 24
+      "gw_points": 29
     },
     "wali noor": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 18
+      "gw_points": 20
     },
     "Danish Yasin": {
       "starting": [
@@ -1833,8 +1833,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Semenyo",
@@ -1988,8 +1988,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Ayari",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 30
+      "gw_points": 34
     },
     "Osama Zahid": {
       "starting": [
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 33
+      "gw_points": 42
     }
   },
   "chips": {
