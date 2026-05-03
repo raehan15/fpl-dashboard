@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-03 19:08:42 PKT"
+    "last_updated": "2026-05-03 20:40:23 PKT"
   },
   "teams_meta": {
     "1": {
@@ -261,8 +261,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "B.Fernandes",
@@ -278,8 +278,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Palmer",
@@ -382,8 +382,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Ampadu",
@@ -433,8 +433,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "gw_points": 19
@@ -472,8 +472,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Fofana",
@@ -523,8 +523,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Scott",
@@ -540,8 +540,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Cherki",
@@ -819,8 +819,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Szoboszlai",
@@ -836,8 +836,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Haaland",
@@ -1047,8 +1047,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Cherki",
@@ -1219,8 +1219,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": -1,
-          "raw_points": -1
+          "points": 0,
+          "raw_points": 0
         }
       ],
       "gw_points": 31
@@ -1258,8 +1258,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
@@ -1309,8 +1309,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "O.Dango",
@@ -1833,8 +1833,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Semenyo",
@@ -2129,8 +2129,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
