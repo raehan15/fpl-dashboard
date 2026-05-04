@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-04 20:55:42 PKT"
+    "last_updated": "2026-05-04 22:25:54 PKT"
   },
   "teams_meta": {
     "1": {
@@ -416,8 +416,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Truffert",
@@ -625,8 +625,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 6,
+          "raw_points": 6
         }
       ],
       "bench": [
@@ -699,7 +699,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 30
+      "gw_points": 36
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 45
+      "gw_points": 46
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1394,8 +1394,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Calvert-Lewin",
@@ -1485,7 +1485,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 30
+      "gw_points": 36
     },
     "wali noor": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 20
+      "gw_points": 23
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 35
+      "gw_points": 39
     },
     "Osama Zahid": {
       "starting": [
