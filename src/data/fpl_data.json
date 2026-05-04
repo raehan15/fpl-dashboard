@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-04 18:29:01 PKT"
+    "last_updated": "2026-05-04 20:55:42 PKT"
   },
   "teams_meta": {
     "1": {
@@ -416,8 +416,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Truffert",
@@ -625,8 +625,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
@@ -751,8 +751,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mukiele",
@@ -1394,8 +1394,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Calvert-Lewin",
@@ -1588,8 +1588,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Enzo",
@@ -1605,8 +1605,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Semenyo",
@@ -1765,8 +1765,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Chalobah",
@@ -1782,8 +1782,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gu\u00e9hi",
@@ -1884,8 +1884,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
