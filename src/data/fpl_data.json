@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 35,
     "league_name": "Lads",
-    "last_updated": "2026-05-05 02:01:54 PKT"
+    "last_updated": "2026-05-05 03:51:29 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Calvert-Lewin",
@@ -416,8 +416,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Truffert",
@@ -608,8 +608,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -625,8 +625,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         }
       ],
       "bench": [
@@ -853,8 +853,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Thiago",
@@ -1115,8 +1115,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Welbeck",
@@ -1377,8 +1377,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1394,8 +1394,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Calvert-Lewin",
@@ -1656,8 +1656,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Thiago",
@@ -1901,8 +1901,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Gy\u00f6keres",
@@ -2180,8 +2180,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 14,
+          "raw_points": 7
         },
         {
           "name": "Gy\u00f6keres",
