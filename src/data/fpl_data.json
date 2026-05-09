@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-09 16:43:52 PKT"
+    "last_updated": "2026-05-09 18:02:13 PKT"
   },
   "teams_meta": {
     "1": {
@@ -433,8 +433,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "gw_points": 0
@@ -506,8 +506,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     },
     "Raehan Nasir": {
       "starting": [
@@ -836,8 +836,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 2
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1325,8 +1325,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Van de Ven",
@@ -1483,7 +1483,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 1
+      "gw_points": 2
     },
     "wali noor": {
       "starting": [
@@ -1552,8 +1552,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Rogers",
@@ -1603,8 +1603,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Semenyo",
@@ -1745,7 +1745,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 2
+      "gw_points": 9
     },
     "Danish Yasin": {
       "starting": [
@@ -1882,8 +1882,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Haaland",
@@ -2007,7 +2007,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 1
+      "gw_points": 7
     },
     "Osama Zahid": {
       "starting": [
@@ -2059,8 +2059,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Van de Ven",
@@ -2110,8 +2110,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gakpo",
@@ -2127,8 +2127,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Reijnders",
@@ -2269,7 +2269,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 3
+      "gw_points": 6
     }
   },
   "chips": {
