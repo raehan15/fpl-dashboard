@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-09 23:51:14 PKT"
+    "last_updated": "2026-05-10 00:53:14 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1166,8 +1166,8 @@
             "opponent_id": 20,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Haaland",
