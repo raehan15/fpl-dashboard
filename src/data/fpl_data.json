@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-10 00:53:14 PKT"
+    "last_updated": "2026-05-10 01:37:48 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2111
+      "total_points": 2158
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2053
+      "total_points": 2094
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2043
+      "total_points": 2078
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2011
+      "total_points": 2041
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 1973
+      "total_points": 2013
     },
     {
       "rank": 6,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 1965
+      "total_points": 1995
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1893
+      "total_points": 1935
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1658
+      "total_points": 1683
     }
   ],
   "squads": {
@@ -329,8 +329,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 18,
-          "raw_points": 9
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Mateta",
@@ -399,8 +399,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Ampadu",
@@ -591,8 +591,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 27,
-          "raw_points": 9
+          "points": 33,
+          "raw_points": 11
         },
         {
           "name": "Bowen",
@@ -853,8 +853,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Thiago",
@@ -1183,8 +1183,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Welbeck",
@@ -1274,8 +1274,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Gabriel",
@@ -1444,8 +1444,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 18,
-          "raw_points": 9
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Welbeck",
@@ -1518,8 +1518,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Gabriel",
@@ -1603,8 +1603,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -1654,8 +1654,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 11,
+          "raw_points": 11
         },
         {
           "name": "Thiago",
@@ -1724,8 +1724,8 @@
             "opponent_id": 20,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Est\u00e8ve",
@@ -1797,8 +1797,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Gabriel",
@@ -1882,8 +1882,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Haaland",
@@ -1899,8 +1899,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 18,
-          "raw_points": 9
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Gy\u00f6keres",
@@ -2178,8 +2178,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 18,
-          "raw_points": 9
+          "points": 22,
+          "raw_points": 11
         },
         {
           "name": "Gy\u00f6keres",
