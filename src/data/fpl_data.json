@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-09 15:52:02 PKT"
+    "last_updated": "2026-05-09 16:43:52 PKT"
   },
   "teams_meta": {
     "1": {
@@ -433,8 +433,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 0
@@ -506,8 +506,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Raehan Nasir": {
       "starting": [
@@ -836,8 +836,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1325,8 +1325,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -1483,7 +1483,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 0
+      "gw_points": 1
     },
     "wali noor": {
       "starting": [
@@ -1552,8 +1552,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -1603,8 +1603,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Semenyo",
@@ -1745,7 +1745,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 2
     },
     "Danish Yasin": {
       "starting": [
@@ -1882,8 +1882,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -2007,7 +2007,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 1
     },
     "Osama Zahid": {
       "starting": [
@@ -2059,8 +2059,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Van de Ven",
@@ -2110,8 +2110,8 @@
             "opponent_id": 12,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gakpo",
@@ -2127,8 +2127,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Reijnders",
@@ -2269,7 +2269,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     }
   },
   "chips": {
@@ -2293,11 +2293,34 @@
     "Osama Zahid": "Erling Haaland"
   },
   "transfers": {
-    "hussain tahir": [],
-    "Mahad Farooq": [],
+    "hussain tahir": [
+      {
+        "in": "Jean-Philippe Mateta",
+        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+      }
+    ],
+    "Mahad Farooq": [
+      {
+        "in": "Jarrod Bowen",
+        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+      },
+      {
+        "in": "Kiernan Dewsbury-Hall",
+        "out": "Alex Scott"
+      },
+      {
+        "in": "Pedro Porro Sauceda",
+        "out": "Wesley Fofana"
+      }
+    ],
     "Raehan Nasir": [],
     "Hamzah Tariq": [],
-    "Arslan Tariq": [],
+    "Arslan Tariq": [
+      {
+        "in": "Danny Welbeck",
+        "out": "Jo\u00e3o Pedro Junqueira de Jesus"
+      }
+    ],
     "wali noor": [],
     "Danish Yasin": [],
     "Osama Zahid": []
