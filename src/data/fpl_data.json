@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-12 03:00:21 PKT"
+    "last_updated": "2026-05-12 04:52:09 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2181
+      "total_points": 2187
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2118
+      "total_points": 2121
     },
     {
       "rank": 3,
@@ -149,13 +149,13 @@
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2076
+      "total_points": 2086
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2041
+      "total_points": 2049
     },
     {
       "rank": 6,
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1707
+      "total_points": 1709
     }
   ],
   "squads": {
@@ -363,8 +363,8 @@
             "opponent_id": 18,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [
@@ -416,8 +416,8 @@
             "opponent_id": 18,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Palmer",
@@ -1149,8 +1149,8 @@
             "opponent_id": 16,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gro\u00df",
@@ -1217,8 +1217,8 @@
             "opponent_id": 18,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [],
@@ -1478,8 +1478,8 @@
             "opponent_id": 18,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         }
       ],
       "bench": [],
