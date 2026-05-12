@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-12 04:52:09 PKT"
+    "last_updated": "2026-05-12 07:28:36 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2187
+      "total_points": 2188
     },
     {
       "rank": 2,
@@ -149,13 +149,13 @@
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2086
+      "total_points": 2088
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2049
+      "total_points": 2050
     },
     {
       "rank": 6,
@@ -437,7 +437,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 76
+      "gw_points": 77
     },
     "Mahad Farooq": {
       "starting": [
@@ -1222,7 +1222,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 75
+      "gw_points": 77
     },
     "Arslan Tariq": {
       "starting": [
@@ -1483,7 +1483,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 76
+      "gw_points": 77
     },
     "wali noor": {
       "starting": [
