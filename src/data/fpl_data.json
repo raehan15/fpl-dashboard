@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-13 22:11:27 PKT"
+    "last_updated": "2026-05-14 00:45:35 PKT"
   },
   "teams_meta": {
     "1": {
@@ -346,8 +346,8 @@
             "opponent_id": 13,
             "is_home": false
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Calvert-Lewin",
@@ -455,8 +455,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 7,
+          "raw_points": 7
         },
         {
           "name": "Pedro Porro",
@@ -1393,8 +1393,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "O.Dango",
@@ -1518,8 +1518,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Gabriel",
@@ -1620,8 +1620,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Ekitik\u00e9",
@@ -1797,8 +1797,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Gabriel",
@@ -1848,8 +1848,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Wilson",
