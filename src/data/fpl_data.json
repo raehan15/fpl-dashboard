@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-14 02:20:35 PKT"
+    "last_updated": "2026-05-14 04:00:10 PKT"
   },
   "teams_meta": {
     "1": {
@@ -455,8 +455,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 14,
+          "raw_points": 14
         },
         {
           "name": "Pedro Porro",
@@ -1393,8 +1393,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "O.Dango",
@@ -1620,8 +1620,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Ekitik\u00e9",
@@ -1848,8 +1848,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Wilson",
