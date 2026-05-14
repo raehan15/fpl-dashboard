@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 36,
     "league_name": "Lads",
-    "last_updated": "2026-05-14 05:08:54 PKT"
+    "last_updated": "2026-05-14 09:39:21 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,43 +131,43 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2188
+      "total_points": 2193
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2121
+      "total_points": 2131
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2102
+      "total_points": 2110
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2088
+      "total_points": 2100
     },
     {
       "rank": 5,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2050
+      "total_points": 2064
     },
     {
       "rank": 6,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 2034
+      "total_points": 2058
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1955
+      "total_points": 1976
     },
     {
       "rank": 8,
@@ -437,7 +437,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 77
+      "gw_points": 82
     },
     "Mahad Farooq": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 6
         }
       ],
-      "gw_points": 68
+      "gw_points": 78
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 15
         }
       ],
-      "gw_points": 59
+      "gw_points": 67
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1222,7 +1222,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 77
+      "gw_points": 89
     },
     "Arslan Tariq": {
       "starting": [
@@ -1483,7 +1483,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 77
+      "gw_points": 91
     },
     "wali noor": {
       "starting": [
@@ -1556,6 +1556,23 @@
           "raw_points": 2
         },
         {
+          "name": "Andersen",
+          "full_name": "Joachim Andersen",
+          "position": 2,
+          "team_id": 10,
+          "team_short": "FUL",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "BOU",
+            "opponent_id": 4,
+            "is_home": true
+          },
+          "points": -2,
+          "raw_points": -2
+        },
+        {
           "name": "Rogers",
           "full_name": "Morgan Rogers",
           "position": 3,
@@ -1573,17 +1590,17 @@
           "raw_points": 2
         },
         {
-          "name": "Anderson",
-          "full_name": "Elliot Anderson",
+          "name": "Semenyo",
+          "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 16,
-          "team_short": "NFO",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "NEW",
-            "opponent_id": 15,
+            "opponent": "CRY",
+            "opponent_id": 8,
             "is_home": true
           },
           "points": 12,
@@ -1607,38 +1624,21 @@
           "raw_points": 8
         },
         {
-          "name": "Semenyo",
-          "full_name": "Antoine Semenyo",
+          "name": "Anderson",
+          "full_name": "Elliot Anderson",
           "position": 3,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 16,
+          "team_short": "NFO",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "CRY",
-            "opponent_id": 8,
+            "opponent": "NEW",
+            "opponent_id": 15,
             "is_home": true
           },
           "points": 12,
           "raw_points": 12
-        },
-        {
-          "name": "Ekitik\u00e9",
-          "full_name": "Hugo Ekitik\u00e9",
-          "position": 4,
-          "team_id": 12,
-          "team_short": "LIV",
-          "is_captain": true,
-          "is_vice": false,
-          "multiplier": 2,
-          "fixture": {
-            "opponent": "CHE",
-            "opponent_id": 7,
-            "is_home": true
-          },
-          "points": 0,
-          "raw_points": 0
         },
         {
           "name": "Haaland",
@@ -1648,13 +1648,13 @@
           "team_short": "MCI",
           "is_captain": false,
           "is_vice": true,
-          "multiplier": 1,
+          "multiplier": 2,
           "fixture": {
             "opponent": "CRY",
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 11,
+          "points": 22,
           "raw_points": 11
         },
         {
@@ -1694,21 +1694,21 @@
           "raw_points": 0
         },
         {
-          "name": "Andersen",
-          "full_name": "Joachim Andersen",
-          "position": 2,
-          "team_id": 10,
-          "team_short": "FUL",
-          "is_captain": false,
+          "name": "Ekitik\u00e9",
+          "full_name": "Hugo Ekitik\u00e9",
+          "position": 4,
+          "team_id": 12,
+          "team_short": "LIV",
+          "is_captain": true,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 4,
+            "opponent": "CHE",
+            "opponent_id": 7,
             "is_home": true
           },
-          "points": -2,
-          "raw_points": -2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Minteh",
@@ -1745,7 +1745,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 69
+      "gw_points": 93
     },
     "Danish Yasin": {
       "starting": [
@@ -1767,21 +1767,21 @@
           "raw_points": 0
         },
         {
-          "name": "Chalobah",
-          "full_name": "Trevoh Chalobah",
+          "name": "Mukiele",
+          "full_name": "Nordi Mukiele",
           "position": 2,
-          "team_id": 7,
-          "team_short": "CHE",
+          "team_id": 17,
+          "team_short": "SUN",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "LIV",
-            "opponent_id": 12,
-            "is_home": false
+            "opponent": "MUN",
+            "opponent_id": 14,
+            "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Gu\u00e9hi",
@@ -1835,6 +1835,23 @@
           "raw_points": 3
         },
         {
+          "name": "Enzo",
+          "full_name": "Enzo Fern\u00e1ndez",
+          "position": 3,
+          "team_id": 7,
+          "team_short": "CHE",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "LIV",
+            "opponent_id": 12,
+            "is_home": false
+          },
+          "points": 8,
+          "raw_points": 8
+        },
+        {
           "name": "Semenyo",
           "full_name": "Antoine Semenyo",
           "position": 3,
@@ -1867,23 +1884,6 @@
           },
           "points": 2,
           "raw_points": 2
-        },
-        {
-          "name": "Enzo",
-          "full_name": "Enzo Fern\u00e1ndez",
-          "position": 3,
-          "team_id": 7,
-          "team_short": "CHE",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "LIV",
-            "opponent_id": 12,
-            "is_home": false
-          },
-          "points": 8,
-          "raw_points": 8
         },
         {
           "name": "Haaland",
@@ -1956,21 +1956,21 @@
           "raw_points": 0
         },
         {
-          "name": "Mukiele",
-          "full_name": "Nordi Mukiele",
+          "name": "Chalobah",
+          "full_name": "Trevoh Chalobah",
           "position": 2,
-          "team_id": 17,
-          "team_short": "SUN",
+          "team_id": 7,
+          "team_short": "CHE",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 14,
-            "is_home": true
+            "opponent": "LIV",
+            "opponent_id": 12,
+            "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Cash",
@@ -2007,7 +2007,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 62
+      "gw_points": 83
     },
     "Osama Zahid": {
       "starting": [
@@ -2340,7 +2340,6 @@
       "Raehan Nasir": [
         "Robin Roefs",
         "Neco Williams",
-        "Nordi Mukiele",
         "Dominik Szoboszlai",
         "Ollie Watkins"
       ],
@@ -2357,12 +2356,11 @@
         "Dango Ouattara"
       ],
       "wali noor": [
-        "Elliot Anderson",
-        "Hugo Ekitik\u00e9"
+        "Joachim Andersen",
+        "Elliot Anderson"
       ],
       "Danish Yasin": [
-        "Robert Lynch S\u00e1nchez",
-        "Trevoh Chalobah"
+        "Robert Lynch S\u00e1nchez"
       ],
       "Osama Zahid": [
         "James Trafford",
@@ -2392,6 +2390,16 @@
         "Marc Gu\u00e9hi",
         "Enzo Fern\u00e1ndez"
       ],
+      "Raehan Nasir": [
+        "Nordi Mukiele"
+      ],
+      "Danish Yasin": [
+        "Nordi Mukiele",
+        "Harry Wilson",
+        "Marc Gu\u00e9hi",
+        "Enzo Fern\u00e1ndez",
+        "Viktor Gy\u00f6keres"
+      ],
       "Arslan Tariq": [
         "Daniel Mu\u00f1oz Mej\u00eda",
         "Micky van de Ven",
@@ -2399,12 +2407,6 @@
       ],
       "Osama Zahid": [
         "Micky van de Ven",
-        "Viktor Gy\u00f6keres"
-      ],
-      "Danish Yasin": [
-        "Harry Wilson",
-        "Marc Gu\u00e9hi",
-        "Enzo Fern\u00e1ndez",
         "Viktor Gy\u00f6keres"
       ]
     }
