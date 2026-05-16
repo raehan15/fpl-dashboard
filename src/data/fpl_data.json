@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-16 04:50:24 PKT"
+    "last_updated": "2026-05-16 07:25:58 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,13 +137,13 @@
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2153
+      "total_points": 2155
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2118
+      "total_points": 2119
     },
     {
       "rank": 4,
@@ -155,13 +155,13 @@
       "rank": 5,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 2080
+      "total_points": 2082
     },
     {
       "rank": 6,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2072
+      "total_points": 2073
     },
     {
       "rank": 7,
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 24
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 9
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 24
     },
     "Arslan Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 9
     },
     "Danish Yasin": {
       "starting": [
