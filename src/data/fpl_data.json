@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-17 20:53:25 PKT"
+    "last_updated": "2026-05-17 21:51:22 PKT"
   },
   "teams_meta": {
     "1": {
@@ -193,8 +193,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "O'Reilly",
@@ -227,8 +227,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gabriel",
@@ -346,8 +346,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calvert-Lewin",
@@ -363,8 +363,8 @@
             "opponent_id": 6,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 18
     },
     "Mahad Farooq": {
       "starting": [
@@ -608,8 +608,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Welbeck",
@@ -678,8 +678,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Hill",
@@ -1098,8 +1098,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Thiago",
@@ -1149,8 +1149,8 @@
             "opponent_id": 6,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -1168,8 +1168,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gro\u00df",
@@ -1185,8 +1185,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Mu\u00f1oz",
@@ -1202,8 +1202,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Canvot",
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 26
+      "gw_points": 30
     },
     "wali noor": {
       "starting": [
@@ -1605,8 +1605,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cherki",
@@ -1709,8 +1709,8 @@
             "opponent_id": 6,
             "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Justin",
