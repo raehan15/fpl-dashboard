@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-17 22:53:23 PKT"
+    "last_updated": "2026-05-17 23:59:13 PKT"
   },
   "teams_meta": {
     "1": {
@@ -1098,8 +1098,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Thiago",
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 32
+      "gw_points": 33
     },
     "wali noor": {
       "starting": [
@@ -1605,8 +1605,8 @@
             "opponent_id": 19,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Cherki",
