@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-17 16:57:13 PKT"
+    "last_updated": "2026-05-17 18:18:11 PKT"
   },
   "teams_meta": {
     "1": {
@@ -261,8 +261,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Palmer",
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 4
+      "gw_points": 8
     },
     "Mahad Farooq": {
       "starting": [
@@ -523,8 +523,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Cherki",
@@ -802,8 +802,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 4
+          "points": 16,
+          "raw_points": 8
         },
         {
           "name": "Dewsbury-Hall",
@@ -1047,8 +1047,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 4
+          "points": 16,
+          "raw_points": 8
         },
         {
           "name": "Trossard",
@@ -1223,7 +1223,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 16
     },
     "wali noor": {
       "starting": [
@@ -1326,8 +1326,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Enzo",
@@ -1520,8 +1520,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Gabriel",
@@ -1588,8 +1588,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Bruno G.",
@@ -1833,8 +1833,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Semenyo",
@@ -2009,7 +2009,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 4
+      "gw_points": 8
     },
     "Osama Zahid": {
       "starting": [
