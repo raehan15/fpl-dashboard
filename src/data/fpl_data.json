@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-19 02:05:30 PKT"
+    "last_updated": "2026-05-19 03:53:56 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2215
+      "total_points": 2226
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2170
+      "total_points": 2182
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2150
+      "total_points": 2156
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2137
+      "total_points": 2152
     },
     {
       "rank": 5,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 2098
+      "total_points": 2110
     },
     {
       "rank": 6,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2092
+      "total_points": 2106
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1988
+      "total_points": 1995
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1717
+      "total_points": 1732
     }
   ],
   "squads": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 22
+      "gw_points": 33
     },
     "Mahad Farooq": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 39
+      "gw_points": 51
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 40
+      "gw_points": 46
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 37
+      "gw_points": 52
     },
     "wali noor": {
       "starting": [
@@ -1485,7 +1485,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 40
+      "gw_points": 52
     },
     "Arslan Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 28
+      "gw_points": 42
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 12
+      "gw_points": 19
     },
     "Osama Zahid": {
       "starting": [
@@ -2095,8 +2095,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Palmer",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 8
+      "gw_points": 23
     }
   },
   "chips": {
