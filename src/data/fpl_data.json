@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-20 02:13:47 PKT"
+    "last_updated": "2026-05-20 03:58:19 PKT"
   },
   "teams_meta": {
     "1": {
@@ -329,8 +329,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 18,
+          "raw_points": 9
         },
         {
           "name": "Bowen",
@@ -591,8 +591,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 18,
+          "raw_points": 9
         },
         {
           "name": "Bowen",
@@ -887,8 +887,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         }
       ],
       "bench": [
@@ -1132,8 +1132,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Calvert-Lewin",
@@ -1343,8 +1343,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Semenyo",
@@ -1394,8 +1394,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Thiago",
@@ -1673,8 +1673,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 9,
+          "raw_points": 9
         }
       ],
       "bench": [
@@ -1884,8 +1884,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 10,
-          "raw_points": 10
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Haaland",
@@ -1901,8 +1901,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 18,
+          "raw_points": 9
         },
         {
           "name": "Gy\u00f6keres",
@@ -2180,8 +2180,8 @@
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 6
+          "points": 18,
+          "raw_points": 9
         },
         {
           "name": "Gy\u00f6keres",
