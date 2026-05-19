@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-19 04:59:47 PKT"
+    "last_updated": "2026-05-19 09:07:15 PKT"
   },
   "teams_meta": {
     "1": {
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1732
+      "total_points": 1734
     }
   ],
   "squads": {
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 23
+      "gw_points": 25
     }
   },
   "chips": {
