@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 37,
     "league_name": "Lads",
-    "last_updated": "2026-05-20 05:08:35 PKT"
+    "last_updated": "2026-05-20 09:59:11 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,49 +131,49 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2226
+      "total_points": 2249
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2182
+      "total_points": 2202
     },
     {
       "rank": 3,
       "manager": "Raehan Nasir",
       "team_name": "Rae",
-      "total_points": 2156
+      "total_points": 2167
     },
     {
       "rank": 4,
       "manager": "Hamzah Tariq",
       "team_name": "Gunners FC",
-      "total_points": 2152
+      "total_points": 2164
     },
     {
       "rank": 5,
       "manager": "wali noor",
       "team_name": "levi",
-      "total_points": 2110
+      "total_points": 2147
     },
     {
       "rank": 6,
       "manager": "Arslan Tariq",
       "team_name": "UnitedFC",
-      "total_points": 2106
+      "total_points": 2118
     },
     {
       "rank": 7,
       "manager": "Danish Yasin",
       "team_name": "Sunny's Nightmare",
-      "total_points": 1995
+      "total_points": 2032
     },
     {
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1734
+      "total_points": 1756
     }
   ],
   "squads": {
@@ -437,7 +437,7 @@
           "raw_points": 4
         }
       ],
-      "gw_points": 33
+      "gw_points": 56
     },
     "Mahad Farooq": {
       "starting": [
@@ -699,7 +699,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 51
+      "gw_points": 71
     },
     "Raehan Nasir": {
       "starting": [
@@ -961,7 +961,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 46
+      "gw_points": 57
     },
     "Hamzah Tariq": {
       "starting": [
@@ -1223,7 +1223,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 52
+      "gw_points": 64
     },
     "wali noor": {
       "starting": [
@@ -1313,21 +1313,21 @@
           "raw_points": 12
         },
         {
-          "name": "Anderson",
-          "full_name": "Elliot Anderson",
+          "name": "Semenyo",
+          "full_name": "Antoine Semenyo",
           "position": 3,
-          "team_id": 16,
-          "team_short": "NFO",
+          "team_id": 13,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 14,
+            "opponent": "BOU",
+            "opponent_id": 4,
             "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Enzo",
@@ -1347,38 +1347,38 @@
           "raw_points": 13
         },
         {
-          "name": "Semenyo",
-          "full_name": "Antoine Semenyo",
+          "name": "Anderson",
+          "full_name": "Elliot Anderson",
           "position": 3,
-          "team_id": 13,
-          "team_short": "MCI",
+          "team_id": 16,
+          "team_short": "NFO",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 4,
+            "opponent": "MUN",
+            "opponent_id": 14,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 12,
+          "raw_points": 12
         },
         {
-          "name": "Ekitik\u00e9",
-          "full_name": "Hugo Ekitik\u00e9",
-          "position": 4,
-          "team_id": 12,
-          "team_short": "LIV",
-          "is_captain": true,
+          "name": "Minteh",
+          "full_name": "Yankuba Minteh",
+          "position": 3,
+          "team_id": 6,
+          "team_short": "BHA",
+          "is_captain": false,
           "is_vice": false,
-          "multiplier": 2,
+          "multiplier": 1,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
+            "opponent": "LEE",
+            "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Haaland",
@@ -1388,13 +1388,13 @@
           "team_short": "MCI",
           "is_captain": false,
           "is_vice": true,
-          "multiplier": 1,
+          "multiplier": 2,
           "fixture": {
             "opponent": "BOU",
             "opponent_id": 4,
             "is_home": false
           },
-          "points": 9,
+          "points": 18,
           "raw_points": 9
         },
         {
@@ -1451,21 +1451,21 @@
           "raw_points": 0
         },
         {
-          "name": "Minteh",
-          "full_name": "Yankuba Minteh",
-          "position": 3,
-          "team_id": 6,
-          "team_short": "BHA",
-          "is_captain": false,
+          "name": "Ekitik\u00e9",
+          "full_name": "Hugo Ekitik\u00e9",
+          "position": 4,
+          "team_id": 12,
+          "team_short": "LIV",
+          "is_captain": true,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "LEE",
-            "opponent_id": 11,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Est\u00e8ve",
@@ -1485,7 +1485,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 52
+      "gw_points": 89
     },
     "Arslan Tariq": {
       "starting": [
@@ -1747,7 +1747,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 42
+      "gw_points": 54
     },
     "Danish Yasin": {
       "starting": [
@@ -2009,7 +2009,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 19
+      "gw_points": 56
     },
     "Osama Zahid": {
       "starting": [
@@ -2048,21 +2048,21 @@
           "raw_points": 6
         },
         {
-          "name": "Frimpong",
-          "full_name": "Jeremie Frimpong",
+          "name": "Est\u00e8ve",
+          "full_name": "Maxime Est\u00e8ve",
           "position": 2,
-          "team_id": 12,
-          "team_short": "LIV",
+          "team_id": 3,
+          "team_short": "BUR",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
+            "opponent": "ARS",
+            "opponent_id": 1,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Van de Ven",
@@ -2220,21 +2220,21 @@
           "raw_points": 0
         },
         {
-          "name": "Est\u00e8ve",
-          "full_name": "Maxime Est\u00e8ve",
+          "name": "Frimpong",
+          "full_name": "Jeremie Frimpong",
           "position": 2,
-          "team_id": 3,
-          "team_short": "BUR",
+          "team_id": 12,
+          "team_short": "LIV",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "ARS",
-            "opponent_id": 1,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Clyne",
@@ -2271,7 +2271,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 25
+      "gw_points": 47
     }
   },
   "chips": {
@@ -2374,7 +2374,7 @@
       ],
       "wali noor": [
         "Elliot Anderson",
-        "Hugo Ekitik\u00e9"
+        "Yankuba Minteh"
       ],
       "Arslan Tariq": [
         "Harry Maguire"
@@ -2385,7 +2385,7 @@
       ],
       "Osama Zahid": [
         "James Trafford",
-        "Jeremie Frimpong",
+        "Maxime Est\u00e8ve",
         "Micky van de Ven",
         "Bukayo Saka",
         "Cody Gakpo",
@@ -2416,8 +2416,8 @@
       "wali noor": [
         "Virgil van Dijk",
         "Morgan Rogers",
-        "Enzo Fern\u00e1ndez",
-        "Antoine Semenyo"
+        "Antoine Semenyo",
+        "Enzo Fern\u00e1ndez"
       ],
       "Raehan Nasir": [
         "James Tarkowski",
@@ -2431,8 +2431,8 @@
       ],
       "Danish Yasin": [
         "Harry Wilson",
-        "Enzo Fern\u00e1ndez",
-        "Antoine Semenyo"
+        "Antoine Semenyo",
+        "Enzo Fern\u00e1ndez"
       ]
     }
   }
