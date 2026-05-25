@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 38,
     "league_name": "Lads",
-    "last_updated": "2026-05-25 04:54:36 PKT"
+    "last_updated": "2026-05-25 07:49:36 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "hussain tahir",
       "team_name": "bleed blue",
-      "total_points": 2309
+      "total_points": 2308
     },
     {
       "rank": 2,
       "manager": "Mahad Farooq",
       "team_name": "mf10's-15",
-      "total_points": 2253
+      "total_points": 2255
     },
     {
       "rank": 3,
@@ -173,7 +173,7 @@
       "rank": 8,
       "manager": "Osama Zahid",
       "team_name": "oz",
-      "total_points": 1787
+      "total_points": 1786
     }
   ],
   "squads": {
@@ -437,7 +437,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 60
+      "gw_points": 59
     },
     "Mahad Farooq": {
       "starting": [
@@ -698,7 +698,7 @@
         }
       ],
       "bench": [],
-      "gw_points": 51
+      "gw_points": 53
     },
     "Raehan Nasir": {
       "starting": [
@@ -2270,7 +2270,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 31
+      "gw_points": 30
     }
   },
   "chips": {
