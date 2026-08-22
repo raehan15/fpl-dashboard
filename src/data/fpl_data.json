@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-22 19:14:03 PKT"
+    "last_updated": "2026-08-22 20:13:21 PKT"
   },
   "teams_meta": {
     "1": {
@@ -375,8 +375,8 @@
             "opponent_id": 8,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Scott",
