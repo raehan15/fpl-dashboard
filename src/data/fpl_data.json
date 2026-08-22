@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-23 00:17:41 PKT"
+    "last_updated": "2026-08-23 01:14:40 PKT"
   },
   "teams_meta": {
     "1": {
@@ -675,7 +675,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 15
+      "gw_points": 20
     },
     "kevin angus": {
       "starting": [
@@ -937,7 +937,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 8
+      "gw_points": 18
     },
     "Aaron Mannall": {
       "starting": [
