@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-23 17:25:19 PKT"
+    "last_updated": "2026-08-23 18:26:33 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,25 +131,25 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 30
+      "total_points": 32
     },
     {
       "rank": 2,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 20
+      "total_points": 23
     },
     {
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 18
+      "total_points": 21
     },
     {
       "rank": 4,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 17
+      "total_points": 19
     }
   ],
   "squads": {
@@ -169,8 +169,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "N.Williams",
@@ -322,8 +322,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Isak",
@@ -550,8 +550,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -567,8 +567,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -654,8 +654,8 @@
             "opponent_id": 15,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mitchell",
@@ -693,8 +693,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Pau",
@@ -846,8 +846,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1108,8 +1108,8 @@
             "opponent_id": 3,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 1
         },
         {
           "name": "Jo\u00e3o Pedro",
