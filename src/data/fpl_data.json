@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-23 21:16:40 PKT"
+    "last_updated": "2026-08-23 22:14:38 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 42
+      "total_points": 45
     },
     {
       "rank": 2,
@@ -143,13 +143,13 @@
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 25
+      "total_points": 26
     },
     {
       "rank": 4,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 22
+      "total_points": 23
     }
   ],
   "squads": {
@@ -237,8 +237,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "B.Fernandes",
@@ -339,8 +339,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
@@ -761,8 +761,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rice",
@@ -1040,8 +1040,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Rogers",
