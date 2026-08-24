@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-25 02:21:48 PKT"
+    "last_updated": "2026-08-25 03:18:10 PKT"
   },
   "teams_meta": {
     "1": {
@@ -675,7 +675,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 29
+      "gw_points": 48
     },
     "kevin angus": {
       "starting": [
@@ -937,7 +937,7 @@
           "raw_points": 2
         }
       ],
-      "gw_points": 26
+      "gw_points": 45
     },
     "Steve Mannall": {
       "starting": [
@@ -1199,7 +1199,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 27
+      "gw_points": 38
     }
   },
   "chips": {
