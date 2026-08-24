@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-25 01:21:24 PKT"
+    "last_updated": "2026-08-25 02:21:48 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,19 +137,19 @@
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 45
+      "total_points": 48
     },
     {
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 42
+      "total_points": 45
     },
     {
       "rank": 4,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 37
+      "total_points": 38
     }
   ],
   "squads": {
@@ -533,8 +533,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Ndiaye",
@@ -812,8 +812,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Tonali",
@@ -1006,8 +1006,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Cash",
