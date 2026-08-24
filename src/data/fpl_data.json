@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-24 23:29:30 PKT"
+    "last_updated": "2026-08-25 00:22:46 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,19 +137,19 @@
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 29
+      "total_points": 35
     },
     {
       "rank": 3,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 27
+      "total_points": 33
     },
     {
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 26
+      "total_points": 32
     }
   ],
   "squads": {
@@ -533,8 +533,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Ndiaye",
@@ -601,8 +601,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
@@ -744,8 +744,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cash",
@@ -846,8 +846,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         },
         {
           "name": "Brobbey",
@@ -1074,8 +1074,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Tonali",
@@ -1125,8 +1125,8 @@
             "opponent_id": 10,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 5,
+          "raw_points": 5
         }
       ],
       "bench": [
