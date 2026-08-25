@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 1,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-25 14:27:55 PKT"
+    "last_updated": "2026-08-25 15:23:52 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,7 +137,7 @@
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 48
+      "total_points": 50
     },
     {
       "rank": 3,
@@ -435,21 +435,21 @@
           "raw_points": 1
         },
         {
-          "name": "Pedro Porro",
-          "full_name": "Pedro Porro Sauceda",
+          "name": "Diop",
+          "full_name": "Issa Diop",
           "position": 2,
-          "team_id": 19,
-          "team_short": "TOT",
+          "team_id": 12,
+          "team_short": "IPS",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BRE",
-            "opponent_id": 4,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "N.Williams",
@@ -658,24 +658,24 @@
           "raw_points": 0
         },
         {
-          "name": "Diop",
-          "full_name": "Issa Diop",
+          "name": "Pedro Porro",
+          "full_name": "Pedro Porro Sauceda",
           "position": 2,
-          "team_id": 12,
-          "team_short": "IPS",
+          "team_id": 19,
+          "team_short": "TOT",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         }
       ],
-      "gw_points": 48
+      "gw_points": 50
     },
     "kevin angus": {
       "starting": [
@@ -1231,7 +1231,7 @@
       ],
       "Aaron Mannall": [
         "Senne Lammens",
-        "Pedro Porro Sauceda",
+        "Issa Diop",
         "Enzo Le F\u00e9e"
       ],
       "kevin angus": [
