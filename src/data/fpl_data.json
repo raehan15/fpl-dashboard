@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 2,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-08-29 19:52:37 PKT"
+    "last_updated": "2026-08-29 23:06:33 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 100
+      "total_points": 103
     },
     {
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 87
+      "total_points": 91
     },
     {
       "rank": 3,
@@ -149,7 +149,7 @@
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 59
+      "total_points": 70
     }
   ],
   "squads": {
@@ -305,8 +305,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Haaland",
@@ -375,8 +375,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "van Ewijk",
@@ -392,8 +392,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Kusi-Asare",
@@ -448,8 +448,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "N.Williams",
@@ -550,8 +550,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "E.Le F\u00e9e",
@@ -899,8 +899,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cash",
@@ -1006,8 +1006,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Araujo",
@@ -1195,8 +1195,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "gw_points": 13
