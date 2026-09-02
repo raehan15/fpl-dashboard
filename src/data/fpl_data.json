@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 2,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-02 19:52:28 PKT"
+    "last_updated": "2026-09-02 23:18:59 PKT"
   },
   "teams_meta": {
     "1": {
@@ -295,14 +295,14 @@
           "name": "Ndiaye",
           "full_name": "Iliman Ndiaye",
           "position": 3,
-          "team_id": 9,
-          "team_short": "EVE",
+          "team_id": 15,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
+            "opponent": "CRY",
+            "opponent_id": 8,
             "is_home": false
           },
           "points": 4,
@@ -540,14 +540,14 @@
           "name": "Ndiaye",
           "full_name": "Iliman Ndiaye",
           "position": 3,
-          "team_id": 9,
-          "team_short": "EVE",
+          "team_id": 15,
+          "team_short": "MCI",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
+            "opponent": "CRY",
+            "opponent_id": 8,
             "is_home": false
           },
           "points": 4,
