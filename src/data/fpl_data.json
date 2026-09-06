@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 3,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-06 15:03:32 PKT"
+    "last_updated": "2026-09-06 18:52:40 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,25 +131,25 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 186
+      "total_points": 187
     },
     {
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 182
+      "total_points": 184
     },
     {
       "rank": 3,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 149
+      "total_points": 151
     },
     {
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 137
+      "total_points": 140
     }
   ],
   "squads": {
@@ -254,8 +254,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gibbs-White",
@@ -375,8 +375,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "van Ewijk",
@@ -431,8 +431,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Pedro Porro",
@@ -499,8 +499,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Szoboszlai",
@@ -727,8 +727,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cash",
@@ -761,8 +761,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "M.Sangar\u00e9",
@@ -916,8 +916,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Mitchell",
@@ -1006,8 +1006,8 @@
             "opponent_id": 16,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calafiori",
@@ -1057,8 +1057,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Rogers",
