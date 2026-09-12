@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 4,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-12 19:47:57 PKT"
+    "last_updated": "2026-09-12 22:36:24 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,25 +131,25 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 214
+      "total_points": 238
     },
     {
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 209
+      "total_points": 222
     },
     {
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 189
+      "total_points": 197
     },
     {
       "rank": 4,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 169
+      "total_points": 179
     }
   ],
   "squads": {
@@ -186,8 +186,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Virgil",
@@ -203,8 +203,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Ajayi",
@@ -237,8 +237,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "B.Fernandes",
@@ -271,8 +271,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 8,
+          "raw_points": 8
         },
         {
           "name": "Lewis-Potter",
@@ -339,8 +339,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 12,
+          "raw_points": 12
         }
       ],
       "bench": [
@@ -413,7 +413,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 19
+      "gw_points": 43
     },
     "Aaron Mannall": {
       "starting": [
@@ -465,8 +465,8 @@
             "opponent_id": 2,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "De Cuyper",
@@ -516,8 +516,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Rogers",
@@ -550,8 +550,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Gro\u00df",
@@ -601,8 +601,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 12,
+          "raw_points": 12
         }
       ],
       "bench": [
@@ -675,7 +675,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 16
+      "gw_points": 29
     },
     "kevin angus": {
       "starting": [
@@ -744,8 +744,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calafiori",
@@ -846,8 +846,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Wissa",
@@ -899,8 +899,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Alysson",
@@ -916,8 +916,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "M.Sangar\u00e9",
@@ -933,11 +933,11 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         }
       ],
-      "gw_points": 22
+      "gw_points": 30
     },
     "Steve Mannall": {
       "starting": [
@@ -989,8 +989,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Cash",
@@ -1057,8 +1057,8 @@
             "opponent_id": 10,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Cherki",
@@ -1108,8 +1108,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 12,
+          "raw_points": 12
         },
         {
           "name": "Brobbey",
@@ -1161,8 +1161,8 @@
             "opponent_id": 3,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Dewsbury-Hall",
@@ -1178,8 +1178,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Shaw",
@@ -1199,7 +1199,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 7
+      "gw_points": 17
     }
   },
   "chips": {
