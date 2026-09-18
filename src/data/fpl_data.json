@@ -1,8 +1,8 @@
 {
   "meta": {
-    "gameweek": 4,
+    "gameweek": 5,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-18 19:44:14 PKT"
+    "last_updated": "2026-09-19 01:44:14 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,25 +131,25 @@
       "rank": 1,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 278
+      "total_points": 280
     },
     {
       "rank": 2,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 275
+      "total_points": 277
     },
     {
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 245
+      "total_points": 249
     },
     {
       "rank": 4,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 225
+      "total_points": 226
     }
   ],
   "squads": {
@@ -165,29 +165,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
-          },
-          "points": 2,
-          "raw_points": 2
-        },
-        {
-          "name": "Konsa",
-          "full_name": "Ezri Konsa Ngoyo",
-          "position": 2,
-          "team_id": 1,
-          "team_short": "ARS",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "FUL",
+            "opponent_id": 10,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "N.Williams",
@@ -199,12 +182,29 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
+            "opponent": "COV",
+            "opponent_id": 7,
+            "is_home": true
+          },
+          "points": 0,
+          "raw_points": 0
+        },
+        {
+          "name": "Konsa",
+          "full_name": "Ezri Konsa Ngoyo",
+          "position": 2,
+          "team_id": 1,
+          "team_short": "ARS",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "De Cuyper",
@@ -216,12 +216,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "COV",
-            "opponent_id": 7,
-            "is_home": false
+            "opponent": "ARS",
+            "opponent_id": 1,
+            "is_home": true
           },
-          "points": 11,
-          "raw_points": 11
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "B.Fernandes",
@@ -233,12 +233,12 @@
           "is_vice": true,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Szoboszlai",
@@ -250,12 +250,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "FUL",
-            "opponent_id": 10,
-            "is_home": true
+            "opponent": "BOU",
+            "opponent_id": 3,
+            "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Rogers",
@@ -267,29 +267,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
-          },
-          "points": 8,
-          "raw_points": 8
-        },
-        {
-          "name": "M.Sangar\u00e9",
-          "full_name": "Mamadou Sangar\u00e9",
-          "position": 3,
-          "team_id": 4,
-          "team_short": "BRE",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
+            "opponent": "BRE",
+            "opponent_id": 4,
             "is_home": false
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gro\u00df",
@@ -301,12 +284,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "COV",
-            "opponent_id": 7,
-            "is_home": false
+            "opponent": "ARS",
+            "opponent_id": 1,
+            "is_home": true
           },
-          "points": 17,
-          "raw_points": 17
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Haaland",
@@ -318,12 +301,12 @@
           "is_vice": false,
           "multiplier": 2,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 18,
-          "raw_points": 9
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -335,12 +318,29 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
+          },
+          "points": 0,
+          "raw_points": 0
+        },
+        {
+          "name": "Calvert-Lewin",
+          "full_name": "Dominic Calvert-Lewin",
+          "position": 4,
+          "team_id": 13,
+          "team_short": "LEE",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "CRY",
+            "opponent_id": 8,
             "is_home": true
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 0,
+          "raw_points": 0
         }
       ],
       "bench": [
@@ -354,25 +354,25 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "EVE",
-            "opponent_id": 9,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
           "points": 0,
           "raw_points": 0
         },
         {
-          "name": "Brobbey",
-          "full_name": "Brian Brobbey",
-          "position": 4,
-          "team_id": 20,
-          "team_short": "SUN",
+          "name": "M.Sangar\u00e9",
+          "full_name": "Mamadou Sangar\u00e9",
+          "position": 3,
+          "team_id": 4,
+          "team_short": "BRE",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "ARS",
-            "opponent_id": 1,
+            "opponent": "CHE",
+            "opponent_id": 6,
             "is_home": true
           },
           "points": 1,
@@ -388,8 +388,8 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "EVE",
-            "opponent_id": 9,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
           "points": 0,
@@ -405,15 +405,15 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "CRY",
-            "opponent_id": 8,
+            "opponent": "EVE",
+            "opponent_id": 9,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         }
       ],
-      "gw_points": 85
+      "gw_points": 2
     },
     "Roy Mannall": {
       "starting": [
@@ -427,12 +427,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "COV",
-            "opponent_id": 7,
-            "is_home": false
+            "opponent": "ARS",
+            "opponent_id": 1,
+            "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "N.Williams",
@@ -444,12 +444,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
-            "is_home": false
+            "opponent": "COV",
+            "opponent_id": 7,
+            "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Virgil",
@@ -461,12 +461,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "FUL",
-            "opponent_id": 10,
-            "is_home": true
+            "opponent": "BOU",
+            "opponent_id": 3,
+            "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Ajayi",
@@ -478,12 +478,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "CHE",
-            "opponent_id": 6,
+            "opponent": "NEW",
+            "opponent_id": 17,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Szoboszlai",
@@ -495,12 +495,12 @@
           "is_vice": true,
           "multiplier": 1,
           "fixture": {
-            "opponent": "FUL",
-            "opponent_id": 10,
-            "is_home": true
+            "opponent": "BOU",
+            "opponent_id": 3,
+            "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "B.Fernandes",
@@ -512,12 +512,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Gibbs-White",
@@ -529,29 +529,29 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "AVL",
-            "opponent_id": 2,
-            "is_home": false
+            "opponent": "COV",
+            "opponent_id": 7,
+            "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 0,
+          "raw_points": 0
         },
         {
-          "name": "Lewis-Potter",
-          "full_name": "Keane Lewis-Potter",
+          "name": "Gro\u00df",
+          "full_name": "Pascal Gro\u00df",
           "position": 3,
-          "team_id": 4,
-          "team_short": "BRE",
+          "team_id": 5,
+          "team_short": "BHA",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
-            "is_home": false
+            "opponent": "ARS",
+            "opponent_id": 1,
+            "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Rogers",
@@ -563,12 +563,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Haaland",
@@ -578,14 +578,14 @@
           "team_short": "MCI",
           "is_captain": true,
           "is_vice": false,
-          "multiplier": 3,
+          "multiplier": 2,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 27,
-          "raw_points": 9
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -597,12 +597,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 0,
+          "raw_points": 0
         }
       ],
       "bench": [
@@ -616,8 +616,8 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "EVE",
-            "opponent_id": 9,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
           "points": 0,
@@ -633,9 +633,9 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
           "points": 0,
           "raw_points": 0
@@ -650,9 +650,9 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "BHA",
-            "opponent_id": 5,
-            "is_home": true
+            "opponent": "NFO",
+            "opponent_id": 18,
+            "is_home": false
           },
           "points": 0,
           "raw_points": 0
@@ -667,15 +667,15 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "LIV",
-            "opponent_id": 14,
-            "is_home": false
+            "opponent": "MUN",
+            "opponent_id": 16,
+            "is_home": true
           },
           "points": 0,
           "raw_points": 0
         }
       ],
-      "gw_points": 80
+      "gw_points": 2
     },
     "kevin angus": {
       "starting": [
@@ -689,12 +689,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Pau",
@@ -706,12 +706,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "NFO",
-            "opponent_id": 18,
-            "is_home": true
+            "opponent": "TOT",
+            "opponent_id": 19,
+            "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Gabriel",
@@ -723,12 +723,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Tarkowski",
@@ -740,12 +740,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 19,
-            "is_home": false
+            "opponent": "IPS",
+            "opponent_id": 12,
+            "is_home": true
           },
-          "points": 8,
-          "raw_points": 8
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Calafiori",
@@ -757,12 +757,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Rogers",
@@ -774,12 +774,12 @@
           "is_vice": false,
           "multiplier": 2,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 16,
-          "raw_points": 8
+          "points": 4,
+          "raw_points": 2
         },
         {
           "name": "Tielemans",
@@ -791,12 +791,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Rice",
@@ -808,12 +808,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Haaland",
@@ -825,12 +825,12 @@
           "is_vice": true,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 9,
-          "raw_points": 9
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -842,12 +842,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Wissa",
@@ -859,12 +859,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "LEE",
-            "opponent_id": 13,
-            "is_home": false
+            "opponent": "HUL",
+            "opponent_id": 11,
+            "is_home": true
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         }
       ],
       "bench": [
@@ -878,8 +878,8 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "EVE",
-            "opponent_id": 9,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
           "points": 0,
@@ -895,12 +895,12 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "EVE",
-            "opponent_id": 9,
+            "opponent": "AVL",
+            "opponent_id": 2,
             "is_home": true
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Alysson",
@@ -912,12 +912,12 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "NFO",
-            "opponent_id": 18,
-            "is_home": true
+            "opponent": "TOT",
+            "opponent_id": 19,
+            "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "M.Sangar\u00e9",
@@ -929,15 +929,15 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
-            "is_home": false
+            "opponent": "CHE",
+            "opponent_id": 6,
+            "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 1,
+          "raw_points": 1
         }
       ],
-      "gw_points": 78
+      "gw_points": 4
     },
     "Steve Mannall": {
       "starting": [
@@ -951,12 +951,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 14,
-          "raw_points": 14
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Calafiori",
@@ -968,12 +968,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "SUN",
-            "opponent_id": 20,
+            "opponent": "BHA",
+            "opponent_id": 5,
             "is_home": false
           },
-          "points": 6,
-          "raw_points": 6
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "James",
@@ -985,12 +985,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Mitchell",
@@ -1002,12 +1002,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "IPS",
-            "opponent_id": 12,
-            "is_home": true
+            "opponent": "LEE",
+            "opponent_id": 13,
+            "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Cunha",
@@ -1019,12 +1019,12 @@
           "is_vice": true,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "M.Sangar\u00e9",
@@ -1036,12 +1036,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "BOU",
-            "opponent_id": 3,
-            "is_home": false
+            "opponent": "CHE",
+            "opponent_id": 6,
+            "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Wirtz",
@@ -1053,12 +1053,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "FUL",
-            "opponent_id": 10,
-            "is_home": true
+            "opponent": "BOU",
+            "opponent_id": 3,
+            "is_home": false
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Cherki",
@@ -1070,12 +1070,29 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
+            "opponent": "SUN",
+            "opponent_id": 20,
+            "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
+        },
+        {
+          "name": "Dewsbury-Hall",
+          "full_name": "Kiernan Dewsbury-Hall",
+          "position": 3,
+          "team_id": 9,
+          "team_short": "EVE",
+          "is_captain": false,
+          "is_vice": false,
+          "multiplier": 1,
+          "fixture": {
+            "opponent": "IPS",
+            "opponent_id": 12,
+            "is_home": true
+          },
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Haaland",
@@ -1087,29 +1104,12 @@
           "is_vice": false,
           "multiplier": 2,
           "fixture": {
-            "opponent": "MUN",
-            "opponent_id": 16,
-            "is_home": false
-          },
-          "points": 18,
-          "raw_points": 9
-        },
-        {
-          "name": "Brobbey",
-          "full_name": "Brian Brobbey",
-          "position": 4,
-          "team_id": 20,
-          "team_short": "SUN",
-          "is_captain": false,
-          "is_vice": false,
-          "multiplier": 1,
-          "fixture": {
-            "opponent": "ARS",
-            "opponent_id": 1,
+            "opponent": "SUN",
+            "opponent_id": 20,
             "is_home": true
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -1121,12 +1121,12 @@
           "is_vice": false,
           "multiplier": 1,
           "fixture": {
-            "opponent": "HUL",
-            "opponent_id": 11,
-            "is_home": true
+            "opponent": "BRE",
+            "opponent_id": 4,
+            "is_home": false
           },
-          "points": 12,
-          "raw_points": 12
+          "points": 0,
+          "raw_points": 0
         }
       ],
       "bench": [
@@ -1140,9 +1140,9 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "LIV",
-            "opponent_id": 14,
-            "is_home": false
+            "opponent": "MUN",
+            "opponent_id": 16,
+            "is_home": true
           },
           "points": 0,
           "raw_points": 0
@@ -1157,29 +1157,29 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "NFO",
-            "opponent_id": 18,
-            "is_home": true
+            "opponent": "TOT",
+            "opponent_id": 19,
+            "is_home": false
           },
           "points": 0,
           "raw_points": 0
         },
         {
-          "name": "Dewsbury-Hall",
-          "full_name": "Kiernan Dewsbury-Hall",
-          "position": 3,
-          "team_id": 9,
-          "team_short": "EVE",
+          "name": "Brobbey",
+          "full_name": "Brian Brobbey",
+          "position": 4,
+          "team_id": 20,
+          "team_short": "SUN",
           "is_captain": false,
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "TOT",
-            "opponent_id": 19,
+            "opponent": "MCI",
+            "opponent_id": 15,
             "is_home": false
           },
-          "points": 2,
-          "raw_points": 2
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Shaw",
@@ -1191,20 +1191,20 @@
           "is_vice": false,
           "multiplier": 0,
           "fixture": {
-            "opponent": "MCI",
-            "opponent_id": 15,
-            "is_home": true
+            "opponent": "FUL",
+            "opponent_id": 10,
+            "is_home": false
           },
           "points": 0,
           "raw_points": 0
         }
       ],
-      "gw_points": 63
+      "gw_points": 1
     }
   },
   "chips": {
     "Aaron Mannall": null,
-    "Roy Mannall": "3xc",
+    "Roy Mannall": null,
     "kevin angus": null,
     "Steve Mannall": null
   },
@@ -1217,22 +1217,17 @@
   "transfers": {
     "Aaron Mannall": [
       {
-        "in": "Pascal Gro\u00df",
-        "out": "Enzo Le F\u00e9e"
+        "in": "Dominic Calvert-Lewin",
+        "out": "Brian Brobbey"
       }
     ],
     "Roy Mannall": [
       {
-        "in": "Keane Lewis-Potter",
-        "out": "Mamadou Sangar\u00e9"
+        "in": "Pascal Gro\u00df",
+        "out": "Keane Lewis-Potter"
       }
     ],
-    "kevin angus": [
-      {
-        "in": "Yoane Wissa",
-        "out": "Ellis Simms"
-      }
-    ],
+    "kevin angus": [],
     "Steve Mannall": []
   },
   "differentials": {
@@ -1241,14 +1236,13 @@
         "Senne Lammens",
         "Ezri Konsa Ngoyo",
         "Maxim De Cuyper",
-        "Pascal Gro\u00df"
+        "Dominic Calvert-Lewin"
       ],
       "Roy Mannall": [
         "Bart Verbruggen",
         "Virgil van Dijk",
         "Semi Ajayi",
-        "Morgan Gibbs-White",
-        "Keane Lewis-Potter"
+        "Morgan Gibbs-White"
       ],
       "kevin angus": [
         "Gianluigi Donnarumma",
@@ -1263,10 +1257,11 @@
         "David Raya Mart\u00edn",
         "Reece James",
         "Tyrick Mitchell",
+        "Mamadou Sangar\u00e9",
         "Matheus Santos Carneiro da Cunha",
         "Florian Wirtz",
         "Rayan Cherki",
-        "Brian Brobbey"
+        "Kiernan Dewsbury-Hall"
       ]
     },
     "duo": {
@@ -1274,18 +1269,18 @@
         "Neco Williams",
         "Bruno Borges Fernandes",
         "Dominik Szoboszlai",
-        "Mamadou Sangar\u00e9"
+        "Pascal Gro\u00df"
       ],
       "Roy Mannall": [
         "Neco Williams",
         "Bruno Borges Fernandes",
-        "Dominik Szoboszlai"
-      ],
-      "Steve Mannall": [
-        "Mamadou Sangar\u00e9",
-        "Riccardo Calafiori"
+        "Dominik Szoboszlai",
+        "Pascal Gro\u00df"
       ],
       "kevin angus": [
+        "Riccardo Calafiori"
+      ],
+      "Steve Mannall": [
         "Riccardo Calafiori"
       ]
     }
