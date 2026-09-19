@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 5,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-19 22:39:44 PKT"
+    "last_updated": "2026-09-20 00:52:31 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,13 +131,13 @@
       "rank": 1,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 306
+      "total_points": 303
     },
     {
       "rank": 2,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 304
+      "total_points": 302
     },
     {
       "rank": 3,
@@ -169,8 +169,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "N.Williams",
@@ -186,8 +186,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Virgil",
@@ -271,8 +271,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 3,
-          "raw_points": 3
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gro\u00df",
@@ -448,8 +448,8 @@
             "opponent_id": 7,
             "is_home": true
           },
-          "points": 4,
-          "raw_points": 4
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Konsa",
@@ -482,8 +482,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 5,
-          "raw_points": 5
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "B.Fernandes",
