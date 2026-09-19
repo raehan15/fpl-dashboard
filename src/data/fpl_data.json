@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 5,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-09-19 15:06:17 PKT"
+    "last_updated": "2026-09-19 19:05:45 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,13 +137,13 @@
       "rank": 2,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 277
+      "total_points": 278
     },
     {
       "rank": 3,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 249
+      "total_points": 250
     },
     {
       "rank": 4,
@@ -203,8 +203,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "De Cuyper",
@@ -220,8 +220,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "B.Fernandes",
@@ -288,8 +288,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -392,8 +392,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Diop",
@@ -409,8 +409,8 @@
             "opponent_id": 9,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "gw_points": 2
@@ -431,8 +431,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "N.Williams",
@@ -482,8 +482,8 @@
             "opponent_id": 17,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Szoboszlai",
@@ -550,8 +550,8 @@
             "opponent_id": 1,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -727,8 +727,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Tarkowski",
@@ -744,8 +744,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calafiori",
@@ -761,8 +761,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Rogers",
@@ -812,8 +812,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -863,8 +863,8 @@
             "opponent_id": 11,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         }
       ],
       "bench": [
@@ -899,8 +899,8 @@
             "opponent_id": 2,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Alysson",
@@ -955,8 +955,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Calafiori",
@@ -972,8 +972,8 @@
             "opponent_id": 5,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "James",
@@ -1091,8 +1091,8 @@
             "opponent_id": 12,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Haaland",
@@ -1161,8 +1161,8 @@
             "opponent_id": 19,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": -1,
+          "raw_points": -1
         },
         {
           "name": "Brobbey",
@@ -1199,7 +1199,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 0
+      "gw_points": 3
     }
   },
   "chips": {
