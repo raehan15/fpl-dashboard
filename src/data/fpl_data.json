@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 6,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-10-11 20:14:32 PKT"
+    "last_updated": "2026-10-12 00:50:22 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,25 +131,25 @@
       "rank": 1,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 382
+      "total_points": 398
     },
     {
       "rank": 2,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 369
+      "total_points": 381
     },
     {
       "rank": 3,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 348
+      "total_points": 372
     },
     {
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 337
+      "total_points": 352
     }
   ],
   "squads": {
@@ -186,8 +186,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Calafiori",
@@ -305,8 +305,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 12,
+          "raw_points": 6
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -413,7 +413,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 57
+      "gw_points": 73
     },
     "Roy Mannall": {
       "starting": [
@@ -584,8 +584,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 12,
+          "raw_points": 6
         },
         {
           "name": "Jo\u00e3o Pedro",
@@ -675,7 +675,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 37
+      "gw_points": 53
     },
     "Steve Mannall": {
       "starting": [
@@ -778,8 +778,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Cherki",
@@ -795,8 +795,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 10,
+          "raw_points": 10
         },
         {
           "name": "Gro\u00df",
@@ -829,8 +829,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 12,
+          "raw_points": 6
         },
         {
           "name": "Brobbey",
@@ -916,8 +916,8 @@
             "opponent_id": 15,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Shaw",
@@ -937,7 +937,7 @@
           "raw_points": 3
         }
       ],
-      "gw_points": 55
+      "gw_points": 83
     },
     "kevin angus": {
       "starting": [
@@ -955,8 +955,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Hall",
@@ -1108,8 +1108,8 @@
             "opponent_id": 14,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Kostoulas",
@@ -1199,7 +1199,7 @@
           "raw_points": 1
         }
       ],
-      "gw_points": 55
+      "gw_points": 73
     }
   },
   "chips": {
