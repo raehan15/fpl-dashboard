@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 6,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-10-11 13:07:17 PKT"
+    "last_updated": "2026-10-11 20:14:32 PKT"
   },
   "teams_meta": {
     "1": {
@@ -137,19 +137,19 @@
       "rank": 2,
       "manager": "Roy Mannall",
       "team_name": "overton wolves",
-      "total_points": 365
+      "total_points": 369
     },
     {
       "rank": 3,
       "manager": "Steve Mannall",
       "team_name": "Dyce Reds",
-      "total_points": 344
+      "total_points": 348
     },
     {
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 334
+      "total_points": 337
     }
   ],
   "squads": {
@@ -448,8 +448,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Virgil",
@@ -482,8 +482,8 @@
             "opponent_id": 9,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Szoboszlai",
@@ -533,8 +533,8 @@
             "opponent_id": 8,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         },
         {
           "name": "Gro\u00df",
@@ -744,8 +744,8 @@
             "opponent_id": 18,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 4,
+          "raw_points": 4
         },
         {
           "name": "Cunha",
@@ -899,8 +899,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 13,
+          "raw_points": 13
         },
         {
           "name": "Jacquet",
@@ -1006,8 +1006,8 @@
             "opponent_id": 11,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 3,
+          "raw_points": 3
         },
         {
           "name": "Calafiori",
