@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 6,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-10-12 16:32:31 PKT"
+    "last_updated": "2026-10-13 01:43:00 PKT"
   },
   "teams_meta": {
     "1": {
@@ -131,7 +131,7 @@
       "rank": 1,
       "manager": "Aaron Mannall",
       "team_name": "BODthistle",
-      "total_points": 398
+      "total_points": 400
     },
     {
       "rank": 2,
@@ -149,7 +149,7 @@
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 352
+      "total_points": 353
     }
   ],
   "squads": {
@@ -339,8 +339,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 2,
+          "raw_points": 2
         }
       ],
       "bench": [
@@ -654,8 +654,8 @@
             "opponent_id": 17,
             "is_home": true
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 6,
+          "raw_points": 6
         },
         {
           "name": "Kusi-Asare",
@@ -972,8 +972,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 0,
-          "raw_points": 0
+          "points": 1,
+          "raw_points": 1
         },
         {
           "name": "Gabriel",
