@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 6,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-10-13 01:43:00 PKT"
+    "last_updated": "2026-10-13 07:20:28 PKT"
   },
   "teams_meta": {
     "1": {
@@ -149,7 +149,7 @@
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 353
+      "total_points": 352
     }
   ],
   "squads": {
@@ -413,7 +413,7 @@
           "raw_points": 0
         }
       ],
-      "gw_points": 73
+      "gw_points": 75
     },
     "Roy Mannall": {
       "starting": [
@@ -972,8 +972,8 @@
             "opponent_id": 7,
             "is_home": false
           },
-          "points": 1,
-          "raw_points": 1
+          "points": 0,
+          "raw_points": 0
         },
         {
           "name": "Gabriel",
