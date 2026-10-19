@@ -2,7 +2,7 @@
   "meta": {
     "gameweek": 7,
     "league_name": "Dyce is Nice",
-    "last_updated": "2026-10-19 03:09:06 PKT"
+    "last_updated": "2026-10-19 05:40:36 PKT"
   },
   "teams_meta": {
     "1": {
@@ -149,7 +149,7 @@
       "rank": 4,
       "manager": "kevin angus",
       "team_name": "Gerbils team",
-      "total_points": 427
+      "total_points": 429
     }
   ],
   "squads": {
@@ -1074,8 +1074,8 @@
             "opponent_id": 18,
             "is_home": false
           },
-          "points": 7,
-          "raw_points": 7
+          "points": 9,
+          "raw_points": 9
         },
         {
           "name": "Haaland",
