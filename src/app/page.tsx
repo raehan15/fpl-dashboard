@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import initialData from '../data/fpl_data.json';
 import {
   AnimatedCard,
@@ -18,34 +18,69 @@ export default function Home() {
   const [fplData, setFplData] = useState<any>(initialData);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [refreshError, setRefreshError] = useState<string | null>(null);
+  const [refreshSuccess, setRefreshSuccess] = useState<string | null>(null);
+  const [leagueInput, setLeagueInput] = useState<string>('');
+  const [showLeagueInput, setShowLeagueInput] = useState(false);
 
-  const { meta, standings, chips, captains, transfers, differentials, squads, teams_meta } = fplData;
+  const meta = fplData?.meta || {};
+  const standings = fplData?.standings || [];
+  const chips = fplData?.chips || {};
+  const captains = fplData?.captains || {};
+  const transfers = fplData?.transfers || {};
+  const differentials = fplData?.differentials || { unique: {}, duo: {} };
+  const squads = fplData?.squads;
+  const teams_meta = fplData?.teams_meta;
+
   const [isDark, setIsDark] = useState(true);
 
   // Fetch fresh data from API
-  const refreshData = useCallback(async () => {
+  const refreshData = useCallback(async (force = true, targetLeague?: string) => {
     setIsRefreshing(true);
     setRefreshError(null);
+    setRefreshSuccess(null);
 
     try {
-      const response = await fetch('/api/refresh-data');
+      const activeLeague = targetLeague !== undefined ? targetLeague : leagueInput;
+      const params = new URLSearchParams();
+      if (force) params.append('force', 'true');
+      if (activeLeague.trim()) params.append('league', activeLeague.trim());
+
+      const url = `/api/refresh-data${params.toString() ? `?${params.toString()}` : ''}`;
+      const response = await fetch(url);
+      const data = await response.json();
+
       if (!response.ok) {
-        throw new Error(`Failed to refresh: ${response.status}`);
+        throw new Error(data.details || data.error || `Failed to refresh: ${response.status}`);
       }
-      const newData = await response.json();
-      setFplData(newData);
+
+      setFplData(data);
+      if (force) {
+        setRefreshSuccess('Updated with live data!');
+        setTimeout(() => setRefreshSuccess(null), 4000);
+      }
     } catch (error) {
       console.error('Error refreshing data:', error);
       setRefreshError(error instanceof Error ? error.message : 'Failed to refresh data');
     } finally {
       setIsRefreshing(false);
     }
-  }, []);
+  }, [leagueInput]);
 
   useEffect(() => {
     // Check system preference on mount
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setIsDark(prefersDark);
+
+    // Check if league is specified in URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLeague = urlParams.get('league');
+    if (urlLeague) {
+      setLeagueInput(urlLeague);
+      refreshData(false, urlLeague);
+    } else {
+      // Non-blocking background fetch on mount (SWR pattern)
+      refreshData(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -56,6 +91,24 @@ export default function Home() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDark]);
+
+  const handleLeagueSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!leagueInput.trim()) return;
+
+    // Check if alphanumeric invite code like k8gpp6
+    if (!/^\d+$/.test(leagueInput.trim())) {
+      setRefreshError(`"${leagueInput.trim()}" is an invite code (alphanumeric). FPL requires the numeric League ID from your browser URL.`);
+      return;
+    }
+
+    // Update browser URL without reload
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set('league', leagueInput.trim());
+    window.history.pushState({}, '', newUrl.toString());
+
+    refreshData(true, leagueInput.trim());
+  };
 
   const getRankStyle = (rank: number) => {
     if (rank === 1) return 'bg-gradient-to-r from-yellow-400 to-amber-500 text-white';
@@ -92,57 +145,108 @@ export default function Home() {
 
         {/* Header */}
         <AnimatedHeader
-          title={meta.league_name}
-          subtitle={`Gameweek ${meta.gameweek} Report`}
-          lastUpdated={meta.last_updated}
+          title={meta.league_name || "FPL League"}
+          subtitle={`Gameweek ${meta.gameweek || ""} Report`}
+          lastUpdated={meta.last_updated || "Just now"}
         />
 
-        {/* Refresh Button */}
+        {/* Controls Section: Refresh Button & League Switcher */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-3"
         >
-          <motion.button
-            onClick={refreshData}
-            disabled={isRefreshing}
-            whileHover={{ scale: isRefreshing ? 1 : 1.05 }}
-            whileTap={{ scale: isRefreshing ? 1 : 0.95 }}
-            className={`
-              inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white
-              bg-gradient-to-r from-primary-500 to-accent-500
-              shadow-lg shadow-primary-500/25 dark:shadow-primary-500/10
-              transition-all duration-300
-              ${isRefreshing ? 'opacity-70 cursor-not-allowed' : 'hover:shadow-xl hover:shadow-primary-500/30'}
-            `}
-          >
-            <motion.svg
-              animate={{ rotate: isRefreshing ? 360 : 0 }}
-              transition={{ duration: 1, repeat: isRefreshing ? Infinity : 0, ease: 'linear' }}
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          <div className="flex items-center gap-3 flex-wrap justify-center">
+            {/* Live Refresh Button */}
+            <motion.button
+              onClick={() => refreshData(true)}
+              disabled={isRefreshing}
+              whileHover={{ scale: isRefreshing ? 1 : 1.05 }}
+              whileTap={{ scale: isRefreshing ? 1 : 0.95 }}
+              className={`
+                inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white
+                bg-gradient-to-r from-primary-500 to-accent-500
+                shadow-lg shadow-primary-500/25 dark:shadow-primary-500/10
+                transition-all duration-300
+                ${isRefreshing ? 'opacity-70 cursor-not-allowed' : 'hover:shadow-xl hover:shadow-primary-500/30'}
+              `}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              />
-            </motion.svg>
-            {isRefreshing ? 'Refreshing...' : 'Refresh Data'}
-          </motion.button>
+              <motion.svg
+                animate={{ rotate: isRefreshing ? 360 : 0 }}
+                transition={{ duration: 1, repeat: isRefreshing ? Infinity : 0, ease: 'linear' }}
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                />
+              </motion.svg>
+              {isRefreshing ? 'Fetching Live Data...' : 'Refresh Live Data'}
+            </motion.button>
+
+            {/* League ID Config Button */}
+            <button
+              onClick={() => setShowLeagueInput(!showLeagueInput)}
+              className="px-4 py-3 rounded-full text-sm font-medium bg-gray-100 hover:bg-gray-200 dark:bg-dark-700 dark:hover:bg-dark-600 text-gray-700 dark:text-gray-300 transition-colors inline-flex items-center gap-1.5"
+            >
+              <span>⚙️ League ID:</span>
+              <span className="font-semibold text-primary-500">{meta.league_id || '885316'}</span>
+            </button>
+          </div>
+
+          {/* Expandable League ID Input */}
+          <AnimatePresence>
+            {showLeagueInput && (
+              <motion.form
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: 'auto' }}
+                exit={{ opacity: 0, height: 0 }}
+                onSubmit={handleLeagueSubmit}
+                className="flex items-center gap-2 mt-2 w-full max-w-md"
+              >
+                <input
+                  type="text"
+                  placeholder="Enter numeric League ID (e.g. 1842021)"
+                  value={leagueInput}
+                  onChange={(e) => setLeagueInput(e.target.value)}
+                  className="flex-1 px-4 py-2 rounded-xl text-sm bg-white dark:bg-dark-700 border border-gray-200 dark:border-dark-600 focus:outline-none focus:ring-2 focus:ring-primary-500 text-gray-900 dark:text-white"
+                />
+                <button
+                  type="submit"
+                  disabled={isRefreshing}
+                  className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-xl text-sm font-medium transition-colors"
+                >
+                  Load
+                </button>
+              </motion.form>
+            )}
+          </AnimatePresence>
+
+          {/* Status Messages */}
+          {refreshSuccess && (
+            <motion.p
+              initial={{ opacity: 0, y: -5 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-sm text-green-600 dark:text-green-400 font-medium"
+            >
+              ✓ {refreshSuccess}
+            </motion.p>
+          )}
 
           {refreshError && (
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="text-sm text-red-500 dark:text-red-400"
+            <motion.div
+              initial={{ opacity: 0, y: -5 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="p-3 bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900/50 rounded-xl text-sm text-red-600 dark:text-red-300 max-w-lg text-center"
             >
-              {refreshError}
-            </motion.p>
+              <p className="font-medium">{refreshError}</p>
+            </motion.div>
           )}
         </motion.div>
 
@@ -282,7 +386,7 @@ export default function Home() {
                 Owned by only 1 manager
               </h3>
               <div className="grid gap-3">
-                {Object.entries(differentials.unique).map(([manager, players], index) => (
+                {Object.entries(differentials.unique || {}).map(([manager, players], index) => (
                   <motion.div
                     key={manager}
                     initial={{ opacity: 0, x: -10 }}
@@ -292,7 +396,7 @@ export default function Home() {
                   >
                     <span className="font-semibold min-w-[140px] text-gray-800 dark:text-gray-200">{manager}</span>
                     <div className="flex flex-wrap gap-2">
-                      {(players as string[]).map((player, i) => (
+                      {((players as string[]) || []).map((player, i) => (
                         <span key={i} className="text-xs bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 px-2 py-1 rounded-full">
                           {player}
                         </span>
@@ -304,7 +408,7 @@ export default function Home() {
             </div>
 
             {/* Duo Differentials */}
-            {Object.keys(differentials.duo).length > 0 && (
+            {differentials.duo && Object.keys(differentials.duo).length > 0 && (
               <div>
                 <h3 className="text-sm font-bold text-accent-600 dark:text-accent-400 uppercase tracking-wider mb-4 flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-gradient-to-r from-accent-500 to-primary-500"></span>
@@ -321,7 +425,7 @@ export default function Home() {
                     >
                       <span className="font-semibold min-w-[140px] text-gray-800 dark:text-gray-200">{manager}</span>
                       <div className="flex flex-wrap gap-2">
-                        {(players as string[]).map((player, i) => (
+                        {((players as string[]) || []).map((player, i) => (
                           <span key={i} className="text-xs bg-accent-100 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300 px-2 py-1 rounded-full">
                             {player}
                           </span>
@@ -342,7 +446,7 @@ export default function Home() {
           transition={{ delay: 1 }}
           className="text-center py-8 text-sm text-gray-500 dark:text-gray-400"
         >
-          <p>Data updates automatically every 6 hours</p>
+          <p>Live on-demand updates • 5 min smart cache</p>
           <p className="mt-1 gradient-text font-medium">Built with ❤️ for FPL managers</p>
         </motion.footer>
 

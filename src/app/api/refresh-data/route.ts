@@ -1,7 +1,17 @@
 import { NextResponse } from 'next/server';
 
-// League ID - same as in Python script
-const LEAGUE_ID = 885316;
+export const dynamic = 'force-dynamic';
+
+// Default league ID if none provided
+const DEFAULT_LEAGUE_ID = 885316;
+
+// In-memory cache for fast responses & protecting FPL API rate limits
+interface CacheEntry {
+    data: any;
+    cachedAt: number;
+}
+const cache = new Map<number, CacheEntry>();
+const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes cache
 
 // Team colors for jersey representation
 const TEAM_COLORS: Record<number, { primary: string; secondary: string }> = {
@@ -61,13 +71,51 @@ interface SquadPlayer {
     raw_points: number;
 }
 
-export async function GET() {
+export async function GET(request: Request) {
     try {
-        console.log("Fetching FPL data...");
+        const { searchParams } = new URL(request.url);
+        const leagueParam = searchParams.get('league');
+        const forceRefresh = searchParams.get('force') === 'true';
+
+        // Read league ID from query parameter, environment variable, or default fallback
+        const rawLeague = (
+            leagueParam ||
+            process.env.LEAGUE_ID ||
+            process.env.NEXT_PUBLIC_LEAGUE_ID ||
+            String(DEFAULT_LEAGUE_ID)
+        ).trim();
+
+        // Check if an alphanumeric invite code was mistakenly passed (e.g. 'k8gpp6')
+        if (!/^\d+$/.test(rawLeague)) {
+            return NextResponse.json(
+                {
+                    error: `"${rawLeague}" is an FPL invite/join code, not a numeric League ID.`,
+                    details: `The FPL API requires the numeric League ID (e.g. 885316 or 1842021). You can find the numeric ID in your browser address bar when viewing the league standings: fantasy.premierleague.com/leagues/[NUMERIC_ID]/standings/c`
+                },
+                { status: 400 }
+            );
+        }
+
+        const leagueId = parseInt(rawLeague, 10);
+
+        // Check in-memory cache if not forced
+        if (!forceRefresh) {
+            const cached = cache.get(leagueId);
+            if (cached && Date.now() - cached.cachedAt < CACHE_TTL_MS) {
+                return NextResponse.json(cached.data, {
+                    headers: {
+                        'X-Cache': 'HIT',
+                        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+                    }
+                });
+            }
+        }
+
+        console.log(`[FPL Dashboard] Fetching fresh data for League ID: ${leagueId} (force: ${forceRefresh})...`);
 
         // Fetch bootstrap data (all players + gameweek info)
         const bootstrapRes = await fetch("https://fantasy.premierleague.com/api/bootstrap-static/", {
-            next: { revalidate: 0 } // Don't cache
+            next: { revalidate: 60 }
         });
 
         if (!bootstrapRes.ok) {
@@ -85,7 +133,6 @@ export async function GET() {
             currentGwObj = events.find((event: any) => event.is_next);
         }
         const currentGw = currentGwObj?.id || 38;
-        console.log(`Current Gameweek: ${currentGw}`);
 
         // Build teams metadata
         const teamsMeta: Record<number, TeamMeta> = {};
@@ -110,11 +157,13 @@ export async function GET() {
             };
         }
 
-        // Fetch fixtures
-        const fixturesRes = await fetch("https://fantasy.premierleague.com/api/fixtures/", {
-            next: { revalidate: 0 }
-        });
-        const fixtures = fixturesRes.ok ? await fixturesRes.json() : [];
+        // Fetch fixtures and live points concurrently
+        const [fixturesRes, liveRes] = await Promise.all([
+            fetch("https://fantasy.premierleague.com/api/fixtures/", { next: { revalidate: 60 } }).catch(() => null),
+            fetch(`https://fantasy.premierleague.com/api/event/${currentGw}/live/`, { next: { revalidate: 30 } }).catch(() => null)
+        ]);
+
+        const fixtures = fixturesRes && fixturesRes.ok ? await fixturesRes.json() : [];
 
         // Get upcoming fixtures for current GW
         const upcomingFixtures: Record<number, FixtureData> = {};
@@ -138,154 +187,175 @@ export async function GET() {
 
         // Fetch live GW points
         let livePoints: Record<number, number> = {};
-        try {
-            const liveRes = await fetch(
-                `https://fantasy.premierleague.com/api/event/${currentGw}/live/`,
-                { next: { revalidate: 0 } }
-            );
-            if (liveRes.ok) {
+        if (liveRes && liveRes.ok) {
+            try {
                 const liveData = await liveRes.json();
                 for (const element of liveData.elements || []) {
                     livePoints[element.id] = element.stats?.total_points || 0;
                 }
-                console.log(`Got live points for ${Object.keys(livePoints).length} players`);
+            } catch (e) {
+                console.log('Could not parse live points, continuing without...');
             }
-        } catch (e) {
-            console.log('Could not fetch live points, continuing without...');
         }
 
         // Get league standings
-        const leagueRes = await fetch(`https://fantasy.premierleague.com/api/leagues-classic/${LEAGUE_ID}/standings/`, {
-            next: { revalidate: 0 }
+        const leagueRes = await fetch(`https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`, {
+            next: { revalidate: 60 }
         });
 
         if (!leagueRes.ok) {
+            if (leagueRes.status === 404) {
+                return NextResponse.json(
+                    {
+                        error: `FPL League ID ${leagueId} was not found.`,
+                        details: `Please ensure you are using the numeric ID (found in fantasy.premierleague.com/leagues/${leagueId}/standings/c).`
+                    },
+                    { status: 404 }
+                );
+            }
             throw new Error(`Failed to fetch league data: ${leagueRes.status}`);
         }
 
         const league = await leagueRes.json();
-        const managers = league.standings.results;
+        const managers = league.standings?.results || [];
 
+        if (managers.length === 0) {
+            return NextResponse.json(
+                { error: `No managers found for league ID ${leagueId}.` },
+                { status: 400 }
+            );
+        }
+
+        // Process all managers concurrently with Promise.all
+        const managerDataResults = await Promise.all(
+            managers.map(async (manager: any) => {
+                const entryId = manager.entry;
+                const managerName = manager.player_name;
+
+                try {
+                    const [picksRes, transfersRes] = await Promise.all([
+                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/event/${currentGw}/picks/`, { next: { revalidate: 60 } }),
+                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/transfers/`, { next: { revalidate: 60 } }).catch(() => null)
+                    ]);
+
+                    if (!picksRes.ok) {
+                        return null;
+                    }
+
+                    const picksData = await picksRes.json();
+                    if (!picksData.picks) return null;
+
+                    const picks = picksData.picks;
+                    const entryHistory = picksData.entry_history || {};
+                    const gwPointsFromApi = entryHistory.points || 0;
+
+                    const startingSquad: SquadPlayer[] = [];
+                    const benchSquad: SquadPlayer[] = [];
+                    const startingNames: string[] = [];
+                    let calculatedGwPoints = 0;
+
+                    for (const pick of picks) {
+                        const playerId = pick.element;
+                        const playerInfo = playerMap[playerId] || {};
+                        const teamId = playerInfo.team_id || 0;
+                        const teamData = teamsMeta[teamId] || {};
+                        const fixtureData = upcomingFixtures[teamId] || { opponent: "???", opponent_id: 0, is_home: true };
+
+                        const rawPoints = livePoints[playerId] || 0;
+                        const playerMultiplier = pick.multiplier;
+                        const playerPoints = playerMultiplier > 0 ? rawPoints * playerMultiplier : rawPoints;
+
+                        const squadPlayer: SquadPlayer = {
+                            name: playerInfo.name || "Unknown",
+                            full_name: playerInfo.full_name || "Unknown",
+                            position: playerInfo.position || 0,
+                            team_id: teamId,
+                            team_short: teamData.short || "???",
+                            is_captain: pick.is_captain,
+                            is_vice: pick.is_vice_captain,
+                            multiplier: pick.multiplier,
+                            fixture: fixtureData,
+                            points: playerPoints,
+                            raw_points: rawPoints
+                        };
+
+                        if (pick.multiplier > 0) {
+                            startingSquad.push(squadPlayer);
+                            startingNames.push(playerInfo.full_name || "Unknown");
+                            calculatedGwPoints += playerPoints;
+                        } else {
+                            benchSquad.push(squadPlayer);
+                        }
+                    }
+
+                    startingSquad.sort((a, b) => {
+                        if (a.position !== b.position) return a.position - b.position;
+                        if (a.is_captain !== b.is_captain) return b.is_captain ? 1 : -1;
+                        return b.is_vice ? 1 : -1;
+                    });
+
+                    const captainEntry = picks.find((p: any) => p.is_captain);
+                    const captain = captainEntry ? playerMap[captainEntry.element]?.full_name || "Unknown" : "Unknown";
+                    const activeChip = picksData.active_chip || null;
+
+                    let transferList: { in: string; out: string }[] = [];
+                    if (transfersRes && transfersRes.ok) {
+                        try {
+                            const transfersData = await transfersRes.json();
+                            const gwTransfers = (transfersData || []).filter((t: any) => t.event === currentGw);
+                            transferList = gwTransfers.map((t: any) => ({
+                                in: playerMap[t.element_in]?.full_name || "Unknown",
+                                out: playerMap[t.element_out]?.full_name || "Unknown"
+                            }));
+                        } catch (e) {
+                            // transfers failed non-critically
+                        }
+                    }
+
+                    return {
+                        managerName,
+                        entry: manager,
+                        startingSquad,
+                        benchSquad,
+                        startingNames,
+                        gwPoints: gwPointsFromApi > 0 ? gwPointsFromApi : calculatedGwPoints,
+                        captain,
+                        activeChip,
+                        transfers: transferList
+                    };
+                } catch (e) {
+                    console.error(`Failed to process manager ${managerName}:`, e);
+                    return null;
+                }
+            })
+        );
+
+        // Aggregate processed manager results
         const teams: Record<string, any> = {};
         const playerOwners: Record<string, string[]> = {};
         const chipsPlayed: Record<string, string | null> = {};
         const squads: Record<string, { starting: SquadPlayer[]; bench: SquadPlayer[]; gw_points: number }> = {};
 
-        // Fetch squads, transfers, and chips for each manager
-        for (const manager of managers) {
-            const entryId = manager.entry;
-            const managerName = manager.player_name;
-            console.log(`Processing manager: ${managerName}`);
-
-            // Fetch picks
-            const picksRes = await fetch(
-                `https://fantasy.premierleague.com/api/entry/${entryId}/event/${currentGw}/picks/`,
-                { next: { revalidate: 0 } }
-            );
-
-            if (!picksRes.ok) {
-                console.log(`Could not fetch picks for ${managerName}`);
-                continue;
-            }
-
-            const picksData = await picksRes.json();
-            if (!picksData.picks) continue;
-
-            const picks = picksData.picks;
-
-            // Get GW points from entry_history
-            const entryHistory = picksData.entry_history || {};
-            const gwPointsFromApi = entryHistory.points || 0;
-
-            // Build squad data
-            const startingSquad: SquadPlayer[] = [];
-            const benchSquad: SquadPlayer[] = [];
-            const startingNames: string[] = [];
-            let calculatedGwPoints = 0;
-
-            for (const pick of picks) {
-                const playerId = pick.element;
-                const playerInfo = playerMap[playerId] || {};
-                const teamId = playerInfo.team_id || 0;
-                const teamData = teamsMeta[teamId] || {};
-                const fixtureData = upcomingFixtures[teamId] || { opponent: "???", opponent_id: 0, is_home: true };
-
-                // Get player's raw points and apply multiplier
-                const rawPoints = livePoints[playerId] || 0;
-                const playerMultiplier = pick.multiplier;
-                const playerPoints = playerMultiplier > 0 ? rawPoints * playerMultiplier : rawPoints;
-
-                const squadPlayer: SquadPlayer = {
-                    name: playerInfo.name || "Unknown",
-                    full_name: playerInfo.full_name || "Unknown",
-                    position: playerInfo.position || 0,
-                    team_id: teamId,
-                    team_short: teamData.short || "???",
-                    is_captain: pick.is_captain,
-                    is_vice: pick.is_vice_captain,
-                    multiplier: pick.multiplier,
-                    fixture: fixtureData,
-                    points: playerPoints,
-                    raw_points: rawPoints
-                };
-
-                if (pick.multiplier > 0) {
-                    startingSquad.push(squadPlayer);
-                    startingNames.push(playerInfo.full_name || "Unknown");
-                    calculatedGwPoints += playerPoints;
-                } else {
-                    benchSquad.push(squadPlayer);
-                }
-            }
-
-            // Sort by position
-            startingSquad.sort((a, b) => {
-                if (a.position !== b.position) return a.position - b.position;
-                if (a.is_captain !== b.is_captain) return b.is_captain ? 1 : -1;
-                return b.is_vice ? 1 : -1;
-            });
-
-            squads[managerName] = {
-                starting: startingSquad,
-                bench: benchSquad,
-                gw_points: gwPointsFromApi > 0 ? gwPointsFromApi : calculatedGwPoints
+        for (const res of managerDataResults) {
+            if (!res) continue;
+            squads[res.managerName] = {
+                starting: res.startingSquad,
+                bench: res.benchSquad,
+                gw_points: res.gwPoints
             };
-
-            // Get captain
-            const captainEntry = picks.find((p: any) => p.is_captain);
-            const captain = captainEntry ? playerMap[captainEntry.element]?.full_name || "Unknown" : "Unknown";
-
-            // Track chip
-            const activeChip = picksData.active_chip;
-            chipsPlayed[managerName] = activeChip || null;
-
-            // Fetch transfers
-            const transfersRes = await fetch(
-                `https://fantasy.premierleague.com/api/entry/${entryId}/transfers/`,
-                { next: { revalidate: 0 } }
-            );
-            const transfersData = transfersRes.ok ? await transfersRes.json() : [];
-
-            const gwTransfers = transfersData.filter((t: any) => t.event === currentGw);
-            const transferList = gwTransfers.map((t: any) => ({
-                in: playerMap[t.element_in]?.full_name || "Unknown",
-                out: playerMap[t.element_out]?.full_name || "Unknown"
-            }));
-
-            teams[managerName] = {
-                rank: manager.rank,
-                total_points: manager.total,
-                starting_squad: startingNames,
-                captain,
-                transfers: transferList
+            chipsPlayed[res.managerName] = res.activeChip;
+            teams[res.managerName] = {
+                rank: res.entry.rank,
+                total_points: res.entry.total,
+                starting_squad: res.startingNames,
+                captain: res.captain,
+                transfers: res.transfers
             };
-
-            // Track ownership
-            for (const playerName of startingNames) {
+            for (const playerName of res.startingNames) {
                 if (!playerOwners[playerName]) {
                     playerOwners[playerName] = [];
                 }
-                playerOwners[playerName].push(managerName);
+                playerOwners[playerName].push(res.managerName);
             }
         }
 
@@ -312,11 +382,12 @@ export async function GET() {
         const pktTime = new Date(now.getTime() + (pktOffset + now.getTimezoneOffset()) * 60000);
         const lastUpdated = `${pktTime.getFullYear()}-${String(pktTime.getMonth() + 1).padStart(2, '0')}-${String(pktTime.getDate()).padStart(2, '0')} ${String(pktTime.getHours()).padStart(2, '0')}:${String(pktTime.getMinutes()).padStart(2, '0')}:${String(pktTime.getSeconds()).padStart(2, '0')} PKT`;
 
-        // Construct output
+        // Final output JSON
         const outputData = {
             meta: {
                 gameweek: currentGw,
-                league_name: league.league.name,
+                league_id: leagueId,
+                league_name: league.league?.name || "FPL League",
                 last_updated: lastUpdated
             },
             teams_meta: teamsMeta,
@@ -340,9 +411,20 @@ export async function GET() {
             }
         };
 
-        console.log("Data successfully fetched!");
+        // Cache the newly fetched data
+        cache.set(leagueId, {
+            data: outputData,
+            cachedAt: Date.now()
+        });
 
-        return NextResponse.json(outputData);
+        console.log(`[FPL Dashboard] Successfully updated league ${leagueId} (${league.league?.name}) with ${managers.length} managers`);
+
+        return NextResponse.json(outputData, {
+            headers: {
+                'X-Cache': 'MISS',
+                'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+            }
+        });
 
     } catch (error) {
         console.error("Error fetching FPL data:", error);

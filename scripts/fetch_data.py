@@ -6,7 +6,13 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
 # ==============================
-LEAGUE_ID = 885316  # your league ID
+_raw_league = os.environ.get("LEAGUE_ID", "885316").strip()
+if not _raw_league.isdigit():
+    print(f"❌ Error: '{_raw_league}' appears to be a league invite code (alphanumeric).")
+    print("   The FPL API requires the numeric League ID from your browser URL:")
+    print("   https://fantasy.premierleague.com/leagues/[NUMERIC_ID]/standings/c")
+    sys.exit(1)
+LEAGUE_ID = int(_raw_league)
 # ==============================
 
 # Pakistan Standard Time is UTC+5
