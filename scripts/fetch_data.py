@@ -6,7 +6,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
 # ==============================
-_raw_league = os.environ.get("LEAGUE_ID", "885316").strip()
+_raw_league = os.environ.get("LEAGUE_ID", "339843").strip()
 if not _raw_league.isdigit():
     print(f"❌ Error: '{_raw_league}' appears to be a league invite code (alphanumeric).")
     print("   The FPL API requires the numeric League ID from your browser URL:")
@@ -17,6 +17,12 @@ LEAGUE_ID = int(_raw_league)
 
 # Pakistan Standard Time is UTC+5
 PKT = timezone(timedelta(hours=5))
+
+# Common browser headers to prevent Cloudflare 403 blocks
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json"
+}
 
 # Team colors for jersey representation (primary, secondary)
 TEAM_COLORS = {
@@ -87,6 +93,7 @@ def fetch_data():
     try:
         bootstrap_response = requests.get(
             "https://fantasy.premierleague.com/api/bootstrap-static/",
+            headers=HEADERS,
             timeout=30
         )
         bootstrap_response.raise_for_status()
@@ -137,6 +144,7 @@ def fetch_data():
     try:
         fixtures_response = requests.get(
             "https://fantasy.premierleague.com/api/fixtures/",
+            headers=HEADERS,
             timeout=30
         )
         fixtures_response.raise_for_status()
@@ -158,6 +166,7 @@ def fetch_data():
     try:
         live_response = requests.get(
             f"https://fantasy.premierleague.com/api/event/{current_gw}/live/",
+            headers=HEADERS,
             timeout=30
         )
         live_response.raise_for_status()
@@ -179,7 +188,7 @@ def fetch_data():
     print("\n[3/4] Fetching league standings...")
     league_url = f"https://fantasy.premierleague.com/api/leagues-classic/{LEAGUE_ID}/standings/"
     try:
-        league_response = requests.get(league_url, timeout=30)
+        league_response = requests.get(league_url, headers=HEADERS, timeout=30)
         league_response.raise_for_status()
         league = league_response.json()
         managers = league["standings"]["results"]
@@ -208,7 +217,7 @@ def fetch_data():
         # Fetch picks
         picks_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/event/{current_gw}/picks/"
         try:
-            picks_response = requests.get(picks_url, timeout=30)
+            picks_response = requests.get(picks_url, headers=HEADERS, timeout=30)
             picks_response.raise_for_status()
             picks_data = picks_response.json()
         except Exception as e:
@@ -239,7 +248,7 @@ def fetch_data():
             player_info = player_map.get(player_id, {})
             team_id = player_info.get("team_id", 0)
             team_data = teams_meta.get(team_id, {})
-            fixture_data = upcoming_fixtures.get(team_id, {"opponent": "???", "is_home": True})
+            fixture_data = upcoming_fixtures.get(team_id, {"opponent": "???", "opponent_id": 0, "is_home": True})
             
             # Get player's raw points and apply multiplier
             raw_points = live_points.get(player_id, 0)
@@ -277,7 +286,7 @@ def fetch_data():
         }
 
         captain_entry = next((p for p in picks if p["is_captain"]), None)
-        captain = player_map[captain_entry["element"]]["full_name"] if captain_entry else "Unknown"
+        captain = player_map.get(captain_entry["element"], {}).get("full_name", "Unknown") if captain_entry else "Unknown"
 
         # Track chip
         active_chip = picks_data.get("active_chip")
@@ -286,7 +295,7 @@ def fetch_data():
         # Fetch transfers
         transfers_url = f"https://fantasy.premierleague.com/api/entry/{entry_id}/transfers/"
         try:
-            transfers_response = requests.get(transfers_url, timeout=30)
+            transfers_response = requests.get(transfers_url, headers=HEADERS, timeout=30)
             transfers_response.raise_for_status()
             transfers_data = transfers_response.json()
         except Exception as e:
@@ -350,6 +359,7 @@ def fetch_data():
     output_data = {
         "meta": {
             "gameweek": current_gw,
+            "league_id": LEAGUE_ID,
             "league_name": league["league"]["name"],
             "last_updated": now_pkt.strftime("%Y-%m-%d %H:%M:%S") + " PKT"
         },

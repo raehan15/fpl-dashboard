@@ -3,7 +3,12 @@ import { NextResponse } from 'next/server';
 export const dynamic = 'force-dynamic';
 
 // Default league ID if none provided
-const DEFAULT_LEAGUE_ID = 885316;
+const DEFAULT_LEAGUE_ID = 339843;
+
+const FPL_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/json'
+};
 
 // In-memory cache for fast responses & protecting FPL API rate limits
 interface CacheEntry {
@@ -90,7 +95,7 @@ export async function GET(request: Request) {
             return NextResponse.json(
                 {
                     error: `"${rawLeague}" is an FPL invite/join code, not a numeric League ID.`,
-                    details: `The FPL API requires the numeric League ID (e.g. 885316 or 1842021). You can find the numeric ID in your browser address bar when viewing the league standings: fantasy.premierleague.com/leagues/[NUMERIC_ID]/standings/c`
+                    details: `The FPL API requires the numeric League ID (e.g. 339843 or 1842021). You can find the numeric ID in your browser address bar when viewing the league standings: fantasy.premierleague.com/leagues/[NUMERIC_ID]/standings/c`
                 },
                 { status: 400 }
             );
@@ -115,7 +120,8 @@ export async function GET(request: Request) {
 
         // Fetch bootstrap data (all players + gameweek info)
         const bootstrapRes = await fetch("https://fantasy.premierleague.com/api/bootstrap-static/", {
-            next: { revalidate: 60 }
+            headers: FPL_HEADERS,
+            cache: 'no-store'
         });
 
         if (!bootstrapRes.ok) {
@@ -159,8 +165,8 @@ export async function GET(request: Request) {
 
         // Fetch fixtures and live points concurrently
         const [fixturesRes, liveRes] = await Promise.all([
-            fetch("https://fantasy.premierleague.com/api/fixtures/", { next: { revalidate: 60 } }).catch(() => null),
-            fetch(`https://fantasy.premierleague.com/api/event/${currentGw}/live/`, { next: { revalidate: 30 } }).catch(() => null)
+            fetch("https://fantasy.premierleague.com/api/fixtures/", { headers: FPL_HEADERS, cache: 'no-store' }).catch(() => null),
+            fetch(`https://fantasy.premierleague.com/api/event/${currentGw}/live/`, { headers: FPL_HEADERS, cache: 'no-store' }).catch(() => null)
         ]);
 
         const fixtures = fixturesRes && fixturesRes.ok ? await fixturesRes.json() : [];
@@ -200,7 +206,8 @@ export async function GET(request: Request) {
 
         // Get league standings
         const leagueRes = await fetch(`https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`, {
-            next: { revalidate: 60 }
+            headers: FPL_HEADERS,
+            cache: 'no-store'
         });
 
         if (!leagueRes.ok) {
@@ -234,8 +241,8 @@ export async function GET(request: Request) {
 
                 try {
                     const [picksRes, transfersRes] = await Promise.all([
-                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/event/${currentGw}/picks/`, { next: { revalidate: 60 } }),
-                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/transfers/`, { next: { revalidate: 60 } }).catch(() => null)
+                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/event/${currentGw}/picks/`, { headers: FPL_HEADERS, cache: 'no-store' }),
+                        fetch(`https://fantasy.premierleague.com/api/entry/${entryId}/transfers/`, { headers: FPL_HEADERS, cache: 'no-store' }).catch(() => null)
                     ]);
 
                     if (!picksRes.ok) {

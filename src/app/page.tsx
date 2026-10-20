@@ -81,6 +81,7 @@ export default function Home() {
       // Non-blocking background fetch on mount (SWR pattern)
       refreshData(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -196,7 +197,7 @@ export default function Home() {
               className="px-4 py-3 rounded-full text-sm font-medium bg-gray-100 hover:bg-gray-200 dark:bg-dark-700 dark:hover:bg-dark-600 text-gray-700 dark:text-gray-300 transition-colors inline-flex items-center gap-1.5"
             >
               <span>⚙️ League ID:</span>
-              <span className="font-semibold text-primary-500">{meta.league_id || '885316'}</span>
+              <span className="font-semibold text-primary-500">{meta.league_id || '339843'}</span>
             </button>
           </div>
 
@@ -266,7 +267,7 @@ export default function Home() {
               <tbody>
                 {standings.map((manager: any, index: number) => (
                   <motion.tr
-                    key={manager.manager}
+                    key={`${manager.manager}-${manager.rank || index}`}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.05 }}

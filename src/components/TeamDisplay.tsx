@@ -146,7 +146,7 @@ function PlayerCard({
         </div>
       ) : (
         <div className="bg-transparent text-white text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-b-md">
-          {player.fixture.opponent} ({player.fixture.is_home ? 'H' : 'A'})
+          {player.fixture?.opponent || '???'} ({player.fixture?.is_home ? 'H' : 'A'})
         </div>
       )}
     </motion.div>
@@ -213,7 +213,7 @@ function Pitch({
         <div className="flex justify-center gap-2 sm:gap-4 px-2">
           {forwards.map((player, i) => (
             <PlayerCard
-              key={player.name}
+              key={`${player.name}-${player.team_id}-${i}`}
               player={player}
               teamMeta={teamsMeta[player.team_id]}
               delay={0.1 + i * 0.05}
@@ -225,7 +225,7 @@ function Pitch({
         <div className="flex justify-center gap-2 sm:gap-4 px-2">
           {midfielders.map((player, i) => (
             <PlayerCard
-              key={player.name}
+              key={`${player.name}-${player.team_id}-${i}`}
               player={player}
               teamMeta={teamsMeta[player.team_id]}
               delay={0.2 + i * 0.05}
@@ -237,7 +237,7 @@ function Pitch({
         <div className="flex justify-center gap-2 sm:gap-4 px-2">
           {defenders.map((player, i) => (
             <PlayerCard
-              key={player.name}
+              key={`${player.name}-${player.team_id}-${i}`}
               player={player}
               teamMeta={teamsMeta[player.team_id]}
               delay={0.3 + i * 0.05}
@@ -249,7 +249,7 @@ function Pitch({
         <div className="flex justify-center gap-4 px-2">
           {goalkeepers.map((player, i) => (
             <PlayerCard
-              key={player.name}
+              key={`${player.name}-${player.team_id}-${i}`}
               player={player}
               teamMeta={teamsMeta[player.team_id]}
               delay={0.4 + i * 0.05}
@@ -276,7 +276,7 @@ function Bench({
       </div>
       <div className="flex justify-center gap-3 sm:gap-6 p-3 bg-gray-100 dark:bg-dark-700/50 rounded-xl">
         {players.map((player, i) => (
-          <div key={player.name} className="text-center">
+          <div key={`${player.name}-${player.team_id}-${i}`} className="text-center">
             <div className="text-[9px] text-gray-500 dark:text-gray-400 mb-1">
               {player.position === 1 ? 'GKP' : player.position === 2 ? 'DEF' : player.position === 3 ? 'MID' : 'FWD'}
             </div>
